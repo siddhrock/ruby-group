@@ -1,0 +1,23 @@
+/* Import Tailwind defaults
+  - https://tailwindcss.com/docs/installation#include-tailwind-in-your-css
+*/
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Import custom styles */
+@import "./components/font-loader.css"; /* fonts loaded first for better performance */
+@import "./components/typography.css"; /* typography classes */
+@import "./components/pdp.css"; /* typography classes */
+
+/* Import third-party styles */
+@import "./components/splide.css";
+
+/* Old files */
+/* @import "./components/product-prices.css"; */
+/* @import "./components/customer.css"; */
+/* @import "./components/messages.css"; */
+/* @import "./components/product-list.css"; */
+/* @import "./components/product-page.css"; */
+/* @import "./components/swatches.css"; */
+/* @import "./components/theming.css"; */

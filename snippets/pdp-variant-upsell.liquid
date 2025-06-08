@@ -1,0 +1,70 @@
+<div x-init='init{{ type }}Splide()' x-data="{ open: {% if first_item %}true{% else %}false{% endif %} }" class="bg-light-grey py-4 mb-4">
+  
+  <div @click="open=!open" class="text-[18px] font-medium flex flex-row items-center justify-between cursor-pointer px-5">
+    <div class="flex-1">
+      <div class="pr-4">Recommended {{ type }}</div>
+    </div>
+    <div class="w-6 flex-none">
+      <div class="w-6 h-6 transition-all duration-300" :class="open ? 'rotate-180' : 'rotate-0'">{{- 'icon-arrow-round-up.svg' | inline_asset_content -}}</div>
+    </div>
+  </div>
+
+  <div 
+    x-ref="products"
+    class="overflow-hidden transition-all max-h-0 duration-300"
+    style="{% if first_item %}max-height: 500px{%  endif %}"
+    x-bind:style="open ? 'max-height: ' + $refs.products.scrollHeight + 'px' : ''"
+  >
+    <div class="py-4">
+      {% comment %} {{ upsell_content }} {% endcomment %}
+
+      <section id="{{ type }}_image-carousel" class="splide" aria-label="Beautiful Images">
+        <div class="splide__track">
+          <ul class="splide__list">
+
+            {{ upsell_content }}
+          </ul>
+        </div>
+
+        <div class="splide__arrows relative w-full px-4">
+          <button class="splide__arrow--prev float-left">
+            <div class="w-4 h-4 md:w-6 md:h-6 rotate-180">
+              {{- 'icon-arrow-left.svg' | inline_asset_content -}}
+            </div>
+          </button>
+          <button class="splide__arrow--next float-right">
+            <div class="w-4 h-4 md:w-6 md:h-6 rotate-180">
+              {{- 'icon-arrow-left.svg' | inline_asset_content -}}
+            </div>
+          </button>
+        </div>
+
+        
+      </section>
+
+
+    </div>
+  </div>
+</div>
+
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function () {
+    init{{ type }}Splide();
+  } );
+
+  function init{{ type }}Splide() {
+    new Splide( '#{{ type }}_image-carousel', {
+      autoWidth: true,
+      arrows: true,
+      pagination: false,
+      gap : 10,
+      padding: { right: '2rem' }
+    } ).mount();
+  }
+</script>
+
+
+
+
+

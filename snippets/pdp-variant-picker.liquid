@@ -1,0 +1,101 @@
+{%- liquid
+  assign bespoke_extra_cost = ''
+  assign bespoke_variant_id = ''
+  if product.tags contains 'extra[planter]'
+    assign bespoke_extra_cost = all_products['planter-extra-charge'].selected_or_first_available_variant.price
+  elsif product.tags contains 'extra[gates]'
+    assign bespoke_extra_cost = all_products['gates-extra-charge'].selected_or_first_available_variant.price
+  elsif product.tags contains 'extra[pair-gates]'
+    assign bespoke_extra_cost = all_products['pair-gates-extra-charge'].selected_or_first_available_variant.price
+  elsif product.tags contains 'extra[picket]'
+    assign bespoke_extra_cost = all_products['picket-extra-charge'].selected_or_first_available_variant.price
+  elsif product.tags contains 'extra[panel]'
+    assign bespoke_extra_cost = all_products['panels-extra-charge'].selected_or_first_available_variant.price
+  endif
+
+  if product.tags contains 'extra[planter]'
+    assign bespoke_variant_id = all_products['planter-extra-charge'].selected_or_first_available_variant.id
+  elsif product.tags contains 'extra[gates]'
+    assign bespoke_variant_id = all_products['gates-extra-charge'].selected_or_first_available_variant.id
+  elsif product.tags contains 'extra[pair-gates]'
+    assign bespoke_variant_id = all_products['pair-gates-extra-charge'].selected_or_first_available_variant.id
+  elsif product.tags contains 'extra[picket]'
+    assign bespoke_variant_id = all_products['picket-extra-charge'].selected_or_first_available_variant.id
+  elsif product.tags contains 'extra[panel]'
+    assign bespoke_variant_id = all_products['panels-extra-charge'].selected_or_first_available_variant.id
+  endif
+%}
+
+
+{%- unless product.has_only_default_variant -%}
+  <div class="product-detail__options row" {{ block.shopify_attributes }}>
+    {%- assign show_size_chart = false -%}
+    {% for option in product.options_with_values %}
+      {%- if block.settings.size_chart_enabled
+        and option.name == block.settings.size_chart_option_name
+      -%}
+        {%- assign show_size_chart = true -%}
+        {%- assign size_chart_page = pages[block.settings.size_chart_page_id] -%}
+        {%- break -%}
+      {%- endif -%}
+    {% endfor %}
+
+    {% if bespoke_product %}
+      <ul class="nav nav-tabs">
+        <li class="notBesPoke active variant-tabs"><span id="origi" data-attr="#choose">Select Size</span></li>
+        <li class="variant-tabs besPoke">
+          <span
+            id="bespokeTab"
+            {% if bespoke_extra_cost != '' %}
+              data-price="{{ bespoke_extra_cost }}"
+            {% endif %}
+            {% if bespoke_variant_id != '' %}
+              data-id="{{ bespoke_variant_id }}"
+            {% endif %}
+            data-attr="#calculate"
+            >Order Bespoke</span
+          >
+        </li>
+      </ul>
+    {% endif %}
+
+
+    <div id="choose" class="tab-pane active {% if bespoke_product %}bespoke{% endif %}">
+      {% render 'variant-picker',
+        section: section,
+        product: product,
+        block: block,
+        show_size_chart: show_size_chart,
+        size_chart_page: size_chart_page
+      %}
+    </div>
+
+    {% if bespoke_product %}
+      {%- assign bespoke = '' -%}
+      {%- assign extra = '' -%}
+      {% for tag in product.tags %}
+        {% if tag == 'extra[planter]' %}
+          {% assign extra = 'planter' %}
+        {% elsif tag == 'extra[gates]' %}
+          {% assign extra = 'gates' %}
+        {% elsif tag == 'extra[pair-gates]' %}
+          {% assign extra = 'pair-gates' %}
+        {% elsif tag == 'extra[picket]' %}
+          {% assign extra = 'picket' %}
+        {% elsif tag == 'extra[panel]' %}
+          {% assign extra = 'panel' %}
+        {% endif %}
+      {% endfor %}
+      <div
+        id="calculate"
+        {% if extra != blank %}
+          data-bespoke-extra="{{ extra }}"
+        {% endif %}
+        class="tab-pane {% if bespoke_product %}bespoke{% endif %}"
+      >
+        {% render 'product-order-bespoke-info', product: product, selected_variant: selected_variant %}
+      </div>
+    {% endif %}
+
+  </div>
+{%- endunless -%}

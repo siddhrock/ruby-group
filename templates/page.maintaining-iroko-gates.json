@@ -1,0 +1,551 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_thTnQh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/5_bar_1d49b68a-5dd3-4408-9467-27f7177f49ca.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 98,
+        "mobile_text_below": false,
+        "overlay_title": "Ruby's Guide to Gate Maintenance",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_n6QT4q": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<h5>A well-cared-for wooden gate not only boosts your property's charm but also stands strong against the elements. In this guide, you'll discover simple, effective maintenance steps for all types of timber, to protect your gate, extend its life, and keep it looking beautiful year after year.</h5>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_multi_column_PWTBWj": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_3YBYxM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Frontandbackshotthinner.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Redwood Gates",
+            "text": "<p>Properly caring for redwood gates is essential as it is a premium softwood prized for its natural beauty, durability, and resistance to decay. However, exposure to sunlight, moisture, and temperature changes can cause the timber to fade, crack, or warp if not properly treated.</p>",
+            "button_label": "Quick Buy",
+            "button_link": "shopify://collections/ruby-uk-treated-garden-gates",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_yPzBKQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Gate1FrontandbackView_871f5a73-7b6c-489c-9c78-e8c11942029a.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Cedar Gates",
+            "text": "<p>Proper maintenance is essential for cedar gates to preserve their natural strength and visual appeal. Cedar is a highly regarded softwood, known for its warm tones, fine grain, and built-in resistance to decay and insect damage thanks to its naturally occurring oils. </p>",
+            "button_label": "Quick Buy",
+            "button_link": "shopify://collections/cedar-gates",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_yjLQJQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/SlattedGate_Larch_3_4_1.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Larch Gates",
+            "text": "<p>Larch is a tough, dense softwood known for its impressive durability and striking golden hue, making it an excellent choice for outdoor gates. Naturally high in resins, larch offers strong resistance to rot and moisture, even in harsh weather conditions. </p>",
+            "button_label": "Quick Buy",
+            "button_link": "shopify://collections/british-larch-gates",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_PDq6yn": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Sawn_Neck_Gate_Iroko_Front.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Iroko Gates",
+            "text": "<p>Iroko is a dense, durable West African hardwood. It is naturally rich in oils and highly resistant to decay, insects, and moisture—making it an ideal choice for outdoor gates. Despite its strength, iroko still benefits from routine care to maintain its deep golden-brown tones and smooth finish.</p>",
+            "button_label": "Quick Buy",
+            "button_link": "shopify://collections/ruby-uk-hardwood-gates-1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_3YBYxM",
+        "text_block_yPzBKQ",
+        "text_block_yjLQJQ",
+        "text_block_PDq6yn"
+      ],
+      "name": "Custom Multi-column",
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 160,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_RWmEay": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "General  Maintenance",
+        "text": "<p>Keeping your wooden gate in top condition doesn’t have to be complicated. With just a few simple steps, you can protect it from the elements, preserve its appearance, and ensure it stands the test of time.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collapsible_tabs_d9iqjm": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_nGipee": {
+          "type": "question",
+          "settings": {
+            "title": "Regular Cleaning",
+            "answer": "<p>Over time, gates can accumulate dirt, dust, and environmental debris, which may impact their appearance and durability. To maintain cleanliness:</p><ul><li><strong>Rinse</strong>: Use a hose to remove loose dirt and debris.</li><li><strong>Scrub</strong>: Gently scrub the surface with a soft brush or cloth using a mixture of warm water and mild detergent. Avoid abrasive tools or harsh chemicals that could damage the finish.</li><li><strong>Rinse Again</strong>: Thoroughly rinse with clean water and allow the gate to air dry.</li></ul><p>For areas affected by mould, mildew, or algae, apply a diluted mixture of water and white vinegar, or use a specialist cleaner suitable for timber gates.</p>"
+          }
+        },
+        "question_AAPciK": {
+          "type": "question",
+          "settings": {
+            "title": "Protective Treatments",
+            "answer": "<p>Wooden gates are susceptible to damage from UV rays and moisture. Applying protective treatments can safeguard against these elements:</p><ul><li><strong>UV Protection</strong>: Apply a UV-resistant stain or oil, such as Osmo UV Protection Oil, to shield the wood from sun damage and maintain its natural colour. Reapply every 6 to 12 months, depending on exposure.</li></ul><p><strong>Moisture Resistance</strong>: Ensure all joints and end grains are sealed to prevent water ingress, which can lead to swelling or rot. Regularly inspect and reapply water-repellent treatments as needed.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_nGipee",
+        "question_AAPciK"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "collapsible_tabs_TigwmK": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_6HUMME": {
+          "type": "question",
+          "settings": {
+            "title": "Hardware Inspection",
+            "answer": "<p>The functionality of your gate heavily depends on its hardware. Regularly check:</p><ul><li><strong>Hinges and Latches</strong>: Ensure they are free from rust and operate smoothly. Lubricate moving parts and tighten any loose screws or bolts.</li><li><strong>Structural Integrity</strong>: Inspect for signs of wear or damage. Replace any compromised components promptly to maintain gate stability.</li></ul>"
+          }
+        },
+        "question_GQkkCN": {
+          "type": "question",
+          "settings": {
+            "title": "Preventing Warping and Sagging",
+            "answer": "<p>Wooden gates can warp or sag due to environmental factors. To minimise this:</p><ul><li><strong>Proper Support</strong>: Install drop bolts at the bottom of each gate leaf and a top fastening system like a throw-over loop to prevent movement and misalignment.</li><li><strong>Even Treatment Application</strong>: When applying finishes, treat both sides of the gate simultaneously to prevent uneven drying, which can cause warping.</li></ul>"
+          }
+        },
+        "question_nzT4Ah": {
+          "type": "question",
+          "settings": {
+            "title": "Seasonal Maintenance",
+            "answer": "<p>Conduct thorough inspections and maintenance at least once a year, preferably in autumn, to prepare for harsh winter conditions:</p><ul><li><strong>Clean and Treat</strong>: Perform a deep clean and apply necessary protective treatments.</li><li><strong>Debris Removal</strong>: Clear any buildup of leaves, stones, or other debris around the gate to prevent moisture retention and potential rot.</li></ul><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_6HUMME",
+        "question_GQkkCN",
+        "question_nzT4Ah"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "rich_text_WLKM4U": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "Osmo Protective Finishes",
+        "text": "<p>We recommend <strong>OSMO oil</strong> for gates because it offers long-lasting protection while enhancing the natural beauty of the wood. Its microporous formula allows the timber to breathe, helping prevent cracking, peeling, and swelling—ideal for outdoor use on gates exposed to the elements.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "product_list_gQBQUc": {
+      "type": "product-list",
+      "settings": {
+        "title": "",
+        "enlarge_title": true,
+        "link_text": "Shop now",
+        "link_url": "",
+        "product_list": [
+          "uv-protection-oil",
+          "osmo-brush-and-roller-set",
+          "osmo-end-grain-sealing-wax-375ml",
+          "uv-protection-oil-cedar"
+        ],
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "grid_mobile": "2"
+      }
+    },
+    "rich_text_V4Bkb6": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "Why Do Wooden Gates Warp?",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collapsible_tabs_EUXKm9": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_ptqcKf": {
+          "type": "question",
+          "settings": {
+            "title": "Moisture & Humidity",
+            "answer": "<p>One of the primary reasons gates, especially wooden ones, warp is due to changes in moisture and humidity. Wood absorbs and loses moisture from the environment, causing it to expand and contract.</p><p>If one side of the gate is exposed to more moisture than the other, uneven swelling or shrinking occurs, leading to warping.</p>"
+          }
+        },
+        "question_pqpfw9": {
+          "type": "question",
+          "settings": {
+            "title": "Temperature Fluctuations",
+            "answer": "<p>Extreme temperature changes can cause materials to expand and contract. Metal gates, for example, can warp when exposed to direct sunlight followed by cooler temperatures at night. The differential expansion and contraction create stress within the material, resulting in warping.</p>"
+          }
+        },
+        "question_7cN9VQ": {
+          "type": "question",
+          "settings": {
+            "title": "Improper Installation",
+            "answer": "<p>Gates that are not properly installed are more prone to warping. If a gate is not hung level or if the frame is not square, it can place undue stress on certain parts of the gate. Over time, this stress can cause the gate to twist or bend out of shape.</p>"
+          }
+        },
+        "question_Yzhdff": {
+          "type": "question",
+          "settings": {
+            "title": "Inadequate Support",
+            "answer": "<p>Without proper support, gates are susceptible to sagging and warping. Large or heavy gates need additional structural support to maintain their shape. Unsupported sections can warp due to their own weight or external forces like wind</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_ptqcKf",
+        "question_pqpfw9",
+        "question_7cN9VQ",
+        "question_Yzhdff"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": ""
+      }
+    },
+    "custom_multi_column_bwJTxy": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_Aynqch": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Cottage_Lifestyle_5.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Support Your Gate Properly",
+            "text": "<p>Supporting your gate correctly with the right hinges is crucial to prevent sagging and warping over time. Proper hardware ensures even weight distribution and keeps the gate aligned, helping it open smoothly and stay structurally sound. All gates must be secured at both the top and bottom. Check out our <a href=\"/pages/how-to-measure-for-wooden-gates\" title=\"How to Measure for Wooden Gates\">Gate Measuring Guide</a> if you are unsure on hinge sizes. </p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_74FRtD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Cottage_Lifestyle_4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Use Drop Bolts and a Throwover Loop",
+            "text": "<p>When installing single or double gates, it's crucial to use a drop bolt at the bottom of each gate leaf and a top fastening system to ensure stability. For double gates, use a drop bolt on each gate leaf and a throwover loop at the top to securely fasten both gate leaves together. This system ensures both gates stay aligned and prevents them from twisting or misaligning over time.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Aynqch",
+        "text_block_74FRtD"
+      ],
+      "name": "Custom Multi-column",
+      "settings": {
+        "title": "How Can I Prevent Warping?",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_bq9qTM": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "link_text": "",
+        "collection": "ruby-uk-bolts-and-throwover",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    },
+    "custom_multi_column_rxmkEf": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_GYNbVL": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Detail_3_d22eb409-1bf0-4d8b-b666-7d073fa1b6d5.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Proper Application for Even Treatment",
+            "text": "<p>When applying stain or oil, it’s critical to treat both sides of the gate evenly, following the dircetion of the wood grain. Avoid applying the finish to one side and letting it dry before treating the other. Uneven drying creates surface tension that can lead to warping as the untreated side absorbs moisture. By applying the stain to both sides in succession, you maintain balance in the wood’s moisture absorption. <strong>Don't forget the bottom edge!</strong></p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_c4xCDq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Detail2_1d04b5db-fdc0-4343-ba3a-453952960b10.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Protect the End Grain",
+            "text": "<p>Coating the end grain of a gate is crucial as it is more porous and absorbent than the flat surface of the wood. Without proper protection, moisture can seep into these exposed areas, leading to swelling, cracking, and even rot over time. By sealing the end grain with a protective coating, you reduce the wood's exposure, ensuring the gate maintains its strength, stability, and appearance. </p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_GYNbVL",
+        "text_block_c4xCDq"
+      ],
+      "name": "Custom Multi-column",
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_LPV9AL": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "",
+        "text": "<p>Taking care of your gate with just a little effort can go a long way in preserving its beauty and functionality.</p><p> Whether it's cleaning, sealing, or checking for wear and tear, regular maintenance helps your gate stand strong and look great for years to come. With the right care, you’ll ensure it continues to enhance your property, season after season. </p><p><strong>Happy gate-keeping!</strong></p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#dee7d5",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_thTnQh",
+    "rich_text_n6QT4q",
+    "custom_multi_column_PWTBWj",
+    "rich_text_RWmEay",
+    "collapsible_tabs_d9iqjm",
+    "collapsible_tabs_TigwmK",
+    "rich_text_WLKM4U",
+    "product_list_gQBQUc",
+    "rich_text_V4Bkb6",
+    "collapsible_tabs_EUXKm9",
+    "custom_multi_column_bwJTxy",
+    "featured_collection_bq9qTM",
+    "custom_multi_column_rxmkEf",
+    "rich_text_LPV9AL"
+  ]
+}

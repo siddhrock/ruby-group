@@ -1,0 +1,392 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/ruby-2025-pergola-update-23_2.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "From Oak to Cedar: High-Quality Materials at Ruby UK",
+        "enlarge_title": true,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_n6QT4q": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>At Ruby UK, we take pride in crafting high-quality products using the finest materials. Whether it’s durable timber for garden structures or sustainable wood for home improvements, our commitment to quality and longevity sets us apart. In this post, we’ll take a closer look at the different types of wood we use and why they’re the perfect choice for your projects.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_aLp44D": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/file_4_2a54ed57-5eff-4b53-b790-6206177fbc1b.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "Oak",
+        "text": "<p>We use premium oak for its exceptional durability and natural beauty. Known for being sturdy and robust, oak is a reliable choice that withstands the elements, making it perfect for outdoor projects and long-lasting products. </p><p>Its weather-resistant properties mean it ages gracefully, developing a beautiful finish over time.</p><p>Our premium oak is perfect for incredible cladding or building robust pergolas, adding a touch of elegance and natural durability to your outdoor space.</p>",
+        "button_label": "Shop our Oak products below!",
+        "button_link": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage%2Cquery&options%5Bprefix%5D=last&q=oak",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "collection_list_yVYjWC": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Our Oak Range",
+        "enlarge_title": false,
+        "collection_list": [
+          "oak-pergolas-gazebos",
+          "oak-cladding-1",
+          "home-furniture"
+        ],
+        "grid": 3
+      }
+    },
+    "image_with_text_wER43N": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Untitleddesign-2025-02-21T092007.030_1.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "Cedar",
+        "text": "<p>We choose cedar for its remarkable durability. Due to its natural oils acting as a barrier to rot, decay or insect damage, it has a natural resistance to weathering,  making it an all-round, excellent choice for your outdoor products.</p><p> Cedar’s distinctive grain and rich, warm tones give it a premium aesthetic that enhances any garden or outdoor space. Over time, it matures to a beautiful silver-grey patina while maintaining its structural integrity.</p><p></p><p>We take pride in sourcing our cedar sustainably, so you can feel confident in choosing a material that’s both eco-friendly and top quality.</p>",
+        "button_label": "Shop our Cedar products below!",
+        "button_link": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage%2Cquery&options%5Bprefix%5D=last&q=cedar",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "collection_list_i4YEUG": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Our Cedar Range",
+        "enlarge_title": false,
+        "collection_list": [
+          "ruby-uk-contemporary-cedar-slatted-fences",
+          "british-cedar-cladding",
+          "cedar-gates"
+        ],
+        "grid": 3
+      }
+    },
+    "image_with_text_E3Dtte": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/SlattedGate_Larch_3_4_1_7f9747dd-4e31-48c3-ae37-01a146ee02ff.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "Larch",
+        "text": "<p>At Ruby, we use high-quality larch for its incredible durability and natural resistance to the elements. Known for being one of the toughest softwoods, larch stands up exceptionally well to all types of weathering, thanks to its high resin content. </p><p>This makes it perfect for outdoor applications where long-lasting performance is essential. Larch’s unique appearance features warm, golden tones and a striking grain pattern that bring character to any project.</p><p>Whether it’s for cladding, fencing, or creating eye-catching garden structures, larch from Ruby UK combines natural beauty with quality and sustainability.</p>",
+        "button_label": "Shop our Larch products below!",
+        "button_link": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=larch",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "collection_list_y4ParT": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Our Larch Range",
+        "enlarge_title": false,
+        "collection_list": [
+          "british-larch-gates",
+          "british-larch-cladding",
+          "larch-slatted-panel"
+        ],
+        "grid": 3
+      }
+    },
+    "image_with_text_eUMnNY": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Backpair_c6018d18-0097-4501-9dec-ff30b855178c.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "Redwood",
+        "text": "<p>We use joinery grade Scandinavian redwood for its excellent quality and versatility. With a fine grain and smooth finish, this timber is ideal for a wide range of outdoor and indoor projects.</p><p></p><p>To enhance its durability and weather resistance, we pressure treat our redwood, protecting it against rot and  decay. This treatment process ensures that the wood remains strong and resilient even when exposed, making it a reliable choice for long-lasting use. </p><p></p><p>Scandinavian redwood’s consistent colour and uniform texture give it a premium aesthetic that complements various styles. Plus, we source it responsibly, reflecting our commitment to sustainable forestry.</p>",
+        "button_label": "Shop our Redwood products below!",
+        "button_link": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=redwood",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "collection_list_kBeDmr": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Our Redwood Range",
+        "enlarge_title": false,
+        "collection_list": [
+          "redwood-cladding",
+          "ruby-uk-scandinavian-decking",
+          "redwood-entrance-gates"
+        ],
+        "grid": 3
+      }
+    },
+    "image_with_text_kAzDGj": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Exbourne_f46810cd-b7e7-4292-b896-ac4835b495b0.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "Iroko",
+        "text": "<p>Iroko is a premium East-African hardwood, known for its rich golden to dark brown tones that naturally deepen with age. Its dense, oily nature makes it naturally low maintenance and highly resistant to moisture, rot, and insect damage. </p><p></p><p>It also performs exceptionally well in varying weather conditions without needing chemical treatments, retaining its beauty and structural integrity over time.</p><p></p><p>Whether you're purchasing elegant indoor features or looking to build durable outdoor structures, Iroko from Ruby delivers the perfect mix of strength, style, and longevity.</p><p></p><p></p>",
+        "button_label": "Shop our Iroko products below!",
+        "button_link": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=iroko",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "collection_list_JwUtNJ": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Our Iroko Range",
+        "enlarge_title": false,
+        "collection_list": [
+          "ruby-uk-iroko-3-4-driveway-gates",
+          "iroko-cladding",
+          "iroko-slatted-fence-panels"
+        ],
+        "grid": 3
+      }
+    },
+    "image_with_text_overlay_bJMWgh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_workshop-5.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "In-House Manufacturing",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_KWYD79": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Things to Consider...",
+        "text": "<p>To keep your timber looking its best and protect it from the elements, UV protection is essential—especially for outdoor wood, which can fade and degrade over time with sun exposure. Using a high-quality UV-protection oil or stain helps preserve the wood’s natural beauty and longevity. </p><p>Alternatively, painting your timber not only adds a layer of protection but also offers endless possibilities for customisation, allowing you to match your wood to any aesthetic.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multi_column_LnG3wy": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_CEUx38": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "UV Protection",
+            "button_link": "shopify://products/uv-protection-oil",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_z64hKP": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_2.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "",
+            "button_label": "Paint",
+            "button_link": "shopify://products/osmo-paint-750ml",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_CEUx38",
+        "text_block_z64hKP"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "custom_image_height": false,
+        "image_height": 270,
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_AyNXky",
+    "rich_text_n6QT4q",
+    "image_with_text_aLp44D",
+    "collection_list_yVYjWC",
+    "image_with_text_wER43N",
+    "collection_list_i4YEUG",
+    "image_with_text_E3Dtte",
+    "collection_list_y4ParT",
+    "image_with_text_eUMnNY",
+    "collection_list_kBeDmr",
+    "image_with_text_kAzDGj",
+    "collection_list_JwUtNJ",
+    "image_with_text_overlay_bJMWgh",
+    "rich_text_KWYD79",
+    "multi_column_LnG3wy"
+  ]
+}

@@ -1,0 +1,54 @@
+<div class="container mb-8 md:mb-16">
+    {% if metaobject.image_gallery != blank %}
+        <h4 class="text-black font-title text-2xl md:text-3xl font-black leading-normal mb-4">Image Gallery</h4>
+        <div id="gallery-splide" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                {% for image in metaobject.image_gallery.value %}
+                    <li class="splide__slide">
+                        <picture>
+                            <source srcset="{{ image | image_url: width: 774 }}, {{ image | image_url: width: 1548 }} 2x" media="(min-width: 768px)">
+                            <source srcset="{{ image | image_url: width: 576 }}, {{ image | image_url: width: 1152 }} 2x" media="(max-width: 767px)">
+                            <img class="w-full h-full object-cover" loading="lazy" alt="{{ media.alt | escape }}" width="{{ image.width }}" height="{{ image.height }}" src="{{ image | image_url: width: 576 }}" />
+                        </picture>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="splide__arrows absolute -top-12 right-0">
+                <button class="splide__arrow--prev !border-0">
+                    <div class="w-9 h-9 rotate-180">
+                        {{- 'icon-arrow-round-left.svg' | inline_asset_content -}}
+                    </div>
+                </button>
+                <button class="splide__arrow--next !border-0">
+                    <div class="w-9 h-9 rotate-180">
+                        {{- 'icon-arrow-round-left.svg' | inline_asset_content -}}
+                    </div>
+                </button>
+            </div>
+        </div>
+    {% endif %}
+</div>
+
+<script>
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide('#gallery-splide', {
+        perPage: 5,
+        gap: '1rem',
+        autoplay: false,
+        pagination: false,
+        breakpoints: {
+            768: {
+            perPage: 2,
+            },
+            1024: {
+            perPage: 3,
+            },
+            1440: {
+            perPage: 4,
+            },
+        }
+    }).mount();
+});
+</script>

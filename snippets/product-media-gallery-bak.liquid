@@ -1,0 +1,95 @@
+<div
+  class="product-layout-grid__images layout--{{ section.settings.media_layout }}{% if product.media.size > 1 %} has-multiple-images{% endif %}"
+  data-product-image-layout="{{ section.settings.media_layout | split: '-' | first }}"
+>
+  <div class="product-layout-grid__images-and-thumbs {% if section.settings.enable_sticky_media %} {% endif %}">
+     {% assign product_tags_string = product.tags | join: ' ' %}
+      {% if product_tags_string contains 'MANUF' %}
+         <div class="badge-icon">
+            <a href="/pages/rubymadetomeasure"><img src="https://cdn.shopify.com/s/files/1/1234/2786/files/Made_to_measure_icon_2b240e6b-e579-4e67-974b-b4d44c6ade94-photoaidcom-cropped_1.webp?v=1708545249"/></a>
+          </div>
+      {% endif %}
+    <div class="product-detail__images-container">
+      {% if product.media.size > 0 %}
+        <div class="product-detail__images" data-featured-media-id="{{ featured_media.id }}">
+          {% for media in product.media %}
+            <div class="product-detail__image">
+              {%- if media.media_type == 'image' -%}
+                <a
+                  href="{{ media.preview_image.src | img_url: 'master' }}"
+                  data-product-image
+                  data-product-media
+                  data-media-id="{{ media.id }}"
+                  data-image-w="{{ media.preview_image.width }}"
+                  data-image-h="{{ media.preview_image.height }}"
+                  class="global-border-radius"
+                >
+              {%- else -%}
+                <div class="global-border-radius" data-product-media data-media-id="{{ media.id }}">
+              {%- endif -%}
+
+              {%- render 'media', media: media -%}
+
+              {%- unless media.media_type == 'image' -%}
+                </div>
+              {%- else -%}
+                </a>
+              {%- endunless -%}
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        {% render 'media' with featured_media %}
+      {% endif %}
+
+      {%- assign models = product.media | where: 'media_type', 'model' -%}
+      {% if models.size > 0 %}
+        <script type="application/json" class="model-json">
+          {{- product.media | where: 'media_type', 'model' | json -}}
+        </script>
+        <button
+          class="view-in-space"
+          data-shopify-xr
+          data-shopify-model3d-id="{{ models.first.id }}"
+          data-shopify-title="{{ product.title | escape }}"
+          data-shopify-xr-hidden
+        >
+          {%- render 'icon-3d-badge-full-color' -%}
+          <span class="view-in-space__text">{{ 'products.product.view_in_space' | t }}</span>
+        </button>
+      {% endif %}
+    </div>
+
+    {% if section.settings.media_layout contains 'thumbnails' and product.media.size > 1 %}
+      <div class="slider_footer">
+        <div class="product-detail__thumbnails">
+          {% for media in product.media %}
+            <a
+              href="{{ media.preview_image | img_url: 'master' }}"
+              class="product-detail__thumbnail global-border-radius-medium media-thumbnail media-thumbnail--media-{{ media.media_type }} {% if featured_media.id == media.id %}thumb-active{% endif %}"
+              data-media-id="{{ media.id }}"
+              data-product-media-thumbnail
+            >
+              {% render 'responsive-image', image: media.preview_image %}
+
+              {%- if media.media_type == 'video' or media.media_type == 'external_video' -%}
+                <div class="media-thumbnail__badge">
+                  {%- render 'icon-video-badge-full-color' -%}
+                </div>
+              {%- elsif media.media_type == 'model' -%}
+                <div class="media-thumbnail__badge">
+                  {%- render 'icon-3d-badge-full-color' -%}
+                </div>
+              {%- endif -%}
+            </a>
+          {% endfor %}
+        </div>
+        <div class="slick-external-controls">
+          <div class="slick-arrows"></div>
+          <div class="slide_count"></div>
+          <div class="slick-dots"></div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>

@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "title_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_BKG48F": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/Padstow_1_ee8d9687-955d-45f4-8c4a-5538895c4c56.png",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 80,
+        "mobile_text_below": false,
+        "overlay_title": "Garden Gate Installation Guide",
+        "enlarge_title": true,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_bPnijh": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>Installing a garden gate is a great way to enhance both the security and appearance of your outdoor space. </p><p>Whether you're replacing an old gate or fitting a brand-new one, getting the installation right is key to ensuring smooth operation and long-lasting performance. </p><p>In this guide, we’ll walk you through the essential steps to install a wooden garden gate - from setting your posts to fitting hinges and latches - with tips to help you achieve a neat, professional finish.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_E7DgXF": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_workshop-34_2.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "What You Will Need...",
+        "text": "<ul><li>Tape Measure</li><li>Spirit Level</li><li>Drill & appropriate drill bits for masonry</li><li>Spanner</li><li>Screws, bolts, nuts</li><li>Gate Posts</li><li>Hinges (adjustable hook & band)</li><li>Gate latch or lock</li><li>Drop bolt & throwover loop (if using double gates)</li><li>Post Mix or Concrete (if posts are going into the ground)</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "rich_text_97Y9PE": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<h4>Step 1. Measure and Prepare the Gate Opening</h4><ul><li>Use our <a href=\"/pages/how-to-measure-for-wooden-gates\" title=\"How to Measure for Wooden Gates\">How to Measure</a> page to calculate the size of your opening and what hinges will work for you.</li></ul><h4>Step 2. Install Gate Posts</h4><ul><li>Mark post positions on both sides of the opening, ensuring they are the correct width apart for your gate and hinges.</li><li>Dig holes at least 600mm - 750mm deep - deeper for heavier gates and if the soil is softer.</li><li>Set posts plumb (vertically straight) and level using a spirit level.</li><li>Fix in place with Post Mix or concrete and allow to set for 48 hours before hanging your gates, whilst bracing the posts to prevent movement. </li></ul><h4>Step 3. <strong>Attach Hinges to the Gate</strong></h4><ul><li>Lay the gate flat on the ground and position the hinges along the edge of the gate, about 100mm from top and bottom.</li><li>Drill pilot holes and attach the adjustable hook and band hinges to the gate using appropriate screws or bolts</li></ul><h4>Step 4. <strong>Fit the Gate to the Posts</strong></h4><ul><li>Lift the gate into position. Hold the gate at the desired height (50-75mm from the ground) and mark where the hinges will attach to the posts.</li><li>Install the hook plates (if you're using adjustable hinges) onto the gate posts, ensuring they are level with each other.</li><li>Fix the hook plates to the posts securely, leaving enough room for the hinges to slide into place.</li><li>Slide the hinges onto the hook plates to hang the gate, ensuring it swings freely and doesn't rub against the posts. </li></ul><h4><strong>Step 5. Check Swing and Alignment</strong></h4><ul><li>Open and close the gate to ensure smooth movement.</li><li>Adjust the hinge bolts if the gate sags or needs levelling.</li><li>Check gaps between the gate and posts - typically 10-20mm for swing clearance.</li></ul><h4><strong>Step 6. Fit Latch, Drop Bolt and Throwover Loop (if needed)</strong></h4><ul><li>Latch - position and fix at a comfortable height.</li><li>Drop Bolt - Fix to the gate that closes second, ensuring it drops cleanly into the ground or socket - for double gates.</li><li>Throwover Loop - Fix to the top of the primary gate (the gate that closes first) to secure both gates when shut - for double gates. </li></ul><h4><strong>Step 7. Final Checks</strong></h4><ul><li>All fixings are tight</li><li>Gates open and close smoothly</li><li>No excessive gaps or binding</li><li>Apply <a href=\"https://www.ruby-group.co.uk/products/uv-protection-oil\" title=\"https://www.ruby-group.co.uk/products/uv-protection-oil\">Osmo Oil</a></li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slideshow_czVFiB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AeHxyL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/T_G_Instow_1_e025c668-ea03-41d8-a373-dd7dfccaef13.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 0,
+            "overlay_position_y": 80,
+            "overlay_title": "",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_AeHxyL"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 340,
+        "height_mobile": 240,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "rich_text_BhNxhL": {
+      "type": "rich-text",
+      "settings": {
+        "title": "And You're Done!",
+        "text": "<h5>Always let us know if you need any help or have any questions, our team are  happy to help! We can also offer our own installation service to save yourself the hassle!</h5>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_HNpPGR": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Side Gate Collection",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "side-gate-collection",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_BKG48F",
+    "rich_text_bPnijh",
+    "image_with_text_E7DgXF",
+    "rich_text_97Y9PE",
+    "slideshow_czVFiB",
+    "rich_text_BhNxhL",
+    "featured_collection_HNpPGR"
+  ]
+}

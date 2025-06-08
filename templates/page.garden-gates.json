@@ -1,0 +1,571 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_CpWVPJ": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Gate Buying Guide",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_fieldshelter_generalshots-22.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_n6QT4q": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>Choosing the right gate is an important decision — it’s about security, style, and creating a great first impression for your property.</p><p> At Ruby UK, we offer a wide range of high-quality wooden gates designed to suit every need, from garden side gates to stunning driveway entrances.<br/><br/>In this guide, we’ll walk you through everything you need to know before buying.<br/><br/>Whether you’re upgrading your entrance or adding the finishing touch to your garden, we’re here to help you make the perfect choice with confidence.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_cyTke7": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "Buying a Garden Gate",
+        "text": "<p>Choosing the right garden gate is essential for adding security, style, and value to your outdoor space. In this guide, we'll walk you through everything you need to consider to help you find the perfect gate for your garden. </p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_mnqini": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Instow_1_f6f4f0e7-8bfd-478c-a88f-401759dc0644.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "Choosing a Material",
+        "text": "<h5><strong>Iroko £££</strong></h5><p> Iroko is perfect if you’re looking for a high quality, naturally durable gate that requires little maintenance. Made from African Hardwood, these gates have a beautiful, golden hue and are extremely long-lasting - the average lifespan being 30 years.</p><h5><strong>Redwood</strong> ££</h5><p> Our Redwood has a lifespan of 15 years with the appropriate maintenance, so our Redwood Gates are a great choice for those who would like a long lasting side gate without the Hardwood price tag.</p><h5><strong>Mixed Softwood</strong> £</h5><p>Our Mixed Softwood gates are a cost-effective, lightweight option for a garden gate. When treated, mixed softwoods can resist decay, still making them a durable option for outdoor use.</p>",
+        "button_label": "Shop Our Garden Gates",
+        "button_link": "shopify://collections/side-gates-pressure-treated-softwood",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "custom_collapsible_tabs_y4Tgr6": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_dDMTR7": {
+          "type": "question",
+          "settings": {
+            "title": "Tongue and Groove Gate",
+            "answer": "<p>Tongue and Groove Garden Gates offer exceptional durability and style. Our gates are hand-made with pressure treated timber, aiding protection against rot, decay, and the elements and further enhancing their lifespan. </p><p>Beyond robustness, these gates are highly customisable; available in bespoke sizes to fit any garden entry and designed for flexibility in finishing. Whether painted or stained, they seamlessly blend with your garden's aesthetic, making them a perfect, enduring addition to any outdoor space.</p>",
+            "image_text": "<ul><li><strong>Durability: </strong>The Tongue and Groove design interlocks the boards securely, reducing the likelihood of warping and gaps and ensures the longevity of the gate</li></ul><p></p><ul><li><strong>Pressure Treated</strong>: Also ensuring the lifespan of the gate, we thoroughly pressure treat our timber with Green Lonza treatment to protect against rot and decay</li></ul><p></p><ul><li><strong>Customisable: </strong>The design allows for flexibility in finishing, including painting or staining, to match garden aesthetics, and is available in bespoke measurements</li></ul><p></p>",
+            "image": "shopify://shop_images/Instow_curved_front.jpg",
+            "button": "Shop Tongue & Groove Gates",
+            "button_url": "shopify://collections/ruby-uk-matching-driveway-side-gates"
+          }
+        },
+        "question_LTEpaA": {
+          "type": "question",
+          "settings": {
+            "title": "Featheredge Gate",
+            "answer": "<p>Our Featheredge garden gates, pressure treated with green tanalisation, offer unmatched durability and resistance against the harsh British weather. With their traditional, rustic appeal from their featheredge finish, these gates beautifully compliment a wide array of garden designs. </p><p>They also stand out as a cost-effective option, providing a high-quality entrance solution without a high price tag. The combination of aesthetic appeal, affordability, and robust construction makes our featheredge gates an ideal choice for those looking to enhance their garden's entrance with a durable, attractive, and budget-friendly option.</p>",
+            "image_text": "<ul><li><strong>Pressure Treated: </strong>Our gates undergo green tanalisation to ensure durability and resistance against the elements.</li><li><strong>Aesthetic Appeal</strong>: Featheredge gates have a traditional, rustic look that can complement a wide range of garden designs. </li><li><strong>Cost-effective</strong>: Compared to other gate types, featheredge gates are typically more affordable, offering a cost-effective solution without compromising on quality or appearance.</li></ul><p></p>",
+            "image": "shopify://shop_images/framed6x3fe_1296x_9a57ed0d-1959-4d4d-9e39-33c69851c4af.webp",
+            "button": "Shop Featheredge Gates",
+            "button_url": "shopify://collections/featheredge-gaes"
+          }
+        },
+        "question_aEPRgj": {
+          "type": "question",
+          "settings": {
+            "title": "Slatted Gate",
+            "answer": "<p>Our Slatted gates are a versatile and stylish garden gate option, often used in both residential and commercial properties to provide security while maintaining an aesthetic appeal. They consist of horizontal slats fixed within a frame, which can be made from either Cedar or Redwood. </p><p>The spacing between the slats can be adjusted for privacy, allowing for a customisable balance between visibility and security. Their design not only enhances the property's exterior, but also allows for natural light and air flow, making them a popular choice for gardens, driveways, and entrances.</p>",
+            "image_text": "<ul><li><strong>Natural Light and Visibility</strong>: The gaps between the slats allow natural light to pass through, creating a welcoming entrance without compromising privacy. This feature is particularly beneficial in shaded gardens or areas where additional light is desirable.</li><li><strong>Privacy</strong>: This construction technique enhances privacy and security by creating a solid barrier with little spaces between the boards</li><li><strong>Available in 2 timbers</strong>: For those who prefer little maintenance, our slatted gate is available in Cedar. Alternatively, we also offer the slatted gate in Redwood.</li></ul><p></p>",
+            "image": "shopify://shop_images/Cedarslattedgate_1296x_9eaf685c-d50a-4f2a-b2b0-f6b481d0d608.webp",
+            "button": "Shop Slatted Gates",
+            "button_url": "shopify://products/redwood-slatted-gate-single"
+          }
+        }
+      },
+      "block_order": [
+        "question_dDMTR7",
+        "question_LTEpaA",
+        "question_aEPRgj"
+      ],
+      "settings": {
+        "title": "Types of Garden Gates",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_8DrBQq": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "Buying an Entrance Gate",
+        "text": "<p>An entrance gate is more than just a point of entry — it’s the first impression your property makes. In this buying guide, we’ll cover everything you need to know, from choosing the right material and style to understanding security features and installation options. Find the perfect entrance gate to enhance your home’s curb appeal, privacy, and protection.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_YCpqa7": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Warmer_1.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "Choosing a Material",
+        "text": "<h5><strong>Iroko £££</strong></h5><p>Iroko is perfect if you’re looking for a high quality, naturally durable gate that requires little maintenance. Made from African Hardwood, these gates have a beautiful, golden hue and are extremely long-lasting - the average lifespan being 30 years.</p><h5><strong>Redwood</strong> ££</h5><p> Our Redwood has a lifespan of 15 years with the appropriate maintenance, so our Redwood Gates are a great choice for those who would like a long lasting side gate without the Hardwood price tag.</p>",
+        "button_label": "Shop our Entrance Gates",
+        "button_link": "shopify://collections/gates-1",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "custom_collapsible_tabs_83VLPL": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_aY3yTQ": {
+          "type": "question",
+          "settings": {
+            "title": "Equal Split Gates",
+            "answer": "<p>Equal split driveway gates are a popular choice for homeowners looking for a balanced and symmetrical entrance. These gates are divided into two equal halves, allowing them to open with uniformity. They offer a practical solution for wide driveways and enhance the visual appeal of your property's entrance.</p>",
+            "image_text": "<ul><li><strong>Symmetrical Design</strong>: The equal split creates a visually balanced and aesthetically pleasing entrance to your property.</li></ul><p></p><ul><li><strong>Ease of Operation</strong>: With two equal-sized gates, they are easy to open and close, whether manually or with automation systems.</li></ul><p></p><ul><li><strong>Space-Saving</strong>: Equal split gates allow for a more compact swing radius, making them ideal for properties with limited space near the driveway.</li></ul><p></p>",
+            "image": "shopify://shop_images/669cc8033a7610bef15b4cb4_original.jpg",
+            "button": "Shop Equal Split Gates",
+            "button_url": "shopify://collections/equal-split-driveway-gates"
+          }
+        },
+        "question_jJFdXg": {
+          "type": "question",
+          "settings": {
+            "title": "Bifold Gates",
+            "answer": "<p>Bi-fold gates, known for their space-effective design, fold back on themselves, making them perfect for properties with limited space.</p><p>They combine quick operation and enhanced security, offering a solid barrier when closed. Our Bifold gates can be made completely bespoke in the measurements and hang to match any property’s aesthetic and needs.</p>",
+            "image_text": "<ul><li><strong>Ideal for smaller driveways:</strong> Looking for a space effective entry solution? Our Bifold gates easily fold into themselves and require less space than typically swing gates, so are perfect for those who have slightly smaller driveways.</li><li><strong>Easy to use:</strong> Automated bi-fold gates can be easily operated with remote controls such keypads or smartphones, adding convenience for users. Manual options are also typically easy to use, with lightweight materials and smooth mechanisms.</li><li><strong>Modern Design</strong>: Bi-fold gates are highly aesthetic, with the ability to blend in with or enhance the architectural style of a property. They offer a modern and stylish entry solution that can boost the curb appeal of any property.</li></ul>",
+            "image": "shopify://shop_images/Untitleddesign-2024-10-10T164406.240_1dd11edd-e76a-4570-b172-7dea35c7e8b2.png",
+            "button": "Shop Bifold Gates",
+            "button_url": "shopify://collections/bifold-entrance-gates"
+          }
+        },
+        "question_kmYLrT": {
+          "type": "question",
+          "settings": {
+            "title": "3/4 Split Gates",
+            "answer": "<p>Designed to accommodate both vehicular and pedestrian access, the split gate feature offers unparalleled convenience, with a 75% to 25% split ratio.</p><p>Each gate is also meticulously crafted using Mortise and Tenon joints and pressure-treated timber to ensure longevity and strength.</p>",
+            "image_text": "<ul><li><strong>Pedestrian Access: </strong>The 75%/25% split design allows for partial opening, making it easier to access the property by foot or for smaller tasks, without the need to open the entire gate. This can be particularly convenient for quick entries.</li><li><strong>Modern & Versatile Design: </strong>While maintaining a contemporary aesthetic, our 3/4 split gates are available in various different designs and finishes, allowing for customisation to match the property's existing style or the owner's personal taste.</li><li><strong>Durability: </strong>Our 3/4 Split gates are made from<strong> </strong>high-quality timber, in treated softwoods and hardwoods, which are known for their durability and resistance to the elements. The construction technique (using Mortise & Tenon joints) and materials used ensures that the gates withstand the test of time and weather conditions.</li></ul>",
+            "image": "shopify://shop_images/Frontshot_75a19233-f1bd-43d0-bc9b-3d5ecae45086.jpg",
+            "button": "Shop 3/4 Split Gates",
+            "button_url": "shopify://collections/split-driveway-gates"
+          }
+        }
+      },
+      "block_order": [
+        "question_aY3yTQ",
+        "question_jJFdXg",
+        "question_kmYLrT"
+      ],
+      "settings": {
+        "title": "Types of Entrance Gates",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_tWntjE": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "Buying a Field Gate",
+        "text": "<p>Choosing the right field gate is key to securing your land, livestock, and driveway with style and strength. In this guide, we'll help you explore the best types of field gates, key materials, sizes, and installation tips, so you can find the perfect fit for your property with confidence.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_fPHce8": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Screen_Shot_2019-08-22_at_18.37.29_5ab92610-ef26-4b30-ac10-33731dcda9ee.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "Choosing a Material",
+        "text": "<h5><strong>Redwood</strong> ££</h5><p> Our Redwood has a lifespan of 15 years with the appropriate maintenance, so our Redwood Gates are a great choice for those who would like a long lasting side gate without the Hardwood price tag.</p><h5><strong>Iroko £££</strong></h5><p>Iroko is perfect if you’re looking for a high quality, naturally durable gate that requires little maintenance. Made from African Hardwood, these gates have a beautiful, golden hue and are extremely long-lasting - the average lifespan being 30 years.</p><h5>Metal £</h5><p>Low-maintenance and weather-resistant, metal gates are built to last, offering reliable performance in any environment. Its simple yet robust design ensures long-term functionality.</p><p></p>",
+        "button_label": "Shop our Field Gates",
+        "button_link": "shopify://collections/field-gates-iroko-softwood-pressure-treated",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "custom_collapsible_tabs_MUjVDx": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_LGjnCM": {
+          "type": "question",
+          "settings": {
+            "title": "5 Bar/ Diamond Brace Gates",
+            "answer": "<p>The 5 Bar/Diamond Brace Gate is a classic design, known for its iconic five-bar structure with a diamond bracing pattern for added strength. It's ideal for agricultural use, residential entrances, or paddock enclosures.</p>",
+            "image_text": "<ul><li><strong>Strength and Durability</strong>: The diamond brace adds extra reinforcement, ensuring long-lasting performance.</li></ul><p></p><ul><li><strong>Versatile</strong>: Suitable for farms, driveways, and garden entrances, offering both function and style.</li></ul><p></p><ul><li><strong>Visibility</strong>: The open five-bar design allows visibility while still providing security.</li></ul>",
+            "image": "shopify://shop_images/5_bar_1d49b68a-5dd3-4408-9467-27f7177f49ca.jpg",
+            "button": "Shop Diamond Brace Gates",
+            "button_url": "shopify://collections/field-gate-collection"
+          }
+        },
+        "question_pGtrNx": {
+          "type": "question",
+          "settings": {
+            "title": "Straight Heel Gates",
+            "answer": "<p>The Straight Heel Gate features a simple and sturdy design with a straight heel, offering a clean and classic look. It is a practical choice for agricultural or rural properties where function is a priority.</p>",
+            "image_text": "<ul><li><strong>Traditional Design</strong>: A timeless look that complements any rural or agricultural setting.</li><li><strong>Cost-Effective</strong>: A budget-friendly option without compromising on strength.</li><li><strong>Easy Installation</strong>: Simple construction makes it easier to install and maintain.</li></ul>",
+            "image": "shopify://shop_images/irokoclawton_921f14fc-9874-4af1-bced-e7e0e5c2585d.jpg",
+            "button": "Shop Straight Heel Gates",
+            "button_url": "shopify://collections/straight-heel-field-gates"
+          }
+        },
+        "question_pVnizM": {
+          "type": "question",
+          "settings": {
+            "title": "Curved Heel Gates",
+            "answer": "<p>The Curved Heel Gate provides a touch of elegance to the standard field gate with its curved heel feature. It blends practicality with a more decorative look, making it perfect for residential entrances or stylish paddock fencing.</p>",
+            "image_text": "<ul><li><strong>Elegant Design</strong>: The curved heel adds visual appeal without sacrificing functionality.</li><li><strong>Enhanced Aesthetic</strong>: Suitable for properties looking for a decorative, stylish gate.</li><li><strong>Durability</strong>: Built from durable materials, ensuring long-term use.</li></ul>",
+            "image": "shopify://shop_images/Backshot_cceecf72-1542-415d-a5b9-b89dd4d7cb07.jpg",
+            "button": "Shop Curved Heel Gates",
+            "button_url": "shopify://collections/curved-heel-driveway-gates"
+          }
+        }
+      },
+      "block_order": [
+        "question_LGjnCM",
+        "question_pGtrNx",
+        "question_pVnizM"
+      ],
+      "settings": {
+        "title": "Types of Field Gates",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multi_column_GFnFVa": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_FxBFwV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/oak_gate_post_complete_d68b6061-4e97-4d92-92cd-b0d680c3e4e9.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Gate Posts",
+            "text": "<p>We understand that each customer has a different set of requirements and wants, which is why we have a wide selection of posts available to compliment your gate. </p><p>Whether you would like <a href=\"/collections/softwood-posts\" title=\"Sawn Timber Posts\">Sawn Timber</a> posts or Planed posts, we’ve got you covered. Simply head to the checkout and the appropriate sized posts will be suggested!</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_zBqRnb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Hinge_Set.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Fixings",
+            "text": "<p>For the perfect final touch on your gate, ironwork bundles are available to purchase when adding to cart. These have been carefully selected to align with the measurements of your order and will include everything you need. </p><p>From hinges, drop bolts and latches, you will receive the complete package!</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_zKpyEi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "UV Protection",
+            "text": "<p>We always recommend using UV protection (in particular <a href=\"/collections/osmo-cladding-stains\" title=\"OSMO UV Protection Oil\">Osmo Oil</a>) on your gate, at least every 6-12 months. This ensures your gate maintains its beautiful colour and helps protect the timber against decay and the elements.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_FxBFwV",
+        "text_block_zBqRnb",
+        "text_block_zKpyEi"
+      ],
+      "settings": {
+        "title": "Things to Consider...",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "custom_image_height": false,
+        "image_height": 270,
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "image_gallery_tP9cHz": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_KmkQPP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/garden_gate.png",
+            "enlarge_image": false,
+            "link": "shopify://pages/why-do-gates-warp",
+            "title": "Maintenance Guide",
+            "text": "<p>Learn expert tips and advice on how to maintain your Garden Gate</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_QBeNWM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rubygroup_fieldshelter_generalshots-23_4.jpg",
+            "enlarge_image": false,
+            "link": "shopify://pages/how-to-install-gate-guides",
+            "title": "Installation Guide",
+            "text": "<p>Installing yourself? Follow our easy, step-by-step install guide</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_UFQjP9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/garden_gate_1.png",
+            "enlarge_image": false,
+            "link": "shopify://pages/how-to-measure-gate-guides",
+            "title": "How to Measure Guide",
+            "text": "<p>If you're unsure of what size to purchase, follow our how to measure guide</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_yqVLph": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_6.png",
+            "enlarge_image": false,
+            "link": "shopify://pages/contact-us-1",
+            "title": "Customer Service",
+            "text": "<p>Still not found the answer you're looking for? Contact our friendly team</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_KmkQPP",
+        "image_QBeNWM",
+        "image_UFQjP9",
+        "image_yqVLph"
+      ],
+      "settings": {
+        "grid": 2,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "featured_collection_UXjHYq": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our Gates",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "all-gates",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_CpWVPJ",
+    "image_with_text_overlay_AyNXky",
+    "rich_text_n6QT4q",
+    "rich_text_cyTke7",
+    "image_with_text_mnqini",
+    "custom_collapsible_tabs_y4Tgr6",
+    "rich_text_8DrBQq",
+    "image_with_text_YCpqa7",
+    "custom_collapsible_tabs_83VLPL",
+    "rich_text_tWntjE",
+    "image_with_text_fPHce8",
+    "custom_collapsible_tabs_MUjVDx",
+    "multi_column_GFnFVa",
+    "image_gallery_tP9cHz",
+    "featured_collection_UXjHYq"
+  ]
+}

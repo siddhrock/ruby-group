@@ -1,0 +1,395 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_AkFmkd": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Looking for Garden Inspiration? Fresh Ideas to Transform Your Space!",
+        "text": "<p>Looking for inspiration to freshen up your garden this year? Whether you’re planning a full revamp or just want to add some stylish new touches, we’ve got the perfect ideas to help you create a space you’ll love spending time in.</p><p>This garden transformation is the perfect example of how our premium Cedar products can elevate an outdoor space. By carefully selecting key pieces, she has created a stylish, functional, and inviting garden retreat. Here’s what she used:</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slideshow_PnPmAU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mPRyxw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Add_a_heading_12.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        },
+        "image_ezFdpJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Add_a_heading_11_ef305d35-5d39-4db1-979c-5fd4aeab7a29.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_mPRyxw",
+        "image_ezFdpJ"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "get_the_look_kk8A4C": {
+      "type": "get-the-look",
+      "settings": {
+        "image": "shopify://shop_images/1304DD39-F9D4-459A-ACBD-62DA9763B653_1.jpg",
+        "product_list": [
+          "cedar-larch-slatted-fence-panels-horizontal",
+          "cedar-rebated-posts",
+          "uv-protection-oil-cedar"
+        ],
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": "",
+        "show_vendor": false,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "Get the look",
+        "overlay_text": "Cedar Slatted Panels",
+        "overlay_url_text": "Shop Here",
+        "overlay_url": "https://www.ruby-group.co.uk/collections/ruby-uk-contemporary-cedar-slatted-fences/products/cedar-larch-slatted-fence-panels-horizontal",
+        "overlay_url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_y": 70
+      }
+    },
+    "custom_multi_column_6ijBdx": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_Nf8y3e": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-12T213026.508.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Cedar Shadow Gap Cladding",
+            "text": "<p>Upgrade garden structures, feature walls, and fences with a premium look. Designed to interlock for a uniform finish, this cladding enhances the natural beauty of cedar. </p><p></p>",
+            "button_label": "Shop Now",
+            "button_link": "https://www.ruby-group.co.uk/collections/shadow-gap/products/shadow-gap-home-grown-cedar",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_wgT6Lq": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-12T213207.603.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Flat Top Open Roof Pergola",
+            "text": "<p>Create a stylish, defined space for relaxation and entertaining, offering partial shade while maintaining an airy open feel, adding elegance and structure to any garden setting.</p><p></p>",
+            "button_label": "Shop Now",
+            "button_link": "https://www.ruby-group.co.uk/collections/open-roof-pergolas/products/flat-top-premium-pergolas-frame-only",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_DmY3nM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-13T173459.625.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Cedar Slatted Planters",
+            "text": "<p>Stylish, breathable planters that enhance any garden with natural cedar durability. These planters bring a modern touch while blending seamlessly with any outdoor setting.</p><p></p>",
+            "button_label": "Shop Now",
+            "button_link": "https://www.ruby-group.co.uk/collections/larch-and-cedar-planter/products/premium-cedar-slatted-panel-planter",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_Nf8y3e",
+        "text_block_wgT6Lq",
+        "text_block_DmY3nM"
+      ],
+      "settings": {
+        "title": "Shop Rest of The Ruby Garden",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_gallery_RTbRT9": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_ceAygk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-11T200633.292.png",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_ibVGrm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_7834_1.jpg",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_A7mGWt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-11T200924.030.png",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_fMirGL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-12T213026.508.png",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ceAygk",
+        "image_ibVGrm",
+        "image_A7mGWt",
+        "image_fMirGL"
+      ],
+      "settings": {
+        "grid": 4,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "image_gallery_XBCGbJ": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_Bhbnzx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3328.jpg",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_FQWnkJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-12T212932.623.png",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_mnPnFn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_-_2025-03-12T213207.603.png",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_qPJ7G4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pergola_Lifestyle_11.jpg",
+            "enlarge_image": false,
+            "link": "",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Bhbnzx",
+        "image_FQWnkJ",
+        "image_mnPnFn",
+        "image_qPJ7G4"
+      ],
+      "settings": {
+        "grid": 4,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_AkFmkd",
+    "slideshow_PnPmAU",
+    "get_the_look_kk8A4C",
+    "custom_multi_column_6ijBdx",
+    "image_gallery_RTbRT9",
+    "image_gallery_XBCGbJ"
+  ]
+}

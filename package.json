@@ -1,0 +1,32 @@
+{
+  "name": "origin-core-theme",
+  "version": "1.0.0",
+  "description": "Origin Core Theme by Unified",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "postcss src/global.css -o assets/global.css",
+    "watch:css": "nodemon -x npm run build:css -w 'src' -w 'tailwind.config.js' -w 'sections' -w 'snippets' -w 'layout' -w '__pages' -e '*'",
+    "watch": "npm run watch:css",
+    "build": "npm-run-all build:css",
+    "dev": "shopify theme dev --store=https://unified-origin.myshopify.com/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "autoprefixer": "^10.4.14",
+    "cssnano": "^6.0.1",
+    "nodemon": "^2.0.13",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^9.3.0",
+    "tailwindcss": "^3.4.13",
+    "uglify-js": "^3.17.4"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4"
+  }
+}

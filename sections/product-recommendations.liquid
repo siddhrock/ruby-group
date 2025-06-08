@@ -1,0 +1,185 @@
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+
+{%- if section.settings.show_product_recommendations -%}
+  <div class="section-{{ section.id }}-padding cstm_related_product">
+    <div class="container large-row">
+      <div
+        class="product-recommendations page-width"
+        data-section-id="{{ section.id }}"
+        data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&limit={{ section.settings.grid }}&product_id={{ product.id }}"
+      >
+        {%- if recommendations.performed and recommendations.products_count > 0 -%}
+          <h4 class="text-left large-row large-title font-title text-2xl lg:text-3xl font-black" data-cc-animate>{{ section.settings.title }}</h4>
+          {% if section.settings.description != blank %}
+            <div class="related_des text-left text-sm md:text-base !mb-6 lg:max-w-[768px] xl:max-w-[960px]" data-cc-animate>{{ section.settings.description }}</div>
+          {% endif %}
+          <div class="related-products product-carousel-peek related-section">
+            <div class="grid-flex product-recommendations-container js-related-product-carousel !overflow-[unset]">
+              {%- if section.settings.grid == 2 -%}
+                {%- assign grid_class = 'one-half' -%}
+              {%- elsif section.settings.grid == 3 -%}
+                {%- assign grid_class = 'one-third' -%}
+              {%- elsif section.settings.grid == 5 -%}
+                {%- assign grid_class = 'one-fifth' -%}
+              {%- else -%}
+                {%- assign grid_class = 'one-quarter' -%}
+              {%- endif -%}
+              {% capture grid_class_list %}{{ grid_class }} grid-flex__item{% endcapture %}
+
+              {%- for product in recommendations.products -%}
+                {% render 'product-recommend-block',
+                  product: product,
+                  grid_class: grid_class_list,
+                  show_vendor: section.settings.show_vendor,
+                  animate: forloop.index,
+                  animate_style: 'fade-in-up',
+                  quickbuy: 'standard'
+                %}
+              {%- endfor -%}
+            </div>
+            {%- render 'peek-carousel-advice' -%}
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+{% javascript %}
+  var loadProductRecommendationsIntoSection = function() {
+    // Look for an element with class 'product-recommendations'
+    var productRecommendationsSection = document.querySelector(".product-recommendations");
+    if (productRecommendationsSection === null) { return; }
+    // Build request URL
+    var requestUrl = productRecommendationsSection.dataset.url;
+    // Create request and submit it using Ajax
+    var request = new XMLHttpRequest();
+    request.open("GET", requestUrl);
+    request.onload = function() {
+      if (request.status >= 200 && request.status < 300) {
+        var container = document.createElement("div");
+        container.innerHTML = request.response;
+        productRecommendationsSection.innerHTML = container.querySelector(".product-recommendations").innerHTML;
+
+        theme.peekCarousel.init(
+          productRecommendationsSection,
+          $('.js-related-product-carousel', productRecommendationsSection),
+          '.productRecommendations',
+          function () {return true;},
+          false,
+          {
+            infinite: false,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            dots: false,
+            prevArrow: '<div class="w-9 h-9 absolute -top-16 right-12 hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="18" fill="#FFF"/><path d="M26 19C26.5523 19 27 18.5523 27 18C27 17.4477 26.5523 17 26 17V19ZM9.29289 17.2929C8.90237 17.6834 8.90237 18.3166 9.29289 18.7071L15.6569 25.0711C16.0474 25.4616 16.6805 25.4616 17.0711 25.0711C17.4616 24.6805 17.4616 24.0474 17.0711 23.6569L11.4142 18L17.0711 12.3431C17.4616 11.9526 17.4616 11.3195 17.0711 10.9289C16.6805 10.5384 16.0474 10.5384 15.6569 10.9289L9.29289 17.2929ZM26 17L10 17V19L26 19V17Z" fill="black"/></svg></div>',
+            nextArrow: '<div class="w-9 h-9 rotate-180 absolute right-0 -top-16 hidden lg:block"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none"><circle cx="18" cy="18" r="18" fill="#FFF"/><path d="M26 19C26.5523 19 27 18.5523 27 18C27 17.4477 26.5523 17 26 17V19ZM9.29289 17.2929C8.90237 17.6834 8.90237 18.3166 9.29289 18.7071L15.6569 25.0711C16.0474 25.4616 16.6805 25.4616 17.0711 25.0711C17.4616 24.6805 17.4616 24.0474 17.0711 23.6569L11.4142 18L17.0711 12.3431C17.4616 11.9526 17.4616 11.3195 17.0711 10.9289C16.6805 10.5384 16.0474 10.5384 15.6569 10.9289L9.29289 17.2929ZM26 17L10 17V19L26 19V17Z" fill="black"/></svg></div>',
+            responsive: [
+              {
+                breakpoint: $(window).width() < 640 ? 640 : 960,
+                settings: {
+                  slidesToShow: $(window).width() < 640 ? 1 : 3.5,
+                } 
+              }
+            ] 
+          }
+        );
+      }
+    };
+    request.send();
+  };
+  // Reload the section in the editor when a setting changes
+  document.addEventListener("shopify:section:load", function(event) {
+    if (document.querySelector('[data-section-id="' + event.detail.sectionId + '"].product-recommendations')) {
+      loadProductRecommendationsIntoSection();
+    }
+  });
+  document.addEventListener("shopify:section:unload", function(event) {
+    if (document.querySelector('[data-section-id="' + event.detail.sectionId + '"].product-recommendations')) {
+      theme.peekCarousel.destroy(
+        $('.product-recommendations', event.target),
+        $('.js-related-product-carousel', event.target),
+        '.productRecommendations'
+      );
+    }
+  });
+  // Fetching the recommendations on page load
+  document.addEventListener("DOMContentLoaded", function(event) {
+    loadProductRecommendationsIntoSection();
+  });
+{% endjavascript %}
+
+{% schema %}
+{
+  "name": "Related products",
+  "tag": "section",
+  "class": "section-product-recommendations",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_product_recommendations",
+      "label": "Show related products",
+      "default": true,
+      "info": "Dynamic recommendations use order and product information to change and improve over time. [Learn more](https://help.shopify.com/en/themes/development/recommended-products)"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "You may also like"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "label": "Products per row",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 5
+    },
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": "Show vendor",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 0
+    }
+  ]
+}
+{% endschema %}

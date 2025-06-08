@@ -1,0 +1,145 @@
+{% comment %} {%- capture qty_values -%}1,2,3,4,5,6,7,8,9,10+{%- endcapture -%}
+{%- assign option_values = qty_values | split: ',' -%}
+{%- assign label = 'products.product.quantity' | t -%}
+
+<div class="qty-wrapper{% unless variant.available %} is-disabled{% endunless %}">
+  {% render 'custom-select',
+    id: 'qty-proxy',
+    option_values: option_values,
+    label: label,
+    label_inside: true,
+    selected_value: '1'
+  %}
+  <div class="qty-actual">
+    <label class="qty-actual__label" for="Quantity">{{ label }}</label>
+    <input class="qty-actual__input" type="number" id="Quantity" name="quantity" value="1">
+  </div>
+</div> {% endcomment %}
+
+{% if block.settings.show_area_calculator %}
+  <div class="qty_with_area w-auto items-center pb-8 lg:pb-0">
+    <div class="area_calculator relative">
+      <span class="area_head absolute top-full left-0 pl-2 translate-y-[4px]">Enter M<span class="text-[7px] translate-y-[-1px]">2</span> Area</span>
+      <div class="area_input">
+        <input type="number" name="[Area Calculator]" class="area_calculator_input" placeholder="Area in Sq Meters">
+         <div class="tooltip">
+          <img src="https://cdn.shopify.com/s/files/1/1234/2786/files/exclamation-round-icon_bf62a6b1-557d-4a46-a3a5-63b8b516adba.svg?v=1716647048" height="15" width="15">
+          <span class="tooltiptext">{{ section.settings.tool_tip_message }}</span>
+        </div>
+      </div>
+    </div>
+    <span class="or_text !mt-0">or</span>
+    <div class="qty_main relative">
+      <span class="area_head absolute top-full left-0 pl-2 translate-y-[4px]">Enter Quantity</span>
+      <div class="qty-actual !m-0">
+        <span href="javascript:;" class="qty-minus qty-btn">-</span>
+        <input class="qty-actual__input" class="w-[100px]" type="number" id="Quantity" name="quantity" value="1" min="1">
+        <span href="javascript:;" class="qty-plus qty-btn">+</span>
+      </div>
+    </div>
+  </div>
+{% else %}
+  <div class="qty-actual !m-0 w-[120px]">
+    <span href="javascript:;" class="qty-minus qty-btn">-</span>
+    <input class="qty-actual__input"  class="w-[100px]" type="number" id="Quantity" name="quantity" value="1" min="1">
+    <span href="javascript:;" class="qty-plus qty-btn">+</span>
+  </div>
+{% endif %}
+
+{% unless quickbuy %}
+{% if product.metafields.custom.dimension_of_board != blank %}
+  <script>
+  function calculateQuantity() {
+     var dimensionString = "{{ product.metafields.custom.dimension_of_board }}";
+    var width_mm = parseInt(dimensionString.replace("mm", "").trim());
+    var width = width_mm * 0.001;
+    var radioButtons = document.querySelectorAll(
+      '.option-selector__btns input[type="radio"]'
+    );
+    var length = 0;
+  
+    for (var i = 0; i < radioButtons.length; i++) {
+      if (radioButtons[i].checked) {
+        length = parseFloat(radioButtons[i].value);
+        break;
+      }
+    }
+  
+    var areaCalculatorInput = document.querySelector(".area_calculator_input");
+    var input_val = parseFloat(areaCalculatorInput.value);
+  
+    if (areaCalculatorInput.value.trim() === "") {
+      var quantityInput = document.getElementById("Quantity");
+      quantityInput.value = 1;
+      return;
+    }
+  
+    if (isNaN(width) || isNaN(length) || isNaN(input_val) || length === 0) {
+      console.error("Invalid input values. Please check your inputs.");
+      return;
+    }
+  
+    // var quantity = input_val / (width * thickness * length);
+    var quantity = input_val / (width * length);
+    var finalQuantity = Math.round(quantity);
+    var quantityInput = document.getElementById("Quantity");
+    quantityInput.value = finalQuantity;
+    console.log("Final Quantity:", finalQuantity);
+  }
+  
+  function calculateArea() {
+     var dimensionString = "{{ product.metafields.custom.dimension_of_board }}";
+    var width_mm = parseInt(dimensionString.replace("mm", "").trim());
+    var width = width_mm * 0.001;
+    var radioButtons = document.querySelectorAll(
+      '.option-selector__btns input[type="radio"]'
+    );
+    var length = 0;
+  
+    for (var i = 0; i < radioButtons.length; i++) {
+      if (radioButtons[i].checked) {
+        length = parseFloat(radioButtons[i].value);
+        break;
+      }
+    }
+  
+    var quantityInput = document.getElementById("Quantity");
+    var quantity = parseFloat(quantityInput.value);
+  
+    if (isNaN(width) || isNaN(length) || isNaN(quantity) || length === 0) {
+      console.error("Invalid input values. Please check your inputs.");
+      return;
+    }
+  
+    // var area = quantity * (width * thickness * length);
+    var area = quantity * (width * length);
+    var areaCalculatorInput = document.querySelector(".area_calculator_input");
+    areaCalculatorInput.value = area.toFixed(2);
+    console.log("Calculated Area:", area);
+  }
+  
+  var areaCalculatorInput = document.querySelector(".area_calculator_input");
+  if (areaCalculatorInput) {
+    areaCalculatorInput.addEventListener("input", calculateQuantity);
+  }
+  
+  var radioButtons = document.querySelectorAll(
+    '.option-selector__btns input[type="radio"]'
+  );
+  radioButtons.forEach(function (radioButton) {
+    radioButton.addEventListener("change", calculateQuantity);
+  });
+  
+  var quantityInput = document.getElementById("Quantity");
+  if (quantityInput) {
+    quantityInput.addEventListener("change", calculateArea);
+  }
+  
+  document.querySelectorAll('.qty-btn').forEach(button => {
+      button.addEventListener("click", calculateArea);
+  });
+  
+  calculateArea();
+  </script>
+{% endif %}
+{% endunless %}

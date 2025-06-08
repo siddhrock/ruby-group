@@ -1,0 +1,506 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_CpWVPJ": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Ruby's Range of",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Deluxe_Decking_Planter_Lifestyle_4.png",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_n6QT4q": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Buying a Planter",
+        "text": "<p>Elevate your garden or outdoor space with our exquisite collection of Garden Planters.</p><p>This comprehensive guide is designed to help you in discovering the ideal garden planter for your requirements—whether you're seeking a raised planter for easy access, or a planter with trellis for growing plants, our range offers planters specifically suited to your unique taste, including customisable features.</p><p>Each Planter is expertly handcrafted by our expert Manufacturing team in Devon, ensuring quality and durability for years to come. Our planters also all arrive fully assembled, so say goodbye to stressful hours spent building your planters and say hello to instantly uplifting your garden upon delivery!</p><p></p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "custom_table_section_FxpWnt": {
+      "type": "custom_table_section",
+      "blocks": {
+        "cstm_tables_row_TPNfdJ": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p><strong>What style of planter are you after?</strong></p>",
+            "cstm_tables_text2": "<p><strong>What budget do you have in mind?</strong></p>",
+            "cstm_tables_text3": "<p><strong>What type of wood would you like?</strong></p>"
+          }
+        },
+        "cstm_tables_row_hjgJM3": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p></p><p></p><p></p><p></p><p></p><p></p><p><strong>Rectangular planter</strong></p><p>A classic, timeless planter that is perfect for adorning your garden or outdoor space and for growing plants, flowers and vegetables. </p><p>Available in various styles and timbers, and in bespoke measurements, you can find the perfect <span style=\"text-decoration:underline\">rectangular planter</span> for your needs.</p>",
+            "cstm_tables_text2": "<p><strong>High budget</strong></p><p>For those looking for a low maintenance planter made of Hardwood, look no further than our <span style=\"text-decoration:underline\">Iroko planter</span>.</p><p>Constructed from African Iroko, this planter has gorgeous, natural brown hues that will seamlessly blend into any garden.</p>",
+            "cstm_tables_text3": "<p></p><p></p><p></p><p></p><p><strong>Cedar & Larch</strong></p><p>Cedar and Larch timber is widely known for their long-lasting qualities, as well as their beautiful colouring.</p><p>The average lifespan for Cedar and Larch, if well kept, is 30 years - making your <span style=\"text-decoration:underline\">Cedar or Larch planter</span> a stunning addition to your outdoor area for years to come</p>"
+          }
+        },
+        "cstm_tables_row_XbpaLm": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p></p><p></p><p></p><p></p><p><strong>Tall planter</strong></p><p>A style typically purchased by restaurant owners, this planter is great for those who like a taller planter for mobility issues or for those who would like to create a boundary with their planters.</p>",
+            "cstm_tables_text2": "<p><strong>Medium budget</strong></p><p>If you still want a planter that requires little maintenance, but without the hardwood price tag, our <span style=\"text-decoration:underline\">Scandinavian Redwood</span> planters certainly fit the bill.</p>",
+            "cstm_tables_text3": "<p></p><p></p><p><strong>Decking </strong></p><p>Our <span style=\"text-decoration:underline\">Decking planters </span>are perfect for those who already have wooden decking, creating a unified look that can be a natural extension of the existing outdoor design. </p>"
+          }
+        },
+        "cstm_tables_row_G7zeyk": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p></p><p></p><p><strong>Tiered planter</strong></p><p>Looking for a planter that’s space efficient and eye-catching? Our <span style=\"text-decoration:underline\">Tiered Planters </span>enable you to plant multiple species of plants and flowers in a compact, aesthetically pleasing way.</p>",
+            "cstm_tables_text2": "<p><strong>Low budget</strong></p><p>Our <a href=\"/collections/rectangle-metal-planter\" title=\"Metal Planters\">Metal Planters</a> are waterproof and do not require any UV protection, so are ideal for those who lead a busy life-style - as well as being cheaper than our wood alternatives!</p>",
+            "cstm_tables_text3": "<p><strong>Rough Sawn</strong></p><p>Popular for its rustic charm, our <span style=\"text-decoration:underline\">Rough Sawn planters</span> are the perfect budget friendly option that still brings style to your outdoor area or garden.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "cstm_tables_row_TPNfdJ",
+        "cstm_tables_row_hjgJM3",
+        "cstm_tables_row_XbpaLm",
+        "cstm_tables_row_G7zeyk"
+      ],
+      "settings": {
+        "bg_color": "#eaeaea",
+        "cstm_table_head": "Things to consider",
+        "padding_top": 10,
+        "padding_bottom": 20
+      }
+    },
+    "custom_collapsible_tabs_y4Tgr6": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_dDMTR7": {
+          "type": "question",
+          "settings": {
+            "title": "Rectangular Planter",
+            "answer": "<p>A classic, versatile planter,  perfectly designed to accommodate everything from delicate flowers to robust shrubs. These planters are ideal for single species or mixed displays. </p><p>Create neat rows of herbs or a striking vegetable garden—their clean, modern lines complement any architectural style, enhancing both contemporary and traditional spaces. For added durability, each planter is pressure-treated with Green Lonza, ensuring they stand the test of time while beautifying your outdoor areas.</p>",
+            "image_text": "<ul><li><strong>Versatility in Planting</strong>: These planters accommodate a wide range of plants, from small flowers to larger shrubs, and can be used for a single species or mixed planting. The shape is particularly well-suited for creating rows of plants, which is ideal for herbs, vegetables, or formal garden displays.</li><li><strong>Aesthetic Appeal</strong>: Rectangular planters provide a clean and modern look, complementing both contemporary and traditional architecture. They can be used to create natural borders or to enhance the geometry of a space, adding structure to garden designs.<br/></li><li><strong>Pressure Treated:</strong> To ensure the longevity of the planter, we thoroughly treat our planters with Green Lonza treatment</li></ul>",
+            "image": "shopify://shop_images/rubygroup_febproducts_keiranhammond-10.jpg",
+            "button": "Shop Rectangular Planters",
+            "button_url": "shopify://collections/rectangular-planters"
+          }
+        },
+        "question_LTEpaA": {
+          "type": "question",
+          "settings": {
+            "title": "Tiered Planter",
+            "answer": "<p>Tiered Planters optimise limited spaces by vertically expanding gardening areas, ideal for balcony or patio enthusiasts. They facilitate companion planting across separate tiers, boosting plant health and productivity. With a diverse range of designs, sizes, and materials, finding a tiered planter to match any aesthetic preference is effortlessly achievable, from rustic wood to sleek metal.</p>",
+            "image_text": "<ul><li><strong>Maximised Growing Space:</strong> By utilising vertical space, tiered planters allow you to grow more plants in a smaller area. This is especially beneficial for those with limited ground space, such as balcony or patio gardeners.</li><li><strong>Ideal for Companion Planting</strong>: The separate tiers can be used to group compatible plants together while keeping incompatible plants apart. This can enhance plant health and yield through beneficial interactions among plant species.</li><li><strong>Versatile Design Options</strong>: Tiered planters come in various designs, sizes, and materials, making it easy to find one that fits your specific aesthetic or functional needs. </li></ul><p></p>",
+            "image": "shopify://shop_images/4_tier_planter_b4619a4c-8ca3-4d94-b751-ad1121f5cf79.jpg",
+            "button": "Shop Tiered Planters",
+            "button_url": "shopify://collections/ruby-uk-tiered-planters"
+          }
+        },
+        "question_aEPRgj": {
+          "type": "question",
+          "settings": {
+            "title": "Raised Planters",
+            "answer": "<p>Experience the convenience and aesthetic appeal of our Raised Planters. Designed with accessibility in mind, these planters are elevated to minimise bending and kneeling, making gardening enjoyable and comfortable for everyone, especially those with limited mobility or the elderly. </p><p>Enhanced pest resistance keeps slugs, snails, and burrowing critters like moles and gophers at bay, ensuring your plants thrive in a secure environment. Perfect for every gardener seeking ease and efficiency in their gardening endeavors.</p>",
+            "image_text": "<ul><li><strong>Ease of Access</strong>: The height of raised planters makes them easier to reach without bending or kneeling, reducing strain on the back and knees. This makes gardening more accessible for everyone, especially those with limited mobility or the elderly.</li><li><strong>Pest Control</strong>: Raised planters are generally more resistant to pests, like slugs and snails. Additionally, they can be lined to prevent burrowing pests such as moles and gophers from accessing the plants from below.</li></ul><p></p>",
+            "image": "shopify://shop_images/raised_planter_26_04f509cc-0b95-41ef-b904-1cd5d83c72b0.jpg",
+            "button": "Shop Raised Planters",
+            "button_url": "shopify://collections/ruby-uk-raised-planters"
+          }
+        }
+      },
+      "block_order": [
+        "question_dDMTR7",
+        "question_LTEpaA",
+        "question_aEPRgj"
+      ],
+      "settings": {
+        "title": "Types of Planters",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_bJMWgh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2024-03-07_at_08.47.00.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "In-House Manufacturing",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "custom_multi_column_cW7qBH": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_m6DVpx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_3.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Liner",
+            "text": "<p>We highly recommend liner for a multitude of reasons, such as Weed Suppression, Moisture Retention and general protection of the planter</p>",
+            "button_label": "",
+            "button_link": "shopify://products/planter-lining",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_CGYMwi": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_2.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Paint",
+            "text": "<p>For the ultimate customisation, you could paint your planters to fit with your garden's aesthetic.</p><p>All paint used has to be water-based with our timber - we recommend <a href=\"/products/osmo-paint-750ml\" title=\"Osmo Paint 750ml\">Osmo Paint</a></p>",
+            "button_label": "",
+            "button_link": "shopify://products/osmo-paint-750ml",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_K936Ww": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "UV Protection",
+            "text": "<p>To prevent against rot and decay, we highly recommend treating your planter with <a href=\"/collections/osmo-cladding-stains\" title=\"OSMO UV Protection Oil\">Osmo Oil</a> at least every 6 months</p>",
+            "button_label": "",
+            "button_link": "shopify://products/uv-protection-oil",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_m6DVpx",
+        "text_block_CGYMwi",
+        "text_block_K936Ww"
+      ],
+      "settings": {
+        "title": "Things to look for when using Planters",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_collapsible_tabs_bLR7N4": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_NiR7kc": {
+          "type": "question",
+          "settings": {
+            "title": "Do your planters arrive fully assembled?",
+            "answer": "<p>All of our planters arrive pre-assembled, so no construction is necessary!</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_VpkDrH": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to treat my planter?",
+            "answer": "<p>While our planters are pressure-treated, applying an additional protective treatment, such as Osmo Oil, can help maintain the wood’s appearance and further protect it from weathering over time.</p><p>Please see our <a href=\"/pages/guide-to-maintaining-caring-for-planters\" title=\"Guide to Maintaining & Caring for Planters\">Planter Maintenance Guide</a> for further information.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_8QiJPF": {
+          "type": "question",
+          "settings": {
+            "title": "Do the planters have drainage holes?",
+            "answer": "<p>Yes, all of our planters come with pre-drilled drainage holes to prevent water-logging and ensure proper root health.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_6idiqK": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to line my planter?",
+            "answer": "<p>Yes, we recommend lining your planter with a permeable membrane to help retain moisture and prevent the soil from coming into direct contact with the wood, prolonging the life of the planter.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_9HQ4XL": {
+          "type": "question",
+          "settings": {
+            "title": "Can I paint or stain my planter?",
+            "answer": "<p>Absolutely! Our wooden planters can be painted or stained to match your garden décor. Just ensure you use an exterior-grade product to protect the wood from the elements.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_CBiCDX": {
+          "type": "question",
+          "settings": {
+            "title": "How long will the planter last?",
+            "answer": "<p>With proper care and treatment, our wooden planters can last for many years. Regular maintenance, such as applying wood preservatives and ensuring good drainage, will help extend their lifespan.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_CA4XAq": {
+          "type": "question",
+          "settings": {
+            "title": "What type of soil should I use in my planter?",
+            "answer": "<p>The type of soil you use depends on the plants you’re growing. For most plants, a high-quality, well-draining potting mix will work well. You may also want to mix in compost or other organic matter for added nutrients.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_NiR7kc",
+        "question_VpkDrH",
+        "question_8QiJPF",
+        "question_6idiqK",
+        "question_9HQ4XL",
+        "question_CBiCDX",
+        "question_CA4XAq"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_gallery_KDc3ei": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_gyHHmd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Deluxe_Decking_Planter_Lifestyle_6_2.png",
+            "enlarge_image": false,
+            "link": "shopify://pages/guide-to-maintaining-caring-for-planters",
+            "title": "Maintenance Guide",
+            "text": "<p>Learn expert advice on how to properly look after your planter</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_qQXWNi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/planter_1.jpg",
+            "enlarge_image": false,
+            "link": "shopify://blogs/ruby-tips",
+            "title": "Blogs",
+            "text": "<p>Stay up to date with the latest trends and tips with our blogs</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_9mNCCt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_6.png",
+            "enlarge_image": false,
+            "link": "shopify://pages/contact-us-1",
+            "title": "Customer Service",
+            "text": "<p>Not found the answer you need? Contact us on 1409 231763</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_gyHHmd",
+        "image_qQXWNi",
+        "image_9mNCCt"
+      ],
+      "settings": {
+        "grid": 2,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "featured_collection_iKUtKD": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our Planters",
+        "enlarge_title": false,
+        "link_text": "",
+        "collection": "premium-planters",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_CpWVPJ",
+    "image_with_text_overlay_AyNXky",
+    "rich_text_n6QT4q",
+    "custom_table_section_FxpWnt",
+    "custom_collapsible_tabs_y4Tgr6",
+    "image_with_text_overlay_bJMWgh",
+    "custom_multi_column_cW7qBH",
+    "custom_collapsible_tabs_bLR7N4",
+    "image_gallery_KDc3ei",
+    "featured_collection_iKUtKD"
+  ]
+}

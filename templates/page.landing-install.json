@@ -1,0 +1,169 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "center"
+      }
+    },
+    "custom_multi_column_bpUF8f": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_rrcNgb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/DiamondBraceBackShot.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 42,
+            "icon_color": "",
+            "title": "Field Gate",
+            "text": "",
+            "button_label": "Install Guide",
+            "button_link": "shopify://pages/field-gate-installation-guide",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_cVn9nN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Warmer_1.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Entrance Gate",
+            "text": "",
+            "button_label": "Install Guide",
+            "button_link": "shopify://pages/entrance-gate-installation-guide-1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_QP33TD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Frontshot_ddeb7698-8323-451b-9a86-fd6d3cdd611a.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Bifold Gate",
+            "text": "",
+            "button_label": "Install Guide",
+            "button_link": "shopify://pages/bifold-gate-installation-guide",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_xw3YhN": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Frontshotthinner.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Side Gate",
+            "text": "",
+            "button_label": "Install Guide",
+            "button_link": "shopify://pages/garden-gate-installation-guide",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rrcNgb",
+        "text_block_cVn9nN",
+        "text_block_QP33TD",
+        "text_block_xw3YhN"
+      ],
+      "name": "Custom Multi-column",
+      "settings": {
+        "title": "Welcome to our Gate Install Guides",
+        "enlarge_title": false,
+        "description": "<p>Whether you're fitting a field gate, garden gate, bifold entrance gate, or a 3/4 split gate, we’ve got you covered with easy-to-follow, step-by-step installation guides. Our expert instructions are designed for beginners and seasoned DIYers alike, providing clear, practical advice to help you achieve a professional result every time. Browse through our guides and get started with your gate installation today!</p>",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_multi_column_HKUNp3": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_kmF9Ar": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Frontshot_75a19233-f1bd-43d0-bc9b-3d5ecae45086.jpg",
+            "image_width": 25,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "3/4 Split Gate",
+            "text": "",
+            "button_label": "Install Guide",
+            "button_link": "shopify://pages/3-4-split-gate-installation-guide",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_kmF9Ar"
+      ],
+      "name": "Custom Multi-column",
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_multi_column_bpUF8f",
+    "custom_multi_column_HKUNp3"
+  ]
+}

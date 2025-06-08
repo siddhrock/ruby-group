@@ -1,0 +1,519 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_CpWVPJ": {
+      "type": "rich-text",
+      "settings": {
+        "title": "{{ page.title }}",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/CedarSlattedpanelLifestyle_2_1.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_n6QT4q": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Buying a Slatted Panel",
+        "text": "<p>Enjoy your garden in summer weather or winter nights with a modern and stylish <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>slatted panel</strong></a>. </p><p>This guide is designed to assist you in choosing the perfect slatted panel, catering to your needs whether you're in pursuit of a modern, contemporary aesthetic or require panels for privacy. Our slatted panels are delivered fully assembled, featuring a design that simplifies installation. Each panel is handcrafted and produced right here in Devon, ensuring quality and attention to detail.</p><p></p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "custom_table_section_FxpWnt": {
+      "type": "custom_table_section",
+      "blocks": {
+        "cstm_tables_row_TPNfdJ": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p><strong>What Style of fencing are you after?</strong></p>",
+            "cstm_tables_text2": "<p><strong>How Private do you need fencing? </strong></p>",
+            "cstm_tables_text3": "<p><strong>What Budget do you have in mind?</strong></p>"
+          }
+        },
+        "cstm_tables_row_hjgJM3": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p><strong>Modern Style Fencing</strong></p><p></p><p>The best options to achieve a modern style would be a <a href=\"/collections/ruby-uk-contemporary-cedar-slatted-fences\" title=\"Cedar Slatted Fence Panels\"><strong>Cedar Slatted</strong></a> or <a href=\"/products/cedar-slatted-fence-panels\" title=\"Larch Slatted Fence Panels (Horizontal)\"><strong>Larch Slatted</strong></a>. These offer a unique colour that gives a modern and stylish feel.</p>",
+            "cstm_tables_text2": "<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p><strong>Privacy is Key</strong></p><p></p><p>If you're looking for slatted panel design but need full privacy our <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>double slatted panels</strong></a><strong> </strong>offer a solution. The boards on either side are placed behind one another at different points. Meaning the see through part you get with standard slatted panels will show a slat on the other side and no gaps to very little gap to see through. </p>",
+            "cstm_tables_text3": "<p><strong>High Budget</strong></p><p>Are you looking for the ultimate style for your slatted fence? Our <a href=\"/collections/ruby-uk-contemporary-cedar-slatted-fences\" title=\"Cedar Slatted Fence Panels\"><strong>cedar</strong></a> option is extremely popular choice for this. Offering a high grade timber and stylish colour. </p>"
+          }
+        },
+        "cstm_tables_row_XbpaLm": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p><strong>Contemporary Style Fencing</strong></p><p></p><p>Looking for a slatted style fencing but with a more understated look? This blend of the slatted style but with contemporary look can be achieved with Planed Square Edge <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>(PSE) Treated Slatted Panel</strong></a>. </p>",
+            "cstm_tables_text2": "<p></p><p></p><p></p><p></p><p><strong>Fence Privacy is needed to some extent</strong></p><p></p><p>If you're looking for some amount of privacy where it is hard to see through but with some gaps then the <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>6mm gap slatted panel</strong></a> option is a good choice. The 6mm gap makes it hard to see through but also still allows light to flow through.</p>",
+            "cstm_tables_text3": "<p><strong>Mid-Range Budget</strong></p><p></p><p>The <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>larch slatted panel</strong></a> is a great option for still having a premium and modern looking product but with a lower price. Larch has a deep red colour and naturally rot resistant. </p>"
+          }
+        },
+        "cstm_tables_row_G7zeyk": {
+          "type": "cstm_tables_row",
+          "settings": {
+            "cstm_tables_text1": "<p><strong>Horizontal Or Vertical Fencing?</strong></p><p></p><p>Our slatted panels are available in both <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>horizontal</strong></a> or <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>vertical</strong></a> options. The panels are made the exact same gaps and boards, it's just a preference on which way you want the boards to run.</p>",
+            "cstm_tables_text2": "<p></p><p></p><p></p><p></p><p><strong>Not worried about privacy with your fencing?</strong></p><p></p><p>Want to enjoy the view of outside your fence and let in light? Our <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>standard fence panels</strong></a> with 16mm gaps allow light to flow through and can see the  view through. It creates a more spacious and modern feel to your garden.</p>",
+            "cstm_tables_text3": "<p><strong>Low Budget</strong></p><p>Looking to have the modern appeal of slatted fencing but on a budget? The <a href=\"/collections/slatted-fencing\" title=\"Slatted Fence Panels\"><strong>PSE Slatted panels</strong></a> are a great option for this. They're pressure treated to still maintain a long life.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "cstm_tables_row_TPNfdJ",
+        "cstm_tables_row_hjgJM3",
+        "cstm_tables_row_XbpaLm",
+        "cstm_tables_row_G7zeyk"
+      ],
+      "settings": {
+        "bg_color": "#eaeaea",
+        "cstm_table_head": "Things to consider",
+        "padding_top": 10,
+        "padding_bottom": 20
+      }
+    },
+    "custom_collapsible_tabs_y4Tgr6": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_dDMTR7": {
+          "type": "question",
+          "settings": {
+            "title": "Brtish / Home-Grown Cedar Slatted Panel",
+            "answer": "<p>Cedar Slatted Panels are available in 16mm gaps in both vertical and horizontal or 6mm gaps in both vertical and horizontal. We do also offer this in a double sided option to allow for full privacy, again available in vertical or horizontal. </p><p>Combining both the slatted design and the beautiful natural colour of a cedar. A popular design and finish. </p>",
+            "image_text": "<ul><li><strong>Home-Grown Timber</strong>: Our British cedar is grown in the UK. This makes is a great eco-choice with low transportation and reduce impact on carbon footprint.  </li><li><strong>Low maintenance:</strong> Cedar is a naturally rot resistant timber. We would always advise using OSMO Clear Oil to help keep the natural colour.<br/></li><li><strong>Modern & Stylish:</strong> Cedar has become increasingly popular in recent years due to its natural strength and long lasting life but also from its unique pale red colour.</li></ul><p></p>",
+            "image": "shopify://shop_images/IMG_4573_1ab2c30d-5fba-4bc0-8683-dffe6c4d83e7.jpg",
+            "button": "Shop Cedar Slatted Panels",
+            "button_url": "shopify://collections/ruby-uk-contemporary-cedar-slatted-fences"
+          }
+        },
+        "question_LTEpaA": {
+          "type": "question",
+          "settings": {
+            "title": "British / Home-Grown Larch Slatted Panel",
+            "answer": "<p>Larch Slatted Panels are available in 16mm gaps in both vertical and horizontal or 6mm gaps in both vertical and horizontal. We do also offer this in a double sided option to allow for full privacy, again available in vertical or horizontal. </p><p>Combining both the slatted design and the vibrant red colour it creates a unique and stylish feel. Our most popular option in the slatted fence style.</p>",
+            "image_text": "<ul><li><strong>Home-Grown Timber</strong>: Our British larch is grown in the UK. This makes is a great eco-choice with low transportation and reduce impact on carbon footprint.  </li><li><strong>Low maintenance:</strong> Larch is known for its strength, durability and natural resistant to rot. We would always recommend to apply <a href=\"/products/uv-protection-oil\" title=\"Osmo UV-Protection Oil Clear\"><strong>OSMO Stain</strong></a> in order to maintain its colour.<br/></li><li><strong>Modern & Stylish:</strong> Larch has a deep red vibrant colour, it elevates and can bring a more modern style to your garden</li></ul><p></p>",
+            "image": "shopify://shop_images/Screenshot_2024-03-14_at_13.51.00.png",
+            "button": "Shop Larch Slatted Panels",
+            "button_url": "shopify://collections/ruby-uk-larch-slatted-fencing"
+          }
+        },
+        "question_aEPRgj": {
+          "type": "question",
+          "settings": {
+            "title": "Treated Planed Slatted Panel",
+            "answer": "<p>Larch Slatted Panels are available in 16mm gaps in both vertical and horizontal or 6mm gaps in both vertical and horizontal. We do also offer this in a double sided option to allow for full privacy, again available in vertical or horizontal. </p><p>Combining both the slatted design and the vibrant red colour it creates a unique and stylish feel. Our most popular option in the slatted fence style.</p>",
+            "image_text": "<ul><li><strong>Pressure Treated Timber</strong>: The planed sqaure edge (PSE) timber used to manufacture our pannels it fully pressure treated NOT dip treated. This allows for longevity and a panel you can rely on to last.</li><li><strong>Low maintenance:</strong> With the treatment used the panels are built to withstand rot and decay. We would recommend appying <a href=\"/products/uv-protection-oil\" title=\"Osmo UV-Protection Oil Clear\"><strong>OSMO</strong></a> to help protect colour of timber<br/></li><li><strong>Affordable:</strong> Looking for the slatted design but have budget? Our PSE Slatted Panels are an affordable way to achieve this modern style.</li></ul><p></p>",
+            "image": "shopify://shop_images/rubygroup_febproducts_keiranhammond-94.jpg",
+            "button": "Shop PSE Slatted Panel",
+            "button_url": "shopify://collections/slatted-fencing"
+          }
+        }
+      },
+      "block_order": [
+        "question_dDMTR7",
+        "question_LTEpaA",
+        "question_aEPRgj"
+      ],
+      "settings": {
+        "title": "Types of Slatted Fence Panels",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_bJMWgh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2024-03-07_at_08.47.00.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "In-House Manufacturing",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "multi_column_fDaaQC": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_6QbQ9K": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Gate_Posts_2.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Posts",
+            "text": "<p>We understand that each customer has a different set of requirements and wants, which is why we have a wide selection of posts available to compliment your Panels. </p><p>Whether you would like <a href=\"/collections/softwood-posts\" title=\"Sawn Timber Posts\">Sawn Timber posts</a> or <a href=\"/collections/cedar-fence-posts\" title=\"Cedar Fence Posts\">Cedar Posts</a>, we’ve got you covered. Simply head to the checkout and the appropriate sized posts will be suggested!</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_kqgGQM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/FencePanelClip_ef179ae8-2149-4267-8a0c-b88517304efd.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Fixings",
+            "text": "<p>To secure the panels to the posts securely, you will need some <a href=\"/collections/slatted-panel-fixings\" title=\"Slatted Panel Fixings\">screws, nails and fence clips</a>.</p><p>If you have any questions or queries regarding installing our Slatted Panels, <a href=\"/pages/contact-us-1\" title=\"Contact Us - Ruby UK\">please contact us!</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_WEPeKt": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "UV Protection",
+            "text": "<p>We highly recommend treating your Slatted Panels with UV Protection every 6-12 months, to prevent water ingress and maintain the colour.</p><p>For further information, please visit our <a href=\"/pages/guide-to-maintaining-and-caring-for-slatted-panels\" title=\"Guide to Maintaining & Caring for Slatted Panels\">Maintenance Guide</a> page.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6QbQ9K",
+        "text_block_kqgGQM",
+        "text_block_WEPeKt"
+      ],
+      "settings": {
+        "title": "Things to Consider Purchasing with our Slatted Panels",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "custom_image_height": false,
+        "image_height": 270,
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "custom_collapsible_tabs_bLR7N4": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_NiR7kc": {
+          "type": "question",
+          "settings": {
+            "title": "What materials are your Slatted Panels made from?",
+            "answer": "<p>Our slatted panels are made from high-quality timber, including durable Cedar and Larch or pressure treated Redwood, designed to resist weathering, rot, and decay.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_zhqAPp": {
+          "type": "question",
+          "settings": {
+            "title": "Do you make bespoke panels?",
+            "answer": "<p>Yes! If you have custom measurements, you can click 'Order Bespoke' next to 'Choose' on our products for a price. Alternatively, you can <a href=\"https://www.ruby-group.co.uk/pages/contact-us-1\" title=\"Contact Us - Ruby UK\">contact our Sales team </a>for a quote.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_6idiqK": {
+          "type": "question",
+          "settings": {
+            "title": "Can I customise the size of the gaps between the slats?",
+            "answer": "<p>Yes, the spacing between slats can be customised to suit your privacy and aesthetic preferences. Narrower gaps offer more privacy, while wider gaps allow more light and airflow.</p><p>For a quote on this, please <a href=\"/pages/contact-us-1\" title=\"Contact Us - Ruby UK\">contact our friendly Sales team.</a></p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_wXLRDf": {
+          "type": "question",
+          "settings": {
+            "title": "Do Slatted Panels need to be treated after installation?",
+            "answer": "<p>Although some of our panels are pressure-treated, we recommend applying an additional weatherproof stain or oil to all panels (whether they are Cedar or Redwood) before installation to prolong their lifespan and maintain their appearance.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_8QiJPF": {
+          "type": "question",
+          "settings": {
+            "title": "Are Slatted Panels easy to install?",
+            "answer": "<p>Yes, slatted panels are designed for straightforward installation. You can install them between posts or mount them to walls with brackets. </p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_WYW3HQ": {
+          "type": "question",
+          "settings": {
+            "title": "Can Slatted Panels be painted or stained?",
+            "answer": "<p>Yes, you can paint or stain slatted panels to match your garden décor. We recommend using exterior-grade products and ideally water-based paint, to ensure protection from the elements and to maintain the panels' appearance.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_Gr9GyF": {
+          "type": "question",
+          "settings": {
+            "title": "How long do Slatted Panels last?",
+            "answer": "<p>With proper care and maintenance, slatted panels can last many years. Regular treatment and weatherproofing can help protect them from the elements and prolong their lifespan.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_NiR7kc",
+        "question_zhqAPp",
+        "question_6idiqK",
+        "question_wXLRDf",
+        "question_8QiJPF",
+        "question_WYW3HQ",
+        "question_Gr9GyF"
+      ],
+      "settings": {
+        "title": "Things to look for when using slatted panels",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_gallery_fGjkAt": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_WLLmRp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Larch_Slatted_Panel_Lifestyle_2.jpg",
+            "enlarge_image": false,
+            "link": "shopify://pages/guide-to-maintaining-and-caring-for-slatted-panels",
+            "title": "Maintenance Guide",
+            "text": "<p>Learn how to properly care for and maintain your Slatted Panels</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_aGJUeP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Larch_Slatted_Panel_Lifestyle_2_1.jpg",
+            "enlarge_image": false,
+            "link": "",
+            "title": "Installation Guide",
+            "text": "<p>Installing yourself? Follow our easy, step-by-step install guides</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_q8JREn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cedar_Slatted_panel_Lifestyle_6.jpg",
+            "enlarge_image": false,
+            "link": "shopify://blogs/ruby-tips",
+            "title": "Blogs",
+            "text": "<p>Stay up to date with the latest tips and trends with our blogs</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_wiqrPb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_6.png",
+            "enlarge_image": false,
+            "link": "",
+            "title": "Customer Service",
+            "text": "<p>Not found the answer you were looking for? Contact our team</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_WLLmRp",
+        "image_aGJUeP",
+        "image_q8JREn",
+        "image_wiqrPb"
+      ],
+      "settings": {
+        "grid": 2,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "featured_collection_NNJV3r": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our Slatted Panels",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "slatted-fencing",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_CpWVPJ",
+    "image_with_text_overlay_AyNXky",
+    "rich_text_n6QT4q",
+    "custom_table_section_FxpWnt",
+    "custom_collapsible_tabs_y4Tgr6",
+    "image_with_text_overlay_bJMWgh",
+    "multi_column_fDaaQC",
+    "custom_collapsible_tabs_bLR7N4",
+    "image_gallery_fGjkAt",
+    "featured_collection_NNJV3r"
+  ]
+}

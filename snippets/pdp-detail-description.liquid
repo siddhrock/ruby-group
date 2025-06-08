@@ -1,0 +1,6 @@
+<div class="text-[24px] font-semibold mb-6">Product Description</div>
+
+{% unless product.metafields.custom.description == blank %}
+  <div class="mt-6 mb-2 text-[20px] font-semibold">Description</div>
+  <div rel='richtext'>{{ product.metafields.custom.description | metafield_tag }}</div>
+{% endunless %}

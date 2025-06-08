@@ -1,0 +1,215 @@
+{%- if product.metafields.custom.medium_corner_image != blank -%}
+<div class="meta_img_txt relative container container--no-mobile-padding large-row section-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="image-with-text">
+  {% liquid
+    assign img_padding = section.settings.image_size
+    assign img_padding_mob = section.settings.image_size | divided_by: 2
+  %}
+  {% style %}
+    .section-{{ section.id }} .image-with-text {
+      background: {{ section.settings.gradient_bg | default: section.settings.color_bg }};
+      color: {{ section.settings.color_text }};
+    }
+
+    .section-{{ section.id }} .image-with-text__image-size {
+      padding: {{ img_padding }}px 0 {{ img_padding }}px {{ img_padding }}px;
+    }
+
+    .section-{{ section.id }} .image-with-text--reverse .image-with-text__image-size {
+      padding: {{ img_padding }}px {{ img_padding }}px {{ img_padding }}px 0;
+    }
+
+    @media only screen and (max-width: 767.98px) {
+      .section-{{ section.id }} .image-with-text .image-with-text__image-size {
+        padding: {{ img_padding }}px {{ img_padding }}px 0 {{ img_padding }}px;
+      }
+    }
+
+    {% if section.settings.image_size == '120' %}
+      @media screen and (max-width: 1000px) and (min-width: 767.98px) {
+        .section-{{ section.id }} .image-with-text .image-with-text__image-size {
+          padding: {{ img_padding_mob }}px 0 {{ img_padding_mob }}px {{ img_padding_mob }}px;
+        }
+        .section-{{ section.id }} .image-with-text--reverse .image-with-text__image-size {
+          padding: {{ img_padding_mob }}px {{ img_padding_mob }}px {{ img_padding_mob }}px 0;
+        }
+      }
+      @media screen and (max-width: 580px) {
+        .section-{{ section.id }} .image-with-text .image-with-text__image-size {
+          padding: {{ img_padding_mob }}px {{ img_padding_mob }}px 0 {{ img_padding_mob }}px;
+        }
+      }
+    {% endif %}
+
+    .check-box-list li{
+        display:flex;
+        margin:0 0 10px;
+        align-items: center;
+        font-weight: 700;
+    }
+    .check-box-list li svg {
+        height: 40px;
+        width: 40px;
+        background: #393939;
+        border-radius: 50%;
+        padding: 10px;
+        vertical-align: middle;
+        margin:0 10px 0 0;
+    }
+    .check-box-list li span{
+      width:calc(100% - 40px);
+    }
+    .meta_img_txt .rimage-wrapper{
+      height:100%;
+      padding-top:100% !important;
+    }
+    .image-with-text__text p{
+      font-size:12px;
+    }
+    @media screen and (max-width:767px){
+      .check-box-list li svg {
+        padding:7px;
+        width:30px;
+        height:30px;
+      }
+    }
+  {% endstyle %}
+
+  <div class="page-width image-with-text flex global-border-radius {% if section.settings.image_position == 'right' %} image-with-text--reverse{% endif %} {% if section.settings.image_size == '0' %} image-with-text--full{% endif %}">
+
+    <div class="one-half small-down--one-whole relative image-with-text__image overflow-hidden">
+      <div class="image-with-text__image-size {% unless section.settings.image_size == '0' %}image-with-text__image-radius{% endunless %}" data-cc-animate="zoom-out-fade-in">
+        
+
+        {%- if product.metafields.custom.medium_corner_image != blank -%}
+          {%- if section.settings.image_size == '0' -%}
+              <div class="rimage-outer-wrapper rimage-background lazyload fade-in"
+                data-bgset="{% render 'bgset', image: product.metafields.custom.medium_corner_image %}"
+                data-sizes="auto"
+                data-parent-fit="cover"
+                style="background-position: {{ section.settings.image.presentation.focal_point }}">
+                <div class="rimage-wrapper" style="padding-top:100.0%;">
+                    <img src="{{ product.metafields.custom.medium_corner_image | image_url }}" height="auto" width="auto" alt="{{ product.metafields.custom.medium_corner_image | escape }}" class="rimage__image">
+                </div>
+              </div>
+          {%- else -%}
+            {% render 'responsive-image', image: product.metafields.custom.medium_corner_image, nomax: true %}
+          {%- endif -%}
+        {%- endif -%}
+
+      </div>
+    </div>
+
+    <div class="one-half small-down--one-whole relative image-with-text__content" data-cc-animate>
+      <div class="{%- if section.settings.text_alignment == 'center' -%}center{%- endif -%}">
+        <h2 class="image-with-text__title {% if section.settings.enlarge_title %} giant-title{% else %} large-title{% endif %}">{{ product.metafields.custom.medium_corner_title.value }}</h2>
+        <div class="image-with-text__text {% if section.settings.enlarge_text %}large-text{% endif %}">
+          <ul class="check-box-list">
+            {% for ingredient in product.metafields.custom.medium_corner_list.value %}
+              <li><svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.4605 45.5C13.8205 45.5 12.2605 44.72 11.2805 43.4L4.80055 34.76C4.30055 34.1 4.44055 33.16 5.10055 32.66C5.76055 32.16 6.70055 32.3 7.20055 32.96L13.6805 41.6C14.1105 42.17 14.7805 42.48 15.4905 42.49C16.2005 42.48 16.8705 42.12 17.2705 41.54L42.7705 5.13996C43.2505 4.45996 44.1805 4.29996 44.8605 4.76996C45.5405 5.24996 45.7005 6.17996 45.2305 6.85996L19.7405 43.27C18.7905 44.64 17.2205 45.48 15.5505 45.5H15.4705H15.4605Z" fill="#2A4125"/></svg>
+                <span>{{ ingredient }}</span>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="image-with-text__text {% if section.settings.enlarge_text %}large-text{% endif %}">
+          {{ product.metafields.custom.medium_corner_info | metafield_tag }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  {% endif %}
+
+
+{% schema %}
+  {
+    "name": "Metafield Image with text",
+    "tag": "section",
+    "class": "section-image-with-text",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+      {
+        "type": "select",
+        "id": "image_size",
+        "label": "Space around image",
+        "options": [
+          { "value": "120", "label": "Large" },
+          { "value": "60", "label": "Medium" },
+          { "value": "30", "label": "Small" },
+          { "value": "0", "label": "None" }
+        ],
+        "default": "30"
+      },
+      {
+        "type": "radio",
+        "id": "image_position",
+        "label": "Alignment",
+        "options": [
+          { "value": "left", "label": "Left" },
+          { "value": "right", "label": "Right" }
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "checkbox",
+        "id": "enlarge_title",
+        "label": "Enlarge heading",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "enlarge_text",
+        "label": "Enlarge text",
+        "default": false
+      },
+      {
+        "type": "radio",
+        "id": "text_alignment",
+        "label": "Text alignment",
+        "options": [
+          { "value": "center", "label": "Center" },
+          { "value": "left", "label": "Left" }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "color_text",
+        "label": "Text color",
+        "default": "#333333"
+      },
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Background color",
+        "default": "#dae4e6"
+      },
+      {
+        "type": "color_background",
+        "id": "gradient_bg",
+        "label": "Background gradient",
+        "info": "If set, replaces background color"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Metafield Image with text"
+      }
+    ],
+    "disabled_on": {
+      "groups": [
+        "aside"
+      ]
+    }
+  }
+{% endschema %}

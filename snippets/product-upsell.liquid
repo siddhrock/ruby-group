@@ -1,0 +1,104 @@
+
+{% comment %} {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id  -%} {% endcomment %}
+{% comment %} {{ cart_qty }} {% endcomment %}
+<div x-data="{ added: false }" 
+  @cart-updated.window="
+    $event.detail.data.items.forEach(item => {
+      if (item.product_id === {{ product.id }}) {
+        added=true;
+      }
+    })
+  "
+  {% unless type == 'modal' %}
+  x-init="
+  fetch('/cart.js').then((res) => {
+      return res.json();
+    }).then((data) => {
+      
+      data.items.forEach(item => {
+        if (item.product_id === {{ product.id }}) {
+          added=true;
+        }
+      })
+      
+    })
+  "
+  {% endunless %}
+  class="{% if type == 'modal' %}bg-light-grey mb-4{% else %}bg-white{% endif %} p-4 {% if quickbuy %} js-contains-quickbuy{% endif %} {% if product.tags contains 'hidden' %} hidden{% endif %}"
+  :class="added ? 'border border-[#BFD0AD]' : ''"
+>
+
+  <div class="flex flex-row">
+
+    <div class="flex-none w-[100px] lg:w-[130px]">
+      <picture>
+        <source srcset="{{ product.featured_media | image_url: width: 131 }}, {{ product.featured_media | image_url: width: 260 }} 2x" media="(min-width: 768px)">
+        <source srcset="{{ product.featured_media | image_url: width: 131 }}, {{ product.featured_media | image_url: width: 260 }} 2x" media="(max-width: 767px)">
+        <img loading="lazy" class="w-full object-contain" alt="{{ product.featured_media.alt | escape }}" width="{{ product.featured_media.width }}" height="{{ product.featured_media.height }}">
+      </picture>
+    </div>
+
+    <div class="flex-1 pl-4">
+      <div>{{ product.title }}</div>
+      <div>
+        {%- assign cheapest_variant = product.variants | sort: 'price' | first -%}
+        {% render 'unit-price', variant: cheapest_variant %}
+        {% if product.price_varies %}
+          <span class="product-price__from">{{ 'products.product.from_text' | t }}</span>
+        {% endif %}
+        <span class="theme_money{% if cheapest_variant.compare_at_price > cheapest_variant.price %} product-price__reduced{% endif %}">
+          {%- if settings.product_currency_code_enabled -%}
+            {{- cheapest_variant.price | money_with_currency -}}
+          {%- else -%}
+            {{- cheapest_variant.price | money -}}
+          {%- endif -%}
+        </span>
+        {% if cheapest_variant.compare_at_price > cheapest_variant.price %}
+          <span class="visually-hidden">{{ 'products.product.regular_price' | t }}</span>
+          <span class="product-price__compare theme-money">{{ cheapest_variant.compare_at_price | money }}</span>
+        {% endif %}
+        {% if product.available %}
+          {% if cheapest_variant.compare_at_price > cheapest_variant.price and settings.sale_label_enabled %}
+            <span class="!hidden product-label product-label--on-sale global-border-radius">
+              {{- 'products.product.on_sale' | t -}}
+            </span>
+          {% endif %}
+        {% elsif settings.sold_label_enabled %}
+          <span class="product-label product-label--sold-out global-border-radius">
+            {{- 'products.product.sold_out' | t -}}
+          </span>
+        {% endif %}
+      </div>
+
+      <div class="cstm_atc">
+        {%- if quickbuy -%}
+          <div class="mt-2"
+            {% unless type == 'modal' %}:class="added ? '!hidden' : '!block'"{% endunless %}
+          >
+            <a
+              class="product-block__quicklook-btn js-quickbuy-button"
+              href="{{ product.url }}"
+              {% if type == 'modal' %}@click="modalOpen = null"{% endif %}
+            >
+              <span class="atc_text inline-block bg-ruby-red text-white py-2 px-4 rounded-full !text-xs md:text-sm font-semibold leading-normal">Add to Cart</span>
+            </a>
+            {% render 'quick-buy-placeholder', product: product %}
+          </div>
+
+          <div class="mt-2 font-medium text-dark-green hidden"
+            {% unless type == 'modal' %}:class="added ? '!block' : '!hidden'"{% endunless %}
+          >
+            <div class="flex flex-row items-center gap-2 justify-start">
+            <span class="block w-5 h-5">{{- 'icon-tick.svg' | inline_asset_content -}}</span>
+            <span>Added to cart</span>
+            </div>
+          
+          </div>
+        {%- endif -%}
+      </div>
+      
+    </div>
+
+  </div>
+
+</div>

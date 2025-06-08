@@ -1,0 +1,556 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2024-05-17_at_15.41.32.png",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_CpWVPJ": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Cladding Buying Guide",
+        "text": "<p>Transform your property's exterior with our premium Cladding Collection, designed to enhance aesthetics without compromising on quality.</p><p>This guide is here to help you select the perfect cladding solution—whether your focus is on modern design, natural durability, or a specific finish, we offer options tailored to meet your exact needs.</p><p>Each cladding board is expertly crafted with precision and care, ensuring exceptional quality and longevity. With bespoke sizing options available, you can be confident that your choice will be the perfect fit for your project and built to stand the test of time.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "rich_text_n6QT4q": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Choosing Your Cladding",
+        "text": "<p>We've put together this handy guide to compare different timber types and find the one that's right for you</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_iUcqKw": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<iframe width=\"100%\" style=\"height: 100vh\" src=\"https://cdn.shopify.com/s/files/1/1234/2786/files/TimberSpecificationsDownloadable.pdf?v=1733475678\" height=\"100vh\"></iframe>\n\n<a href=\"https://cdn.shopify.com/s/files/1/1234/2786/files/TimberSpecificationsDownloadable.pdf?v=1733475678\" target=\"_blank\" rel=\"noopener\">\n    PDF not loading? Download the Timber Specifications here.\n</a>"
+      }
+    },
+    "rich_text_FUFwPG": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Trouble choosing new cladding? Start here:",
+        "text": "<p>When picking your new timber cladding, it’s all about finding the right balance between cost, durability, and appearance. If longevity is your main concern, Accoya is a fantastic choice. While it’s on the pricier side, it offers unmatched durability with a lifespan of over 50 years and a pale, smooth appearance that can be stained or left to weather naturally to a silvery-gray.</p><p>For a mid-range option, European Larch is a popular pick. With warm golden tones and a lifespan of 20-30 years, it’s a reliable and visually appealing choice that won’t break the bank. If you’re looking for something a little more luxurious, Iroko stands out. This rich, golden-brown hardwood lasts 40-50 years and brings a premium feel to any project, though it does come with a higher price tag.</p><p>For budget-conscious projects, Radiata Pine Thermowood and Redwood Thermowood are excellent options. Both are affordable and offer a lifespan of 15-25 years. Radiata Pine features light brown tones that darken over time, while Redwood has soft reddish-brown hues that weather to gray, offering slightly different aesthetics.</p><p>Finally, Western Red Cedar is a versatile option that strikes a balance between durability and beauty. With a lifespan of 30-40 years, its naturally rich reddish-brown tones fade gracefully to a silvery-gray, making it a favorite for both contemporary and classic designs.</p><p>Ultimately, your choice will depend on your priorities. For the best durability and performance, Accoya and Iroko are clear winners. For a warm, natural look, European Larch and Western Red Cedar deliver. And for those working within a budget, Radiata Pine and Redwood Thermowood provide excellent value without compromising style.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_collapsible_tabs_y4Tgr6": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_dDMTR7": {
+          "type": "question",
+          "settings": {
+            "title": "Shadow Gap",
+            "answer": "<p>Shadow profile boards create a unique visual effect by casting a shadow along the joints when installed, which enhances the geometric appearance of the exterior or interior surfaces. </p><p>This profile is especially popular in contemporary architecture for its ability to add depth and dimension to flat surfaces. </p><p>Its design is straightforward yet highly effective in creating striking visual patterns that are both modern and sophisticated.</p>",
+            "image_text": "<ul><li><strong>Visual Appeal</strong>: The angled cuts create dynamic shadows that give the surface a three-dimensional look, increasing visual interest.</li><li><strong>Durability:</strong> Designed for both interior and exterior use, its sturdy construction withstands environmental elements well.</li><li><strong>Contemporary Design:</strong> Ideal for modern architectural designs, the shadow profile contributes to a clean, avant-garde aesthetic.</li></ul><p></p>",
+            "image": "shopify://shop_images/Pressure_Treated_Redwood_Shadow_Gap_6.jpg",
+            "button": "Shop Shadow Gap Cladding",
+            "button_url": "shopify://collections/ruby-uk-contemporary-cedar-slatted-fences"
+          }
+        },
+        "question_LTEpaA": {
+          "type": "question",
+          "settings": {
+            "title": "Loglap",
+            "answer": "<p>Loglap cladding is designed to give the aesthetic appeal of a log cabin, featuring boards that have a curved profile to resemble logs. </p><p>This type of cladding is used primarily on exteriors and provides the appearance of solid logs while utilising less material, making it more cost-effective and easier to install. </p><p>Loglap offers a charming, traditional look and is often chosen for its robust, natural appearance.</p>",
+            "image_text": "<ul><li><strong>Rustic Appeal:</strong> Loglap mimics the traditional log cabin style, adding rustic charm to buildings without the need for full logs.</li><li><strong>Lightweight:</strong> Despite its robust appearance, loglap is easier to manipulate and install than actual logs.</li><li><strong>Insulation:</strong> The thickness and overlap of loglap boards contribute to better thermal insulation, enhancing energy efficiency.</li></ul><p></p>",
+            "image": "shopify://shop_images/Loglap_Treated_Redwood_119mm_x_21mm_4.jpg",
+            "button": "Shop Loglap Cladding",
+            "button_url": "shopify://products/loglap"
+          }
+        },
+        "question_aEPRgj": {
+          "type": "question",
+          "settings": {
+            "title": "Shiplap",
+            "answer": "<p>Shiplap siding consists of wooden boards designed to interlock in a way that forms a tight seal, which is particularly useful for exterior applications. The design features a rabbet or notch cut into the edges of each board, allowing them to overlap and create a distinct aesthetic that is both functional and visually appealing. </p><p>This style is popular for achieving a rustic, farmhouse look that is also weather-resistant and durable.</p>",
+            "image_text": "<ul><li><strong>Weather Resistance:</strong> The overlapping design ensures that water and wind are effectively blocked, making it ideal for harsh weather conditions.</li><li><strong>Ease of Installation:</strong> The interlocking design simplifies alignment and fixing, reducing installation time and complexity.</li><li><strong>Timeless Aesthetic:</strong> Shiplap provides a classic visual appeal that enhances the value and appearance of any home, adapting to many styles.</li></ul><p></p>",
+            "image": "shopify://shop_images/Shiplap_Treated_Redwood_150mm_x_15mm_3.jpg",
+            "button": "Shop Shiplap Cladding",
+            "button_url": "shopify://collections/shiplap-123"
+          }
+        },
+        "question_p4G36K": {
+          "type": "question",
+          "settings": {
+            "title": "Tongue & Groove",
+            "answer": "<p>Tongue and Groove wood consists of boards that are precisely milled to fit snugly together, featuring a protruding tongue on one edge and a groove on the opposite edge. This fit ensures tight joining and a seamless, stable surface that is highly valued in both flooring and wall paneling. </p><p>The interlocking nature of the boards provides superior durability and a refined look, making it an excellent choice for high-quality finishes in homes and commercial spaces.</p>",
+            "image_text": "<ul><li><strong>Smooth Surface:</strong> The interlocking joints hide fasteners, resulting in a clean, visually appealing finish without visible nails or screws.</li><li><strong>Strong Joints:</strong> The tongue and groove connection provides enhanced structural stability and strength across the joined boards.</li><li><strong>Versatility:</strong> Suitable for various applications like flooring, paneling, and ceilings, adapting easily to different design needs.</li></ul>",
+            "image": "shopify://shop_images/Tongue_Groove_Treated_Redwood_121mm_x_15mm_5.jpg",
+            "button": "Shop Tongue & Groove Cladding",
+            "button_url": "shopify://collections/tongue-and-groove-timber-cladding"
+          }
+        },
+        "question_nqccyr": {
+          "type": "question",
+          "settings": {
+            "title": "Planed Square Edge",
+            "answer": "<p>Planed Square Edge timber is precisely machined to produce smooth, square-edged boards that are ideal for a wide range of construction and carpentry tasks. </p><p>These boards are extremely versatile due to their uniform dimensions and smooth finish, making them perfect for projects requiring a high level of precision and a clean, minimalist aesthetic. </p><p>This type of wood is often used where the integrity and aesthetics of the wood are paramount.</p>",
+            "image_text": "<ul><li><strong>Precise Construction:</strong> The uniform and smooth edges facilitate precise cuts and fit, essential for detailed and fine carpentry work.</li><li><strong>Minimalist Look:</strong> The square, smooth edges offer a clean, modern aesthetic that complements a minimalist design style.</li><li><strong>Sleek Finish:</strong> Ideal for projects that demand a polished finish and precise angular corners, enhancing the overall sharpness of the design.</li></ul>",
+            "image": "shopify://shop_images/Home-GrownCedarPSE145mmx19mm_2_1296x_f10199f0-3dfa-4543-ae96-4678d4adb5ce.webp",
+            "button": "Shop PSE Cladding",
+            "button_url": "shopify://collections/planed-square-edge-cladding"
+          }
+        },
+        "question_n3cTgX": {
+          "type": "question",
+          "settings": {
+            "title": "Waney Edge",
+            "answer": "<p>Waney Edge Cladding features a half-machined profile, with one side being planed square and the other left as the natural bark profile.</p><p>These boards are very versatile in nature, however are usually reserved for more rustic applications.  </p>",
+            "image_text": "<ul><li><strong>Natural Edge:</strong> Waney edge boards retain the natural curve of the tree's bark, giving each piece a unique and irregular shape. This creates a natural, handcrafted appearance.</li><li><strong>Minimalist Look:</strong> Perfect for countryside or rural settings, waney edge cladding evokes a traditional, rustic feel. It is often used for barns, garden buildings, and heritage properties.</li></ul>",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_dDMTR7",
+        "question_LTEpaA",
+        "question_aEPRgj",
+        "question_p4G36K",
+        "question_nqccyr",
+        "question_n3cTgX"
+      ],
+      "settings": {
+        "title": "Cladding Profiles",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_bJMWgh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_workshop-5.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "In-House Machining",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "multi_column_yTMbby": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_yiQQ9d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/redwoodcornertrim_43daeb20-4877-4c72-a8ec-5b42a77e77f8.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Corner Trim",
+            "text": "<p>For the finishing touch to your cladding project, it may be worth considering also purchasing corner trim.</p><p>It also serves several important functions in both residential and commercial construction such as hiding seams and imperfections, aesthetics and structural integrity.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_T94DE3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/screwgrey_c0fb11a8-9551-4f7f-ae7f-c2a4ca0efe2b.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Fixings",
+            "text": "<p>To fit the cladding, you will need nails or screws. You will need to ensure that the fixings are stainless steel, to avoid any damage to the wood due to rust.</p><p>We sell both <a href=\"/products/50mm-nails\" title=\"Nails Stainless Steel\">nails</a> and <a href=\"/products/tongue-tite-plus-screws\" title=\"Cladding Plus Screws (200)\">screws</a>, which are stainless steel.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_gBrpCx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "UV Protection",
+            "text": "<p>No matter what profile, timber or finish you decide on for your cladding, we always recommend treating your cladding with UV Protection at least every 6-12 months. This is because continued, unprotected exposure to the elements can cause issues such as shakes and warping - UV Protection will protect your timber against this.</p><p>We recommend <a href=\"/collections/osmo-cladding-stains\" title=\"OSMO UV Protection Oil\">Osmo Oil</a>, which is available in types Clear, Larch or Cedar!</p>",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yiQQ9d",
+        "text_block_T94DE3",
+        "text_block_gBrpCx"
+      ],
+      "settings": {
+        "title": "Things to Consider Purchasing with our Cladding",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "custom_image_height": false,
+        "image_height": 270,
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "custom_collapsible_tabs_bLR7N4": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_NiR7kc": {
+          "type": "question",
+          "settings": {
+            "title": "How long does timber cladding last?",
+            "answer": "<p>With proper care and maintenance, timber cladding can last anywhere from 15 to 30 years+, depending on the type of wood used and the exposure to weather conditions.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_6idiqK": {
+          "type": "question",
+          "settings": {
+            "title": "Do I need to treat timber cladding?",
+            "answer": "<p>While it is optional, treating timber cladding with a preservative helps to protect it from weathering, UV damage, rot, and insects. Regular maintenance treatments are recommended to prolong the wood's lifespan.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_iDfDqU": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between horizontal and vertical timber cladding?",
+            "answer": "<p>Horizontal cladding creates a traditional look and allows water to run off easily, while vertical cladding provides a more contemporary design. Both options offer good protection, but the choice depends on aesthetic preferences.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_wXLRDf": {
+          "type": "question",
+          "settings": {
+            "title": "What is the best wood for timber cladding?",
+            "answer": "<p>Cedar and Larch are commonly used for cladding due to their natural resistance to rot, decay, and discolouration however we offer a range of timbers, each with their own pros and cons.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_rKH47z": {
+          "type": "question",
+          "settings": {
+            "title": "Does timber cladding provide good insulation?",
+            "answer": "<p>Yes, timber cladding offers excellent insulation properties, both for heat and sound. When combined with additional insulation materials, it helps improve the energy efficiency of a building.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_ADKrUt": {
+          "type": "question",
+          "settings": {
+            "title": "Do you offer bulk discounts?",
+            "answer": "<p>We offer discounts on bulk purchases of cladding! The discount will be listed beneath the price and will also appear once added to your basket.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_HkQDzU": {
+          "type": "question",
+          "settings": {
+            "title": "Is timber cladding fire-resistant?",
+            "answer": "<p>Untreated timber cladding is not fire-resistant. However, fire-retardant treatments, such as <a href=\"/products/zero-flame\" title=\"ZeroFlame Fire Retardant Treatment\">Zero Flame</a>, are available for timber cladding, which can improve its fire performance</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_gYBpph": {
+          "type": "question",
+          "settings": {
+            "title": "Is timber cladding waterproof?",
+            "answer": "<p>While timber itself is not waterproof, when treated with a wood preservative and installed properly, it provides a protective barrier against rain. Adequate sealing and overlapping boards help keep moisture out.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_npyH4L": {
+          "type": "question",
+          "settings": {
+            "title": "Does your cladding arrive with fixings?",
+            "answer": "<p>No, fixings would need to purchased with the cladding.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_NiR7kc",
+        "question_6idiqK",
+        "question_iDfDqU",
+        "question_wXLRDf",
+        "question_rKH47z",
+        "question_ADKrUt",
+        "question_HkQDzU",
+        "question_gYBpph",
+        "question_npyH4L"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_gallery_hhWJHq": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_mm47aX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rubygroup_house_cladding-5.jpg",
+            "enlarge_image": false,
+            "link": "shopify://pages/guide-to-maintaining-caring-for-cladding",
+            "title": "Maintenance Guide",
+            "text": "<p>Learn expert tips and advice on how to properly care for your cladding</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_cDVRXg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rubygroup_house_cladding-7.jpg",
+            "enlarge_image": false,
+            "link": "",
+            "title": "Installation Guide",
+            "text": "<p>Installing yourself? Follow our easy, step-by-step install guide</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_9iygGN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/T_G_Redwood_1.webp",
+            "enlarge_image": false,
+            "link": "shopify://blogs/ruby-tips",
+            "title": "Blogs",
+            "text": "<p>Stay up to date with the latest trends with our blogs</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_QkYUaN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_6.png",
+            "enlarge_image": false,
+            "link": "",
+            "title": "Customer Service",
+            "text": "<p>Not found the answer you're looking for? Contact our friendly Sales team</p>",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_mm47aX",
+        "image_cDVRXg",
+        "image_9iygGN",
+        "image_QkYUaN"
+      ],
+      "settings": {
+        "grid": 2,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    },
+    "featured_collection_tF6ALP": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our Cladding",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "cladding",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_AyNXky",
+    "main",
+    "rich_text_CpWVPJ",
+    "rich_text_n6QT4q",
+    "custom_liquid_iUcqKw",
+    "rich_text_FUFwPG",
+    "custom_collapsible_tabs_y4Tgr6",
+    "image_with_text_overlay_bJMWgh",
+    "multi_column_yTMbby",
+    "custom_collapsible_tabs_bLR7N4",
+    "image_gallery_hhWJHq",
+    "featured_collection_tF6ALP"
+  ]
+}

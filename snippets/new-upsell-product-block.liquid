@@ -1,0 +1,20 @@
+{{ product.title }} --
+<div
+  class="product-block {{ grid_class | default: 'grid-flex__item one-quarter small-down--one-half' }}{% if quickbuy %} js-contains-quickbuy{% endif %} {% if product.tags contains 'hidden' %} hidden{% endif %}"
+  {% if animate %}
+    data-cc-animate="{{ animate_style }}"
+    {%- if animate > 0 %} data-cc-animate-delay="{{ animate | times: 0.07 }}s"{% endif -%}
+  {% endif %}
+>
+  {%- if quickbuy -%}
+          <div class="product-block__quicklook-btn-container md-down-hidden">
+            <a
+              class="product-block__quicklook-btn btn--quicklook btn btn--primary js-quickbuy-button"
+              href="{{ product.url }}"
+            >
+              {{- 'products.quickbuy.quick_buy' | t -}}
+            </a>
+            {% render 'quick-buy-placeholder', product: product %}
+          </div>
+        {%- endif -%}
+</div>

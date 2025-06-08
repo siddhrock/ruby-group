@@ -1,0 +1,64 @@
+
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+
+<div class='twentytwenty-container section-{{ section.id }}-padding'>
+
+    <img src='{{ section.settings.image_1 | img_url:'1600x' }}' />
+    <img src='{{ section.settings.image_2 | img_url:'1600x' }}' />
+
+</div>
+{% schema %}
+{
+  "name": "Image comparision",
+  "class": "img_comparision",
+  "settings": [
+    {
+      "id": "image_1",
+      "type": "image_picker",
+      "label": "Select Image 1"
+    },
+    {
+      "id": "image_2",
+      "type": "image_picker",
+      "label": "Select Image 2"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image comparision"
+    }
+  ]
+}
+{% endschema %}

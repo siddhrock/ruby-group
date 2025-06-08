@@ -1,0 +1,33 @@
+
+{%  if type == 'trust_icon' %}
+
+  <div x-on:click="modalOpen = '{{ id }}'" class="flex flex-row flex-nowrap items-center justify-start cursor-pointer">
+    <span class="mr-4">
+      {{- 'icon-trust.svg' | inline_asset_content -}}
+    </span>
+    <span class="underline">{{ title }}</span>
+  </div>
+
+{% else %}
+  <div x-on:click="modalOpen = '{{ id }}'" class="bg-light-grey flex flex-row justify-between items-center p-4 mt-4 cursor-pointer">
+    <div>{{ title }}</div>
+    <div class="w-5 h-5">{{- 'icon-plus.svg' | inline_asset_content -}}</div>
+  </div>
+{% endif %}
+
+
+
+<div 
+  x-cloak
+  class="fixed top-0 left-0 -translate-x-full bg-white w-full max-w-[600px] h-full z-[9999999999999] transition-transform duration-300 ease-in-out"
+  :class="modalOpen === '{{ id }}' ? '!translate-x-0' : '!-translate-x-full'"
+>   
+    <div class="h-full overflow-auto scrollbar relative">
+      <div class="absolute top-8 right-4">
+        <div x-on:click="modalOpen = null" class="w-7 h-7 cursor-pointer">{{- 'icon-close.svg' | inline_asset_content -}}</div>
+      </div>
+      <div class="p-8" rel="rich_text">
+        {{ content }}
+      </div>
+    </div>
+</div>

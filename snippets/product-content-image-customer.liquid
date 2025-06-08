@@ -1,0 +1,28 @@
+<div class="container mb-8 md:mb-16">
+  <div class="bg-dark-green rounded-[20px] w-full md:max-w-7xl mx-auto flex gap-6 md:gap-0 items-center p-7 md:p-0">
+    <div class="w-full md:w-6/12 md:p-8 lg:p-12">
+        {% if metaobject.image != blank %}
+        <div class="relative overflow-hidden pt-[70%]">
+            <img src="{{ metaobject.image | image_url: width:400 }}" loading="lazy" alt="{{ metaobject.title }}" 
+                class="absolute inset-0 w-full h-full rounded-l-none rounded-r-[225px] md:rounded-[225px] object-fill border-solid border-[10px] border-[#BFD0AD]" 
+                width="{{ metaobject.image.value.width }}" height="{{ metaobject.image.value.height }}"
+            />
+        </div>
+        {% endif %}
+    </div>
+    <div class="w-full md:w-6/12 flex flex-col md:items-start md:text-left md:py-8 md:pr-8 lg:py-12 lg:pr-12">
+      {% if metaobject.title != blank %}
+        <h2 class="font-body text-sm md:text-base mb-2 font-light text-white leading-8">{{ metaobject.title }}</h2>
+      {% endif %}
+      {% if metaobject.headline != blank %}
+        <p class="font-title text-2xl md:text-3xl mb-2 font-black text-white">{{ metaobject.headline }}</p>
+      {% endif %}
+      {% if metaobject.description != blank %}
+        <div class="font-body text-white text-sm md:text-base font-normal leading-normal mb-5">{{ metaobject.description | metafield_tag}}</div>
+      {% endif %}
+      {% if metaobject.cta_button_text != blank %}
+        <a href="{{ metaobject.cta_button_url }}" class="btn btn-primary w-fit text-sm uppercase font-semibold rounded-[100px]">{{ metaobject.cta_button_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</div>

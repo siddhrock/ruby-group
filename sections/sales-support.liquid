@@ -1,0 +1,641 @@
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+{%- if section.settings.enable_custom_colors -%}
+  {%- assign bg = section.settings.gradient_bg | default: section.settings.color_bg -%}
+{%- endif -%}
+<div class="section-{{ section.id }}-padding cstm_multi_column">
+  <div class="section-{{ section.id }} relative container {% if bg %}container--no-mobile-padding{% endif %}">
+    {% style %}
+      {%- for block in section.blocks -%}
+        {%- if block.settings.image_width != 100 %}
+          .section-{{ section.id }} #block-id-{{ block.id }} .text-column__image {
+            margin-left: {%- if section.settings.text_alignment == 'left' %}0{% else %}auto{% endif %};
+            margin-right: {%- if section.settings.text_alignment == 'right' %}0{% else %}auto{% endif %};
+            max-width: {{ block.settings.image_width }}%;
+          }
+        {%- endif -%}
+      {%- endfor -%}
+
+      {% if section.settings.enable_custom_colors %}
+        {% if bg %}
+        .section-{{ section.id }} .text-columns-section {
+          background: {{ bg }};
+        }
+        {% endif %}
+
+        .section-{{ section.id }} .text-columns-section {
+          color: {{ section.settings.color_text }};
+        }
+
+        .section-{{ section.id }} .text-columns-section .rte a,
+        .section-{{ section.id }} .text-columns-section .standard-link {
+          color: inherit;
+        }
+
+        .section-{{ section.id }} .large-title,
+        .section-{{ section.id }} .giant-title,
+        .section-{{ section.id }} .text-column__title {
+          color: {{ section.settings.color_title }};
+        }
+      {% endif %}
+    {% endstyle %}
+    {% if section.settings.enable_custom_width %}
+      {% assign custom_width = section.settings.custom_width %}
+    {% endif %}
+    <div
+      style="max-width: {{ custom_width }}px;"
+      class="text-columns-section {% if bg %}section global-border-radius global-border-radius--not-extra-small container{% endif %} page-width"
+    >
+      {% if section.settings.title != blank %}
+        <h2
+          class="{% if section.settings.enlarge_title %}giant-title{% else %}large-title{% endif %} text-center row text-3xl font-title font-black leading-normal"
+          data-cc-animate
+        >
+          {{ section.settings.title | escape }}
+        </h2>
+      {% endif %}
+      {% if section.settings.description != blank %}
+        <div
+          class="text-center row descrition"
+          data-cc-animate
+        >
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+      {%- liquid
+        if section.blocks.size == 1
+          assign grid_item_class = 'one-whole'
+        elsif section.blocks.size == 2
+          assign grid_item_class = 'one-half'
+        elsif section.blocks.size == 3
+          assign grid_item_class = 'one-third'
+        else
+          assign grid_item_class = 'one-quarter  medium-down--one-half'
+        endif
+      -%}
+
+      <div class="{% if section.blocks.size > 1 %}grid-flex flex {% endif %}large-row-over text-{{ section.settings.text_alignment }}">
+        {% for block in section.blocks %}
+          <div
+            id="block-id-{{ block.id }}"
+            class="{% if section.blocks.size == 1 %}reading-width reading-width--no-mobile-padding{% else %}grid-flex__item{% endif %} {{ grid_item_class }} small-down--one-whole pb-5 lg:flex lg:flex-col"
+            {{ block.shopify_attributes }}
+            data-cc-animate="fade-in-up"
+            data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"
+          >
+            <div class="column_single flex justify-start lg:justify-center relative bg-light-grey rounded-sm h-auto lg:grow">
+              {% if block.settings.enable_image %}
+                <div class="text-column__image global-border-radius large-row-under lg:absolute lg:top-0 lg:left-1/2 m-0 w-[70px] h-[70px] lg:w-[90px] lg:h-[90px] bg-light-grey lg:!rounded-full lg:-translate-y-2/4 lg:-translate-x-2/4">
+                  {%- if block.settings.link != blank -%}
+                    <a class="block hover-images" href="{{ block.settings.link }}">
+                      <div class="image-one">
+                  {%- endif -%}
+
+                  {%- if block.settings.image == blank -%}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- else -%}
+                    {% render 'responsive-image', image: block.settings.image %}
+                  {%- endif -%}
+
+                  {%- if block.settings.link != blank -%}
+                    </div>
+                    </a>
+                  {% endif -%}
+                </div>
+              {% endif %}
+
+              {% if block.settings.enable_icon %}
+                <div
+                  class="text-column__icon"
+                  style="--icon-size: {{ block.settings.icon_size }}px; {% if block.settings.icon_color %}color: {{ block.settings.icon_color }}{% endif %}"
+                >
+                  {% render 'icon', icon: block.settings.icon, size: 'custom-size' %}
+                </div>
+              {% endif %}
+
+              <div class="title_main text-left lg:!text-center lg:flex lg:flex-col">
+                {% if block.settings.title != blank %}
+                  <h3 class="!text-sm md:!text-lg !font-medium leading-normal text-column__title row {% if block.settings.enlarge_title %}large-title{% else %}small-title{% endif %} lg:grow !mb-1 lg:!mb-2">
+                    {{ block.settings.title }}
+                  </h3>
+                {% endif %}
+
+                {% if block.settings.text != blank %}
+
+                  {% if block.settings.text contains '@' %}
+                    {% assign email = block.settings.text | strip_html %}
+                    {% assign href='mailto:' | append: email %}
+                  {% elsif block.settings.text contains 'chat' or block.settings.text contains 'Chat' %}
+                    {% assign href='javascript:void(Tawk_API.toggle())' %}
+                  {% else %}
+                    {% assign href= blank %}
+                  {% endif %}
+
+                  <div class="text-column__text text-ruby-red rte {% if block.settings.enlarge_text %}large-text{% endif %} lg:grow">
+                    
+                    {% if block.settings.type == 'whatsapp' %}
+                      <a class="underline" href="https://api.whatsapp.com/send?phone=447474126687">Speak to a real expert</a>
+                    {% elsif block.settings.type == 'email' %}
+                      {% assign email = block.settings.text | strip_html %}
+                      {% assign href='mailto:' | append: email %}
+                      <a class="underline" href="{{ href }}">{{ block.settings.text }}</a>
+                    {% elsif block.settings.type == 'chat' %}
+                      <a class="underline" href="javascript:void(Tawk_API.toggle())">Speak to a real expert</a>
+                    {% elsif block.settings.type == 'phone' %}
+                      {% assign phone = block.settings.text | strip_html %}
+                      <a class="underline" href="tel:{{ phone | replace: ' ' , '' }}">{{ block.settings.text }}</a>
+                    {% else %}
+                      {{ block.settings.text }}
+                    {% endif %}
+                    
+                  </div>
+                {% endif %}
+
+                {% if block.settings.button_label != blank %}
+                  <div class="btn-row">
+                    <a
+                      class="text-column__link {% if section.settings.url_style == 'button_1' %}btn btn--small btn--primary{% elsif section.settings.url_style == 'button_2' %}btn btn--small btn--secondary{% else %}standard-link{% endif %}"
+                      href="{{ block.settings.button_link }}"
+                    >
+                      {{ block.settings.button_label }}
+                    </a>
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+            {% if block.settings.availability_text != blank %}
+              <div class="support_main">
+                <div class="text-column__text p-3.5 bg-lighter-green flex items-center gap-4 justify-start">
+                  {% assign currentTime = 'now' | date: '%k' | plus: 0 %} 
+                  {% if currentTime >= block.settings.closeTime or currentTime < block.settings.openTime %}
+                    {{- 'icon-offline.svg' | inline_asset_content -}}
+                    <span class="text-black text-xs font-normal">{{ block.settings.closed_text }}</span>
+                  {% else %}
+                    {{- 'icon-online.svg' | inline_asset_content -}}
+                    <span class="text-black text-xs font-normal">{{ block.settings.availability_text }}</span>
+                  {% endif %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Sales Support",
+  "class": "section-sales_support bg-white",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Multi-column"
+    },
+    {
+      "type": "checkbox",
+      "id": "enlarge_title",
+      "label": "Enlarge heading",
+      "default": false
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Description</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Column content alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "radio",
+      "id": "url_style",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "button_1",
+          "label": "Button - primary"
+        },
+        {
+          "value": "button_2",
+          "label": "Button - secondary"
+        },
+        {
+          "value": "link_style",
+          "label": "Link"
+        }
+      ],
+      "default": "button_1"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_width",
+      "label": "Enable custom width",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "custom_width",
+      "min": 0,
+      "max": 1600,
+      "step": 20,
+      "unit": "px",
+      "label": "Custom width",
+      "default": 1000
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_colors",
+      "label": "Enable custom colors",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "color_title",
+      "label": "Heading color"
+    },
+    {
+      "type": "color",
+      "id": "color_text",
+      "label": "Text color"
+    },
+    {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Background color"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_bg",
+      "label": "Background gradient",
+      "info": "If set, replaces background color"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 0
+    }
+  ],
+  "max_blocks": 4,
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "Column",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Image"
+        },
+        {
+          "id": "enable_image",
+          "type": "checkbox",
+          "label": "Enable image",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "min": 10,
+          "max": 100,
+          "step": 5,
+          "label": "Image width",
+          "unit": "%",
+          "default": 100
+        },
+        {
+          "type": "header",
+          "content": "Icon"
+        },
+        {
+          "id": "enable_icon",
+          "type": "checkbox",
+          "label": "Enable icon",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "default": "award",
+          "options": [
+            {
+              "value": "award",
+              "label": "Award"
+            },
+            {
+              "value": "box",
+              "label": "Box"
+            },
+            {
+              "value": "briefcase",
+              "label": "Briefcase"
+            },
+            {
+              "value": "calendar-days",
+              "label": "Calendar days"
+            },
+            {
+              "value": "check",
+              "label": "Check"
+            },
+            {
+              "value": "check-circle",
+              "label": "Check circle"
+            },
+            {
+              "value": "clock",
+              "label": "Clock"
+            },
+            {
+              "value": "credit-card",
+              "label": "Credit card"
+            },
+            {
+              "value": "dollar-sign",
+              "label": "Dollar sign"
+            },
+            {
+              "value": "eye",
+              "label": "Eye"
+            },
+            {
+              "value": "feather",
+              "label": "Feather"
+            },
+            {
+              "value": "gift",
+              "label": "Gift"
+            },
+            {
+              "value": "heart",
+              "label": "Heart"
+            },
+            {
+              "value": "help-circle",
+              "label": "Help circle"
+            },
+            {
+              "value": "leaf",
+              "label": "Leaf"
+            },
+            {
+              "value": "lock",
+              "label": "Lock"
+            },
+            {
+              "value": "map-pin",
+              "label": "Map pin"
+            },
+            {
+              "value": "menu",
+              "label": "Menu"
+            },
+            {
+              "value": "message-circle",
+              "label": "Message circle"
+            },
+            {
+              "value": "package",
+              "label": "Package"
+            },
+            {
+              "value": "percent",
+              "label": "Percent"
+            },
+            {
+              "value": "plane",
+              "label": "Plane"
+            },
+            {
+              "value": "tag",
+              "label": "Tag"
+            },
+            {
+              "value": "ruler",
+              "label": "Ruler"
+            },
+            {
+              "value": "scissors",
+              "label": "Scissors"
+            },
+            {
+              "value": "search",
+              "label": "Search"
+            },
+            {
+              "value": "shirt",
+              "label": "Shirt"
+            },
+            {
+              "value": "shrub",
+              "label": "Shrub"
+            },
+            {
+              "value": "shopping-bag",
+              "label": "Shopping bag"
+            },
+            {
+              "value": "shopping-cart",
+              "label": "Shopping cart"
+            },
+            {
+              "value": "star",
+              "label": "Star"
+            },
+            {
+              "value": "truck",
+              "label": "Truck"
+            },
+            {
+              "value": "undo",
+              "label": "Undo"
+            },
+            {
+              "value": "user",
+              "label": "User"
+            },
+            {
+              "value": "vegan",
+              "label": "Vegan"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "icon_size",
+          "min": 20,
+          "max": 150,
+          "step": 2,
+          "label": "Icon width",
+          "unit": "px",
+          "default": 48
+        },
+        {
+          "type": "color",
+          "id": "icon_color",
+          "label": "Icon color"
+        },
+        {
+          "type": "header",
+          "content": "Text"
+        },
+        {
+          "type": "select",
+          "id": "type",
+          "label": "Section Type",
+          "options": [
+            {
+              "value": "phone",
+              "label": "Phone"
+            },
+            {
+              "value": "chat",
+              "label": "Chat"
+            },
+            {
+              "value": "whatsapp",
+              "label": "Whatsapp"
+            },
+            {
+              "value": "email",
+              "label": "Email"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Add a title or tagline"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_title",
+          "label": "Enlarge heading",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_text",
+          "label": "Enlarge text",
+          "default": false
+        },
+        {
+          "type": "number",
+          "id": "openTime",
+          "label": "openTime add in 24-hour format",
+          "default": 7
+        },
+        {
+          "type": "number",
+          "id": "closeTime",
+          "label": "closeTime add in 24-hour format",
+          "default": 17
+        },
+        {
+          "type": "richtext",
+          "id": "availability_text",
+          "label": "Availability Text",
+          "default": "<p>7 days a week, 7am - 10pm</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "closed_text",
+          "label": "Closed Text",
+          "default": "<p>Lines Closed</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Sales Support",
+      "settings": {
+      },
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "aside"
+    ]
+  }
+}
+{% endschema %}

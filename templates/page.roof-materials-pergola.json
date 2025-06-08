@@ -1,0 +1,363 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/ruby-2025-pergola-update-3_1_d66f221a-3d40-4301-8098-2951230d6ea8.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "Choosing the Perfect Roof for Your New Pergola",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_CpWVPJ": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>When designing the perfect pergola for your outdoor space, choosing the right roofing material is key to achieving both style and practicality. At Ruby UK, we offer a range of roofing options to suit every taste and budget. From clear Corrapol roofs that let in plenty of natural light, to stylish Katepal shingles with their unique design, all our high-quality materials ensure your pergola not only looks great, but stands up to the elements. Read on to discover the best roofing materials for your next project!</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "custom_collapsible_tabs_y4Tgr6": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_dDMTR7": {
+          "type": "question",
+          "settings": {
+            "title": "Cedar Shingle Roof",
+            "answer": "",
+            "image_text": "<p>The natural oils in cedar make it naturally resistant to rot, decay, and insect damage, ensuring a long-lasting and beautiful finish.</p><p>With their warm, rich tones and distinctive texture, cedar shingles create a stunning, eye-catching roof that complements both traditional and modern garden styles. </p><p>Plus, they age gracefully to a beautiful silvery-grey finish over time, adding character to your pergola.</p>",
+            "image": "shopify://shop_images/cedarsingleroof_4d4d659b-1dd8-4021-aaa0-1441602c92ff.jpg",
+            "button": "Shop Cedar Shingle Pergola's",
+            "button_url": "shopify://collections/shingle-roof-pergola"
+          }
+        },
+        "question_LTEpaA": {
+          "type": "question",
+          "settings": {
+            "title": "Katepal Shingle Roof",
+            "answer": "",
+            "image_text": "<p>Made from high-quality bitumen, these shingles offer exceptional durability and weather resistance, keeping your pergola sheltered from the elements.</p><p>One of the standout features of these roof shingles, is the wide variety of natural, yet modern colours that our Katepal range is available in.</p>",
+            "image": "shopify://shop_images/greenKL_e3543bc0-ee7f-4a16-b178-c87dd9287dae_1.jpg",
+            "button": "Shop Katepal Roof Pergola's",
+            "button_url": "shopify://collections/katepal-shingle-pergola"
+          }
+        },
+        "question_aEPRgj": {
+          "type": "question",
+          "settings": {
+            "title": "Featheredge Roof",
+            "answer": "",
+            "image_text": "<p>The classic featheredge design offers a traditional and durable roofing solution for your outdoor space. </p><p>Crafted from high-quality, pressure-treated timber, the overlapping featheredge boards create a sturdy and weather-resistant roof that effectively sheds rain. </p><p>Ideal for those seeking a practical yet stylish pergola cover, the featheredge roof provides excellent shelter while blending seamlessly into all garden settings.</p>",
+            "image": "shopify://shop_images/LeanTo-FeatheredgeRedwood-Studio2048_e4d87a6f-4bcd-4ee3-a373-29c39fb9158b.png",
+            "button": "Shop Featheredge Roof Pergola's",
+            "button_url": "shopify://collections/featheredge-roof-pergola"
+          }
+        },
+        "question_p4G36K": {
+          "type": "question",
+          "settings": {
+            "title": "Corrapol Roof",
+            "answer": "",
+            "image_text": "<p>Made from high-quality, UV-resistant polycarbonate, Corrapol roofing provides exceptional protection against rain, wind, and harmful UV rays while allowing natural light to filter through.</p><p>This lightweight and robust roofing option is perfect for creating a bright, sheltered space without sacrificing visibility or ambiance. </p><p>Whether you're looking to cover a seating area, hot tub, or outdoor dining space, the Corrapol roof offers a low-maintenance and long-lasting solution.</p>",
+            "image": "shopify://shop_images/3x3ApexCoropolPVCRoof_Lifestyle_Day2048_6e09402e-efd7-4028-8b55-ce26d05a187a.png",
+            "button": "Shop Corrapol Roof Pergola's",
+            "button_url": "shopify://collections/corrapol-roofed-pergola"
+          }
+        },
+        "question_nqccyr": {
+          "type": "question",
+          "settings": {
+            "title": "Cedar Featheredge Roof",
+            "answer": "",
+            "image_text": "<p>Made from premium-grade cedar, the featheredge boards overlap to create a rustic appearance while providing excellent water runoff and weather resistance.</p><p>Cedar’s natural oils make it highly resistant to rot, decay, and insect damage, ensuring long-lasting quality and minimal maintenance. </p><p>Over time, the rich, warm tones of cedar gracefully age to a stunning silvery-grey finish, adding timeless character to your outdoor space.</p>",
+            "image": "shopify://shop_images/Oak_Apex_CedarFeatheredge_Studio_4fd601a1-4246-44f2-98ba-775280745967.png",
+            "button": "Shop Cedar Featheredge Roof Pergola's",
+            "button_url": "shopify://collections/cedar-featheredge-pergola"
+          }
+        }
+      },
+      "block_order": [
+        "question_dDMTR7",
+        "question_LTEpaA",
+        "question_aEPRgj",
+        "question_p4G36K",
+        "question_nqccyr"
+      ],
+      "settings": {
+        "title": "Ruby's Roofing Options",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_bJMWgh": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_workshop-5.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "In-House Machining",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "image_with_text_overlay_HNEVEE": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/ruby-2025-pergola-update-14_1.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "Handmade in Devon",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "faq_header_WYMiLU": {
+      "type": "faq-header",
+      "settings": {
+        "title": "FAQ's",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": false,
+        "index_heading": "How can we help?"
+      }
+    },
+    "custom_collapsible_tabs_bLR7N4": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_NiR7kc": {
+          "type": "question",
+          "settings": {
+            "title": "Do you make bespoke pergolas?",
+            "answer": "<p>We absolutely do! Just like our gates and fencing, we can make completely bespoke pergolas. If you'd like a quote for your measurements, please contact our Sales team on 01409 231 763 or <a href=\"mailto:sales@ruby-group.co.uk\">sales@ruby-group.co.uk</a>.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_6idiqK": {
+          "type": "question",
+          "settings": {
+            "title": "Does the pergola arrive fully assembled?",
+            "answer": "<p>The Gazebo does not arrive fully assembled, however we have created in-depth manuals to guide you on assembly - so whether you're a keen DIY enthusiast or a professional fitter, you can construct our pergolas yourself. You can find these manuals on the specification table on each listing.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_iDfDqU": {
+          "type": "question",
+          "settings": {
+            "title": "Are fixings included?",
+            "answer": "<p>All the fixings needed for installation are included in the delivery of your pergola parts!</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_wXLRDf": {
+          "type": "question",
+          "settings": {
+            "title": "Can I paint my pergola?",
+            "answer": "<p>You can! You can only use water-based paint on our pergolas, however, and you will need to ensure the pergola is as dry as possible before painting. We do recommend applying UV protection prior to painting also.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_rKH47z": {
+          "type": "question",
+          "settings": {
+            "title": "What maintenance is required?",
+            "answer": "<p>We highly recommend treating your pergola at least every 6 months with Osmo Oil, to protect your gazebo against the elements and against decay. We also recommend checking your pergola every so often and removing any built-up dirt and grime.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_ADKrUt": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>The lead time for our pergola's is currently 3-9 working days.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_NiR7kc",
+        "question_6idiqK",
+        "question_iDfDqU",
+        "question_wXLRDf",
+        "question_rKH47z",
+        "question_ADKrUt"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_tF6ALP": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our Pergola's",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "pergola",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_AyNXky",
+    "main",
+    "rich_text_CpWVPJ",
+    "custom_collapsible_tabs_y4Tgr6",
+    "image_with_text_overlay_bJMWgh",
+    "image_with_text_overlay_HNEVEE",
+    "faq_header_WYMiLU",
+    "custom_collapsible_tabs_bLR7N4",
+    "featured_collection_tF6ALP"
+  ]
+}

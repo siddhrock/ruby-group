@@ -1,0 +1,8 @@
+package.json
+package-lock.json
+__pages
+__graphql
+node_modules
+postcss.config.js
+tailwind.config.js
+README.md

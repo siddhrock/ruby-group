@@ -1,0 +1,258 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "center"
+      }
+    },
+    "174126142190346b31": {
+      "type": "apps",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "new_product_img_text_metafield_RpdqcF": {
+      "type": "new_product_img_text_metafield",
+      "settings": {
+        "image": "shopify://shop_images/Untitled_design_-_2025-03-06T114702.793.png",
+        "image_size": "30",
+        "image_position": "left",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_xTQjfy": {
+      "type": "rich-text",
+      "settings": {
+        "title": "About Us",
+        "text": "<p>At Ruby UK, we are a proud family-run business with a strong commitment to quality craftsmanship, and sustainable practices. Based in the Devon countryside, our workshops are where our skilled team meticulously handcrafts every Ruby-Made product with care and precision.</p><p>For over 25 years, we’ve been dedicated to creating high-quality timber products, from sheds and pergolas to planters and driveway gates—each one made with care and precision. Sustainability is important in everything we do, ensuring that our materials are responsibly sourced and our products built to last.</p><p>Need something bespoke? No problem! Our team can craft made-to-measure solutions to suit your exact needs - simply explore our bespoke options or get in touch via phone or online chat.</p><p>Alongside our handcrafted range, we also supply an extensive selection of cladding, timber, and decking, all available for fast, fully tracked delivery straight to your door.*</p><p>Explore our collection - we're sure you'll find the perfect addition to your outdoor space. </p><p>*See our <a href=\"#\">Delivery page</a> for terms & conditions/exclusions.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "video_VzLjL9": {
+      "type": "video",
+      "settings": {
+        "video_shopify": "shopify://files/videos/Redwood-highamptongate-final (4).mp4",
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_title": "Behind the Build",
+        "overlay_text": "Watch our skilled team handcraft quality gates in our Devon workshops",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false
+      }
+    },
+    "custom_multi_column_7Kgzw9": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_ccLJcp": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Made_To_Measure_-_Green.pdf.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p> Need a custom size? No problem. Our made-to-measure service ensures a perfect fit, whether it’s for gates, cladding, or bespoke timber projects.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_Yrxwqr": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Manufactured_in_Devon_-_Green.pdf.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>Crafted by our skilled team in the heart of Devon, every product is made with care, expertise, and sustainably sourced timber, supporting British craftsmanship.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_T3paAe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Machined_In-House-_Green.pdf.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>From cutting to finishing, every piece of timber is precision-machined in our own workshops, ensuring consistency, quality, and attention to detail at every stage.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_ccLJcp",
+        "text_block_Yrxwqr",
+        "text_block_T3paAe"
+      ],
+      "settings": {
+        "title": "Why Choose Ruby?",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_overlay_B3g4YU": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/meet_the_team_4.png",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "image_with_text_overlay_6cqdni": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/meet_the_team_5.png",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "174126142190346b31",
+    "new_product_img_text_metafield_RpdqcF",
+    "rich_text_xTQjfy",
+    "video_VzLjL9",
+    "custom_multi_column_7Kgzw9",
+    "image_with_text_overlay_B3g4YU",
+    "image_with_text_overlay_6cqdni"
+  ]
+}

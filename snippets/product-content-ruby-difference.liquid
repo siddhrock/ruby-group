@@ -1,0 +1,15 @@
+<li class="flex flex-col !justify-start h-auto splide__slide !m-0 lg:px-4">
+    <div class="inline-flex w-full relative overflow-hidden pt-[90%] lg:pt-[70%] lg:w-[90%]">
+        {% if metaobject.image != blank %}
+          <img src="{{ metaobject.image | img_url:'large' }}" alt="{{ metaobject.title }}" class="absolute inset-0 w-full h-full rounded-none lg:rounded-[20px] object-cover"/>
+        {% endif %}
+    </div>
+    <div class="w-full py-[10%] px-0 lg:w-[90%] flex flex-col m-0 lg:-mt-[12%] lg:ml-[10%] lg:bg-lighter-green rounded-[20px] lg:px-[6%] lg:pt-[20%] lg:pb-[10%] grow justify-start">
+      {% if metaobject.title != blank %}
+        <h2 class="font-body text-base md:text-2xl mb-4 font-black text-gray-900 font-semibold leading-normal md:leading-[32px]">{{ metaobject.title }}</h2>
+      {% endif %}
+      {% if metaobject.description != blank %}
+        <div class="font-body text-black text-sm md:text-base font-normal leading-normal">{{ metaobject.description | metafield_tag}}</div>
+      {% endif %}
+    </div>
+</li>

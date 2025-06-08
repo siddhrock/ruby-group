@@ -1,0 +1,78 @@
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+{% if section.blocks.size > 0 %}
+<div class="multi_buttons_wr section-{{ section.id }}-padding">
+  <div class="container">
+    <div class="page-width">
+      <div class="custom_button_tab" data-cc-animate>
+        {% for block in section.blocks %}
+          {% if block.settings.button_link != blank or block.settings.button_text != blank %}
+            <a class="btn btn--primary" href="{{ block.settings.button_link }}">{{ block.settings.button_text }}</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+{% schema %}
+{
+  "name": "Multiple Buttons",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "button_tab",
+      "name": "Button",
+      "settings": [
+        {
+          "id": "button_text",
+          "type": "text",
+          "label": "Button label"
+        },
+        { 
+          "id": "button_link", 
+          "type": "url", 
+          "label": "Button link" 
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Multiple Buttons"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,191 @@
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+{%- if section.settings.enable_custom_colors -%}
+  {%- assign bg = section.settings.gradient_bg | default: section.settings.color_bg -%}
+{%- endif -%}
+
+{% assign items = product.metafields.custom.product_information_slider_section_metaobject_.value %}
+
+{% if items != blank %}
+  <div class="section-{{ section.id }}-padding cstm_multi_column">
+    <div class="section-{{ section.id }} relative container {% if bg %}container--no-mobile-padding{% endif %} large-row">
+      <div
+        class="text-columns-section {% if bg %}section global-border-radius global-border-radius--not-extra-small container{% endif %} page-width"
+      >
+        <div class="about_main_head">
+          {% if section.settings.title != blank %}
+            <h2
+              class="{% if section.settings.enlarge_title %}giant-title{% else %}large-title{% endif %} row"
+              data-cc-animate
+            >
+              {% comment %} {{ section.settings.title | escape }} {% endcomment %}
+               The Ruby Difference
+            </h2>
+          {% endif %}
+          {% if section.settings.description != blank %}
+            {% comment %} <div
+              class="row descrition"
+              data-cc-animate
+            >
+              {{ section.settings.description }}
+            </div> {% endcomment %}
+          {% endif %}
+        </div>
+        <div class="about_slide_wr">
+          <div class="about_slider_main grid-flex flex large-row-over text-{{ section.settings.text_alignment }}">
+            {% for item in items %}
+              {% assign titles = item.product_slider_titles.value %}
+              {% assign descriptions = item.product_slider_descriptions.value %} 
+              {% assign images = item.product_slider_images.value  %}
+              {% assign image_urls = '' %}
+      
+              {% for image in images %}
+               {% assign image_url = image | img_url: '460x' %}
+                {% assign image_urls = image_urls | append: image_url %}
+                {% assign image_urls = image_urls | append: ',' %}
+              {% endfor %}
+        
+              {% assign final_image_url = image_urls | split: "," %}
+              {% assign final_size = titles.size | minus: 1 %}
+              {% for i in (0..final_size) %}
+                <div
+                  id="block-id-{{ block.id }}"
+                  class="about_single {% if titles.size == 1 %}reading-width reading-width--no-mobile-padding{% else %}grid-flex__item{% endif %} {{ grid_item_class }} small-down--one-whole"
+                  {{ block.shopify_attributes }}
+                  data-cc-animate="fade-in-up"
+                  data-cc-animate-delay="{{ forloop.index | times: 0.07 }}s"
+                >
+                  <div class="column_single">
+                      <div class="text-column__image global-border-radius large-row-under">
+                        {%- if images == blank -%}
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        {%- else -%}
+                          {% if final_image_url[i] %}
+                           <img src="{{ final_image_url[i] }}" alt="" height="auto" width="auto">
+                          {% endif %}
+                        {%- endif -%}
+                      </div>
+                      <div class="title_main">
+                        {% if titles[i] %}
+                          <h3 class="text-column__title row {% if block.settings.enlarge_title %}large-title{% else %}small-title{% endif %}">
+                            {{ titles[i] }}
+                          </h3>
+                        {% endif %}
+
+                        {% if descriptions[i] %}
+                          <div class="text-column__text rte {% if block.settings.enlarge_text %}large-text{% endif %}">
+                            {{ descriptions[i] }}
+                          </div>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+              {% endfor %}
+            </div>
+          <div class="about_main_arrows">
+            <button
+              class="btn--plain prev icon"
+            >
+              {% render 'left_arrow' %}
+            </button>
+            <button
+              class="btn--plain next icon"
+            >
+              {% render 'right_arrow' %}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+{% schema %}
+{
+  "name": "Meta About with Slider",
+  "class": "section-multi-column about_slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Multi-column"
+    },
+    {
+      "type": "checkbox",
+      "id": "enlarge_title",
+      "label": "Enlarge heading",
+      "default": false
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Description</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Column content alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "Meta About with Slider",
+      "settings": {
+      }
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "aside"
+    ]
+  }
+}
+{% endschema %}

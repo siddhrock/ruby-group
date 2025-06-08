@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_fieldshelter_generalshots-24_2_1.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_KnbcXr": {
+      "type": "rich-text",
+      "settings": {
+        "title": "How To Measure: Bifold Gates",
+        "text": "<p>Take <strong>3</strong> measurements between the posts. Across the <strong>top</strong>, <strong>middle</strong> and <strong>bottom</strong>. Make note of the <strong>smallest</strong> measurement.</p><p>The reductions you need to make depend on the style of bifold gate you have and how you are going to mount the hinges; on the back of the posts or in-between them.</p><p>For the bifold gates, you just need to know the width of your gate to know whether you need the &lt;1500mm or the &gt;1800mm hinges. </p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_overlay_tqhTby": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Field_Gate_4_0a7d3a70-0f96-4c39-921d-22dcb5ca9d99.png",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "image_with_text_4r4PYm": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Bifold_2_816a0b58-0b68-43e2-8ceb-119eacb52699.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "",
+        "text": "<h4>Rear of the Post's...</h4><p>Hinge plates mounted on the rear face of the post, with back edge of gate sitting flush with the back edge of the post. The gate will open towards the driveway.</p><p>For a 3 leaf gate, reduce 50mm from your lowest measurement. </p><p>For a 4 leaf gate, reduce 60mm from your lowest measurement. </p><p>For a 5 leaf gate, reduce 70mm from your lowest measurement. </p>",
+        "button_label": "3 Leaf Bifold Ironwork",
+        "button_link": "shopify://products/entrance-gates-3-leaf-bifold-ironwork-bundle-1500mm-h-black",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_XdETfb": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Bifold_2_b65b4159-55e5-45bc-bf97-ce22a51e9a62.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "",
+        "text": "<h4>Front of the Post's...</h4><p>Hinge plates mounted to the front face of the post with the front edge sitting flush to the front edge of the post. The gate will open towards the roadside. </p><p>For a 3 leaf gate, reduce 50mm from your lowest measurement.</p><p>For a 3 leaf gate, reduce 60mm from your lowest measurement.</p><p>For a 5 leaf gate, reduce 70mm from your lowest measurement.</p>",
+        "button_label": "4 Leaf Bifold Ironwork",
+        "button_link": "shopify://products/entrance-gates-4-leaf-bifold-ironwork-bundle-1500mm-h-black",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_7UJw8X": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Bifold_2_aceb8807-aacb-4a77-b86c-fedbf1a988a9.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "",
+        "text": "<h4>Between the Post's...</h4><p>The hinges will be mounted to the inside face of the post, so that the gates can open either way. </p><p>For a 3 leaf gate, reduce 160mm from your lowest measurement.</p><p>For a 4 leaf gate, reduce 170mm from your lowest measurement.</p><p>For a 5 leaf gate, reduce 180mm from your lowest measurement.</p>",
+        "button_label": "5 Leaf Bifold Ironwork",
+        "button_link": "shopify://products/entrance-gates-5-leaf-bifold-ironwork-bundle-1800mm-h-black",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_AyNXky",
+    "main",
+    "rich_text_KnbcXr",
+    "image_with_text_overlay_tqhTby",
+    "image_with_text_4r4PYm",
+    "image_with_text_XdETfb",
+    "image_with_text_7UJw8X"
+  ]
+}

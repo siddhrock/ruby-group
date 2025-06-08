@@ -1,0 +1,15 @@
+<div class="text-[24px] font-semibold mb-6">Technical Drawing</div>
+
+{% if product.metafields.custom.specification_image != blank %}
+  
+  <a class="underline" href="{{ product.metafields.custom.specification_image.value | image_url }}" target="_blank" class="">
+  <img
+    src="{{ product.metafields.custom.specification_image.value | image_url: width: 800 }}"
+    height="{{ product.metafields.custom.specification_image.value.height }}"
+    width="{{ product.metafields.custom.specification_image.value.width }}"
+    alt="{{ product.title }} drawing"
+    loading="lazy"
+  >
+  </a>
+  <a class="underline" href="{{ product.metafields.custom.specification_image.value | image_url }}" target="_blank" class="">View Larger Version</a>
+{% endif %}

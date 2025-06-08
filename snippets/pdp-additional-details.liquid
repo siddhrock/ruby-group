@@ -1,0 +1,83 @@
+<div>
+
+  {% unless product.metafields.custom.description == blank %}
+    {%  capture content %}{% render 'pdp-detail-description' product: product %}{% endcapture %}
+    {% render 'pdp-detail'
+      product: product,
+      title: 'Description',
+      id: 'productDescription',
+      content: content
+    %}
+  {% endunless %}
+
+  {%  capture content %}{% render 'pdp-detail-product' product: product %}{% endcapture %}
+  {% render 'pdp-detail'
+    product: product,
+    title: 'Specification',
+    id: 'productSpecification',
+    content: content
+  %}
+
+  {% if product.metafields.custom.specification_image != blank %}
+    {%  capture content %}{% render 'pdp-detail-drawing' product: product %}{% endcapture %}
+    {% render 'pdp-detail'
+      product: product,
+      title: 'Technical Drawing',
+      id: 'productTechnicalDrawing',
+      content: content
+    %}
+  {% endif %}
+
+  {% unless product.metafields.custom.installation_maintenance == blank %}
+    {%  capture content %}{% render 'pdp-detail-installation-maintenance' product: product %}{% endcapture %}
+
+    {% render 'pdp-detail'
+      product: product,
+      title: 'Guides & Maintenance',
+      id: 'productGuidesMaintenance',
+      content: content
+    %}
+  {% endunless %}
+
+  {% unless product.metafields.custom.tabsqa == blank %}
+    {%  capture content %}{% render 'pdp-detail-faq' product: product %}{% endcapture %}
+    {% render 'pdp-detail'
+      product: product,
+      title: 'FAQs',
+      id: 'productFaqs',
+      content: content
+    %}
+  {% endunless %}
+
+  {% unless product.metafields.custom.terms == blank %}
+  {%  capture content %}{% render 'pdp-detail-terms' product: product %}{% endcapture %}
+  {% render 'pdp-detail'
+    product: product,
+    title: 'Terms and Conditions',
+    id: 'productTerms',
+    content: content
+  %}
+  {% endunless %}
+
+
+</div>
+
+<div class="border border-[#BEBEBE] rounded-[10px] mt-4 p-4" rel="rich_text">
+  <div class="mb-4 font-subtitle font-semibold">Payment Options</div>
+  <div>
+    <ul class="list-disc list-inside">
+      <li class="list-disc ml-6">0% finance available with Klarna. <a href="/pages/payment-options">Find out more</a>.</li>
+      <li class="list-disc ml-6">All major credit & debit cards accepted.</li>
+      <li class="list-disc ml-6">Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.</li>
+    </ul>
+
+    <div class="flex flex-row gap-2 justify-start mt-4">
+    {%- for type in shop.enabled_payment_types -%}
+      <span>
+        {{ type | payment_type_svg_tag: class: 'w-12 icon icon--full-color' }}
+      </span>
+    {%- endfor -%}
+    </div>
+
+  </div>
+</div>

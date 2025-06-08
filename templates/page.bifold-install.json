@@ -1,0 +1,230 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "title_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_BKG48F": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/Frontshot_0100b4f2-2aa8-40ce-8a55-f175eb3672b1.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 83,
+        "mobile_text_below": false,
+        "overlay_title": "Bifold Gate Installation Guide",
+        "enlarge_title": true,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_bPnijh": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>Bifold wooden gates are a smart solution for driveways or entrances with limited space, offering wide access while folding neatly to the side. </p><p>This guide will walk you through the full installation process—from preparing your posts and fitting hinges to aligning the folding sections and installing latches. </p><p>Whether you're tackling a new project or upgrading an old gate, our step-by-step instructions will help you achieve a smooth, secure, and space-saving result.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_E7DgXF": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_workshop-34_2.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "What You Will Need...",
+        "text": "<ul><li>Tape Measure</li><li>Spirit Level</li><li>Drill & appropriate drill bits for masonry</li><li>Spanner</li><li>Screws/Bolts</li><li>Gate Posts</li><li>Hinges (butt hinges and hanging hinges)</li><li>Drop Bolt</li><li>Post Mix or Concrete (if posts are going into the ground)</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "rich_text_97Y9PE": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<h4>Step 1. Measure and Prepare the Gate Opening</h4><ul><li>Use our <a href=\"/pages/how-to-measure-for-wooden-gates\" title=\"How to Measure for Wooden Gates\">How to Measure</a> page to calculate the size of your opening and what hinges will work for you.</li></ul><h4>Step 2. Install Gate Posts</h4><ul><li>Mark post positions based on the total gate width + hinge clearance.</li><li>Dig holes at least 600mm - 750mm deep - deeper for heavier gates and if the soil is softer.</li><li>Set posts plumb and level using a sprirt level.</li><li>Fix in place with Post Mix or concrete and allow to set for 48 hours before hanging your gates, whilst bracing the posts to prevent movement. </li></ul><h4>Step 3. <strong>Positioning and Preparing the Hinges</strong></h4><ul><li>Lay out your gate leaves flat in folding order.</li><li>Use butt hinges to join the inner leaf edges so they fold cleanly. Fit 2 hinges per joint, evenly spaced.</li><li>Attach adjustable band and hook hinges, or Tee Hinges, to the outermost leaf (the one that connects to the post).</li></ul><h4>Step 4. <strong>Hang the First Leaf</strong></h4><ul><li>Start with the leaf that connects directly to the post.</li><li>Position it in the open position and mark where the hook plates go.</li><li>Drill and fix the hinge plates to the post. Lift the gate into place and hang it, ensuring it opens freely.</li></ul><h4><strong>Step 5. Connect and Hang the Remaining Leaves</strong></h4><ul><li>One at a time, attach the next leaf to the previous one using butt hinges, until all leaves are joined.</li><li>Fold the gate to test each movement - leaves should fold neatly and not catch. </li></ul><h4><strong>Step 6. Fit Drop Bolt and Throwover Loop.</strong></h4><ul><li>Drop Bolt - Fit drop bolt to the bottom of the final leaf on each side, to hold the gate securely in place when closed. </li><li>If your leaves are folding in separate directions, you can attach a throwover loop to secure the middle gates. </li><li>Hold the loop in place across the top of the two gate leaves, where they meet in the middle. Mark holes where the mounting plates meet the timber and drill into the gate leaf. </li></ul><h4><strong>Step 7. Final Checks</strong></h4><ul><li>All fixings are tight</li><li>Gates open and close smoothly</li><li>No excessive gaps or binding</li><li>Apply <a href=\"https://www.ruby-group.co.uk/products/uv-protection-oil\" title=\"https://www.ruby-group.co.uk/products/uv-protection-oil\">Osmo Oil</a></li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slideshow_czVFiB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AeHxyL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Untitleddesign-2024-10-10T164406.240_8870483d-87be-4548-9e46-0e67ccf6aa40.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_AeHxyL"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 340,
+        "height_mobile": 240,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "rich_text_BhNxhL": {
+      "type": "rich-text",
+      "settings": {
+        "title": "And You're Done!",
+        "text": "<h5>Always let us know if you need any help or have any questions, our team are  happy to help! We can also offer our own installation service to save yourself the hassle!</h5>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_bPGEGr": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Bifold Collection",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "bifold-collection",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_BKG48F",
+    "rich_text_bPnijh",
+    "image_with_text_E7DgXF",
+    "rich_text_97Y9PE",
+    "slideshow_czVFiB",
+    "rich_text_BhNxhL",
+    "featured_collection_bPGEGr"
+  ]
+}

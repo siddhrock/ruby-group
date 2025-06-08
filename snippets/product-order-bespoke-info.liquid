@@ -1,0 +1,338 @@
+ <div class="calculate-content py-4 !mb-0">
+  {% comment %} <h2 class="heading h3">{{ 'products.product.measure_heading' | t }}</h2> {% endcomment %}
+  <p>{{ 'products.product.measure_content' | t }}</p>
+</div>
+
+<div class="calculate">
+    {% for product_option in product.options_with_values %}
+        {% assign bespoke_option = product.metafields.ruby.bespoke_variant_title.value %}
+        {% assign option_downcase = product_option.name | downcase %}
+        {% comment %} {% if option_downcase contains 'length' or option_downcase contains 'width' or option_downcase contains 'height' or option_downcase contains 'hang' or option_downcase contains 'finish' %} {% endif %} {% endcomment %}
+            <div class="calculate-area">
+                {%- for value in product_option.values -%}
+                    {% if forloop.first %}
+                        {% if value contains 'sample' or value contains 'Sample'%}
+                          {% assign measurement = 'm' %}
+                        {% else %}
+                          {% if value contains '(' %}
+                              {% assign measurement = value | split: '(' | last %}
+                              {% assign measurement = measurement | remove: ' ' | remove: '.' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' | remove: '0' | remove: ')' %}
+                          {% else %}
+                              {% assign measurement = value | remove: ' '| remove: '.' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' | remove: '0' %}
+                          {% endif %}
+                        {% endif %}
+                    {% endif %}
+                {%- endfor -%}
+
+                {%- assign showquestionmark = false -%}
+                {%- assign questiondescription = blank -%}
+                {%- assign textareas = product.metafields.custom.info_text_via_variants | split: '|||' -%}
+                {%- for textarea in textareas -%}
+                  {%- assign splittted_textareas = textarea | split: '||' -%}
+                  {%- assign splitted_text0 = splittted_textareas[0] | strip  -%}
+                    {%- if product_option.name contains splitted_text0 -%}
+                    {%- assign showquestionmark = true -%}
+                    {%- assign questiondescription = splittted_textareas[1] -%}
+                    {%- endif -%}
+                {%- endfor -%}
+
+                <span class="relative">
+                  {{ product_option.name }}{% unless option_downcase contains 'hang' %}{% if measurement != blank %} ({{ measurement }}){% endif %}{% endunless %}
+                  {%- if showquestionmark and questiondescription != blank -%}
+                    <div class="!inline-block tool" data-tip="{{ questiondescription }}">
+                      : <img class="!inline-block tool" src="{{ 'greenHelpIcon.svg' | asset_url }}" alt="" height="20px" width="20px">
+                    </div>
+                  {%- endif -%}
+                </span>
+
+                {% if bespoke_option contains product_option.name  or option_downcase contains 'hang' %}
+                  <div class="select-wrapper select-wrapper--primary">
+                    {% comment %} {%- render 'icon', icon: 'arrow-bottom' -%} {% endcomment %}
+
+                    <select data-attr="{{ option_downcase }}" data-option="{{ product_option.name }}" name="properties[{{ product_option.name }}]" class="select_product-bespoke" id="{{ product_option.name }}" data-option-position="{{ product_option.position }}" > 
+                      <option selected disabled value="">{{ 'products.product.select_default' | t }}</option>  
+                      {%- for value in product_option.values -%}
+                        {% unless value == 'sample' or value == 'Sample'%}
+                          {% if option_downcase contains 'hang' or option_downcase contains 'finish' or option_downcase contains 'timber' %}
+                            {% assign new_value = value %}
+                          {% else %}
+                            {% assign new_value = value | split: '(' | last | split: ')' | first %}
+                          {% endif %}
+
+                          <option data-dropdown_option="true" data-value="{{ new_value }}" value="{{ value }}">{{ value }}</option>
+                        {% endunless %}
+                      {%- endfor -%}
+                    </select>
+                    <input data-attr="{{ option_downcase }}" id="hiddenVal" data-backup="{{ new_value }}" class="calculate-area_number is_filled product_option-value" value="" type="hidden">
+                  </div>
+                {% else %}
+                    {% for value in product_option.values %}
+                      {% assign option_value = value | downcase %}
+                      {% unless option_value contains 'sample' %}
+                        {% assign position = forloop.index0 %}
+                        {% break %} 
+                      {% endunless %}
+                    {% endfor %}
+
+                   {% assign new_value = product_option.values[position] | replace: measurement, "" %} 
+
+                    <input data-attr="{{ option_downcase }}" data-option="{{ product_option.name }}" min="{{ new_value }}" class="calculate-area_number input_product-bespoke" type="text" oninput="validate(this)">
+                    <input data-attr="{{ option_downcase }}" {% if measurement != blank %}data-measurement="{{ measurement }}"{% endif %} name="properties[{{ product_option.name }}]" class="product_option-text" type="hidden">
+                {% endif %}
+            </div>
+        {% comment %} {% endif %} {% endcomment %}
+    {% endfor %} 
+</div>
+<div class="calculate-error"></div>
+
+
+
+{% comment %} <div class="product-form__info-list bespoke-product__info">
+  <div class="product-form__info-item">
+    <span class="product-form__info-title text--strong hidden">{{ 'products.form.price' | t }}:</span>
+
+    <div class="product-form__info-content">
+      <div class="price-list">
+        <span id="bespokePriceContainer" class="price text-[24px] font-semibold" data-price="{{- selected_variant.price -}}"
+          :class="showPriceLessVAT ? '!hidden' : '!block'">
+          {%- if settings.currency_code_enabled -%}
+            {{- selected_variant.price | money_with_currency -}}
+          {%- else -%}
+            {{- selected_variant.price | money -}}
+          {%- endif -%}
+        </span>
+
+        <span id="bespokePriceLessVAT" class="hidden text-[24px] font-semibold"
+          :class="showPriceLessVAT ? '!block' : '!hidden'">
+          {%- if settings.currency_code_enabled -%}
+            {{- selected_variant.price | divided_by: 1.2 | money_with_currency -}}
+          {%- else -%}
+            {{- selected_variant.price | divided_by: 1.2 | money -}}
+          {%- endif -%}
+        </span>
+
+        <script>
+          // Function to update priceLessTax based on the value in price span
+          function updateBespokePriceLessTax() {
+              const priceSpan = document.querySelector('#bespokePriceContainer');
+              const priceText = priceSpan.innerText || priceSpan.textContent;
+              const numericValue = parseFloat(priceText.replace(/[^0-9.]/g, ''));
+              if (!isNaN(numericValue)) {
+                  const reducedValue = (numericValue / 1.2).toFixed(2);
+                  document.getElementById('bespokePriceLessVAT').innerText = `£${reducedValue}`;
+              }
+          }
+
+      
+          // Create a MutationObserver to watch for changes in the price span
+          const bespokepriceobserver = new MutationObserver(updateBespokePriceLessTax);
+          
+          // Configure the observer to watch for changes in the child list and character data
+          const bespokepriceSpan = document.querySelector('#bespokePriceContainer');
+          bespokepriceobserver.observe(bespokepriceSpan, {
+              childList: true,
+              characterData: true,
+              subtree: true
+          });
+      </script>
+
+
+      </div>
+    </div>
+  </div>
+</div> {% endcomment %}
+
+ <style>
+  .tab-pane {
+      display: none;
+  }
+
+  .tab-pane.active {
+      display: block;
+      padding: 10px 5px;
+  }
+
+  .nav-tabs {
+      display: flex;
+      list-style: none;
+      cursor: pointer;
+  }
+
+  .nav-tabs li {
+      width: 50%;
+      border-width: 1px;
+      border-color: #c71d25;
+      border-style: solid;
+      border-top-width: 2px;
+      border-bottom-width: 2px;
+      border-right-width: 0;
+      border-left-width: 0;
+    
+      border-color: #677279;
+      border-top-color: transparent;
+      border-style: solid;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+  }
+
+  .nav-tabs li.active {
+      background-color: #c71d25;
+      color: #ffffff;
+      border-color: #c71d25;
+      
+  }
+
+  .nav-tabs span {
+      display: block;
+      padding: 8px 10px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  .tab-content {
+      padding: 20px 0;
+  }
+
+  .calculate {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .calculate-area {
+      width: 100%;
+      padding: 0 5px;
+      margin-bottom: 10px;
+  }
+
+  .calculate-area:first-of-type {
+      padding-left: 0;
+  }
+
+  .calculate-area:last-of-type {
+      padding-right: 0;
+  }
+
+  .calculate-area_number,
+  .input_product-bespoke {
+      appearance: textfield;
+      padding: 8px 10px;
+      color: #000;
+      text-align: center;
+      width: 100%;
+      height: 44px;
+      border: 1px solid #d4d6d8;
+      border-radius: 6px;
+      background: transparent;
+      box-shadow: 0 -1px 1px rgba(var(--border-color-rgb),.3) inset;
+      font-size: 1rem;
+      font-size: max(1rem,16px);
+      transition: border-color .2s ease-in-out,box-shadow .2s ease-in-out;
+  }
+
+  .calculate-area_number::-webkit-outer-spin-button,
+  .calculate-area_number::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+
+  .calculate-area_number.is-error {
+    border-color: #c71d25;
+  }
+
+  .calculate-area span {
+      display: block;
+      position: relative;
+      margin-bottom: 5px;
+      font-size: 16px;
+      color: #c71d25;
+      font-weight: bold;
+      line-height: 1.5;
+  }
+  /*
+  .calculate-area span:after {
+      content: "";
+      background-image: url("{{ 'times-solid.svg' | asset_url }}");
+      width: 12px;
+      height: 16px;
+      right: -12.5px;
+      top: calc(50% - 8px);
+      position: absolute;
+      display: block;
+      background-size: cover;
+  }*/
+
+  .calculate-area:last-of-type span:after {
+      display: none;
+  }
+
+  .calculate-content {
+      margin-bottom: 20px;
+  }
+
+  .calculate-content h2 {
+      font-family: Poppins,sans-serif;
+      font-size: 24px;
+      line-height: 1.5;
+      margin: 0;
+      text-transform: capitalize;
+  }
+
+  .calculate-content p {
+      color: #000;
+      margin: 0;
+      font-size: 16px;
+      max-width: 80%;
+      font-weight: normal;
+      line-height: 1.5;
+  }
+
+   .calculate-error {
+      color: #c71d25;
+  }
+
+  .calculate-area .select-wrapper {
+      width: 100%;
+  }
+
+  .bespoke-product__info {
+    margin-top: 0;
+  }
+   
+  .product-form__info-item {
+      display: flex;
+      font-size: 18px;
+      color: #000;
+      font-weight: 500;
+      align-items: center;
+      gap: 2px;
+  }
+  @media screen and (min-width: 768px) {
+    .calculate-area {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    } 
+  }
+</style>
+
+<script>
+['keypress', 'keydown', 'keyup'].forEach( evt => 
+  document.querySelector('#{{ product_form_id }}').addEventListener(evt, function(e){
+    if(e.keyCode == 13) { e.preventDefault(); }
+  }, false)
+);
+</script>
+{% comment %}
+------------------------------------------------------------------------------
+Product Data. This must be outputted for all products (including home page).
+
+IMPORTANT: THIS CODE IS VITAL. DO NOT EDIT IT NOR REMOVE IT. MAKE SURE TO KEEP
+THE EXACT SAME ATTRIBUTES.
+------------------------------------------------------------------------------
+{% endcomment %}
+
+{%- assign variant_selector_block = section.blocks | where: 'type', 'variant_selector' | first -%}
+

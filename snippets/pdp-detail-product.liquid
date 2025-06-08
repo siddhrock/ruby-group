@@ -1,0 +1,11 @@
+<div class="text-[24px] font-semibold mb-6">Product Details</div>
+<div><span id="productDetailsSku">SKU: {{ product.selected_or_first_available_variant.sku }}</span></div>
+<span {% if product.selected_or_first_available_variant.weight == 0 %}style="display: none"{% endif %}>
+  {{- 'products.product.weight' | t -}} <span class="product-detail__weight-number">
+  {{ product.selected_or_first_available_variant.weight_in_unit }}{{ product.selected_or_first_available_variant.weight_unit }}</span>
+</span> 
+
+<div class="mt-6 mb-2 text-[20px] font-semibold">Specification</div>
+<div class="specification-table">
+{{ product.description }}
+</div>

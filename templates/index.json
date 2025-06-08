@@ -1,0 +1,335 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_8tg9zr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Banner_36f996bd-3812-41df-a56a-dac880ffeb04.jpg",
+            "image_link": "shopify://collections/pergola",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 41,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#c71d25",
+            "overlay_text": "",
+            "enlarge_text": true,
+            "overlay_url_text_1": "Winter Comfort, Slatted Style",
+            "overlay_url_1": "shopify://collections/slatted-fencing",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_8tg9zr"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "collection-list": {
+      "type": "collection-list",
+      "settings": {
+        "title": "Featured Range",
+        "enlarge_title": false,
+        "collection_list": [
+          "side-gates-pressure-treated-softwood",
+          "pergola",
+          "field-gates-iroko-softwood-pressure-treated",
+          "ruby-uk-planters"
+        ],
+        "grid": 4
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Most popular this week",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "top-products",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    },
+    "promo-images": {
+      "type": "promotional-images",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/larchtongueandgroove5_56b1efd0-a0cc-4bb6-bf9f-7c17cfdcda4d.jpg",
+            "image_link": "",
+            "layout": "text_over_image",
+            "color_text": "#333333",
+            "color_bg": "#ecf1f2",
+            "gradient_bg": "",
+            "overlay_opacity": 80,
+            "title": "<p>View our full range of Home-Grown Larch Cladding. We machine, plane and profile all our larch cladding. We offer shiplap, Tongue & groove, Shadow Gap, Loglap and can even offer bespoke </p>",
+            "offer": "Larch Cladding",
+            "url_text": "Shop Now",
+            "url": "shopify://collections/ruby-uk-larch-cladding",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Manor_AJ_Charlton_Sons_Ltd_1_e29efe37-3860-4f7a-82f9-23000075bdd8.jpg",
+            "image_link": "",
+            "layout": "text_over_image",
+            "color_text": "#333333",
+            "color_bg": "#ecf1f2",
+            "gradient_bg": "",
+            "overlay_opacity": 80,
+            "title": "<p>All our driveway gates are handmade in Devon. View our full collection of Iroko Hardwood or Treated Softwood Driveway Gates</p>",
+            "offer": "Driveway Gates",
+            "url_text": "Shop Now",
+            "url": "shopify://collections/equal-split-driveway-gates",
+            "url_style": "button_1",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "image-1"
+      ],
+      "settings": {}
+    },
+    "image_with_text_jmyBK7": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/IMG_4704_7d9a18b8-2f70-4717-8cda-bdbba40a93f7.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "Buying Guides",
+        "text": "<p>We have designed our buying guides to help you make informed decisions when purchasing specific products. These guides provide detailed information on various features, benefits, and considerations of each item, tailored to specific products such as planters, pergolas, and entrance gates. </p><p>They include tips on the materials, types, and suitability for different products, as well as installation tips.  </p><p>By offering expert advice and comparisons, buying guides aim to simplify the shopping process, ensuring that consumers can find products that best fit their needs, preferences, and budget.</p>",
+        "button_label": "View all our Buying Guides",
+        "button_link": "shopify://pages/all-buying-guides",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "multi-column": {
+      "type": "multi-column",
+      "blocks": {
+        "column-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Field_Shelter_with_Grass_.pdf_1_2_-1_1.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Field Shelters",
+            "text": "<p>At Ruby we are able to offer completely bespoke field shelters or stables. We also offer installation service. If you need a 3D Model drawing or any advice, feel free to get in touch.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/field-shelters",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "column-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_4849_1.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Slatted Panels",
+            "text": "<p>Increasingly popular for their modern design, our larch or cedar slatted panels make a great addition to any garden. With just a layer of OSMO Oil, you can keep and create this modern stylish look for years to come.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/slatted-fencing",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "column-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IRO_Cladding_1.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "IRO Cladding",
+            "text": "<p>IRO Cladding is a modern external timber cladding, inspired by the Japanese technique of wood preservation. This method involves charring the wood to enhance its beauty and durability. IRO Cladding is 100% natural timber, available in various colors.</p>",
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/ruby-uk-iro-6x1-cladding",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "column-2"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "custom_image_height": false,
+        "image_height": 270,
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Made_to_measure_icon_2b240e6b-e579-4e67-974b-b4d44c6ade94.jpg",
+        "image_link": "shopify://pages/rubymadetomeasure",
+        "image_size": "120",
+        "image_position": "left",
+        "title": "Made-To-Measure Products",
+        "text": "<p>At Ruby, our manufacturing expertise spans a broad spectrum, crafting everything from planters, gates, fence panels, pergolas, sheds, field shelters, stables, and much more.</p><p>Our made-to-measure product range extends a wide array of sizes and complete customization. Whether it's a unique gate size or a personalized field shelter design, we're well-equipped to assist. With a dedicated team of over 15 craftsmen devoted to constructing and tailoring your products, our adept joinery team can tackle nearly any challenge. Additionally, our in-house 3D design team adds another layer of innovation.</p><p>We're always eager to schedule a call with you, dedicated to discovering the optimal solution for your garden, fields, house, or shed requirements.</p><p><strong>Please Note</strong>: All products with the \"Made-To-Measure\" badge are manufactured upon order placement and falls under our \"<a href=\"https://ruby-group.co.uk/pages/rubymadetomeasure\" target=\"_blank\"><strong>Made-To-Measure</strong></a>\" product range. We encourage you to review our <a href=\"https://www.ruby-group.co.uk/pages/terms-and-condtions\" target=\"_blank\"><strong>Terms and Conditions</strong></a> (Section 2) before placing an order, as they detail guidance regarding orders, returns, and cancellations for \"<a href=\"https://ruby-group.co.uk/pages/rubymadetomeasure\" target=\"_blank\"><strong>Made-To-Measure</strong></a>\" product range.</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "c3dea8d4-1ebd-49e2-8ead-1d3698a0e2ea": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_workshop-34_2.jpg",
+        "image_link": "shopify://pages/rubymadetomeasure",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "In House Manufacturing",
+        "text": "<p>Our bespoke creations are meticulously crafted within our premises, where quality and precision are paramount throughout every stage of production. Our skilled manufacturing team specializes in creating a diverse array of products, including planters, pergolas, gazebos, sheds, and gates, all tailored to meet your unique specifications. Boasting over 25 years of expertise, our in-house craftsmen ensure that every aspect of our creations reflects unparalleled excellence.<br/><br/><br/><br/><br/></p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": ""
+      }
+    },
+    "2f454525-42d1-4818-9242-7b30ad8f7486": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- <div style=\"text-align:center\"><reevoo-badge type=\"brand\" variant=\"cx_6\"></reevoo-badge></div> --> <div id=\"feefo-service-review-carousel-widgetId\" style=\"text-align: center;\" class=\"feefo-review-carousel-widget-service\"></div>"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "settings": {
+        "title": "About Ruby",
+        "text": "<p>A family run business based in Devon, Ruby started in 2007 selling timber online. Since then we have grown our product range and offering. We are now one of the leading UK suppliers in Gates, Cladding, Pergolas, Fencing, Timber and More!</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_before_after_jBBJHG": {
+      "type": "image_before_after",
+      "disabled": true,
+      "settings": {
+        "image_1": "shopify://shop_images/3mx3m_Point_Open_Roof_Pergola_2D_Spec.jpg",
+        "image_2": "shopify://shop_images/3mx3m_Point_Cedar_Shingle_Roof_Pergola_2D_Spec.jpg",
+        "padding_top": 52,
+        "padding_bottom": 54
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "collection-list",
+    "featured-collection",
+    "promo-images",
+    "image_with_text_jmyBK7",
+    "multi-column",
+    "image-with-text",
+    "c3dea8d4-1ebd-49e2-8ead-1d3698a0e2ea",
+    "2f454525-42d1-4818-9242-7b30ad8f7486",
+    "rich-text",
+    "image_before_after_jBBJHG"
+  ]
+}

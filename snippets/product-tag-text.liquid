@@ -1,0 +1,75 @@
+
+{%- assign standardtext = blank -%} 
+{%- assign expresstext = blank -%}
+{%- assign link_out = 'https://www.ruby-group.co.uk/pages/delivery-information' -%}
+{%- if product_tags contains 'RM' -%}
+{%- assign standardtext = 'products.product.shipping_policy_html' | t: days: 'Delivered within 2-3 Working Days*', link: link_out -%}
+
+{%- elsif product_tags contains 'STANDARD' -%}
+{%- assign standardtext = 'products.product.shipping_policy_html' | t: days: 'Delivered within 3-8 Working Days*', link: link_out -%}
+
+{%- elsif product_tags contains 'MIDEND' -%}
+{%- assign standardtext = 'products.product.shipping_policy_html' | t: days: 'Delivered within 3-8 Working Days*', link: link_out -%}
+
+{%- elsif product_tags contains 'MANUF' -%}
+{%- assign standardtext = 'products.product.shipping_policy_html' | t: days: 'Delivered within 3-8 Working Days*', link: link_out -%}
+
+{%- elsif product_tags contains 'MANUF'-%}
+{%- assign standardtext = 'products.product.shipping_policy_html' | t: days: 'Delivered within 3-8 Working Days*', link: link_out -%}
+
+{%- elsif product_tags contains 'REQORD'-%}
+{%- assign standardtext = 'products.product.shipping_policy_html' | t: days: 'Delivered within 15-20 Working Days*', link: link_out -%}
+
+{%- elsif product.type == 'Slatted Panels' -%}
+{%- assign standardtext = 'products.product.shipping_policy_html' | t: days: 'Delivered within 3-8 Working Days*', link: link_out -%}
+{%- endif -%}
+
+{%- if product_tags contains 'LOWEND' -%}
+{%- assign expresstext = 'products.product.shipping_express_policy_html' | t: days: '5-7', price: 'for £50' -%}
+
+{%- elsif product_tags contains 'HIGHEND' -%}
+{%- assign expresstext = 'products.product.shipping_express_policy_html' | t: days: '5-7', price: 'for £75' -%}
+
+{%- elsif product_tags contains 'PREMIUM'-%}
+{%- assign expresstext = 'products.product.shipping_express_policy_html' | t: days: '5-7', price: 'for £250' -%}
+
+{%- elsif product_tags contains 'FREEEXP'-%}
+{%- assign expresstext = 'products.product.shipping_express_policy_html' | t: days: '5-7', price: 'FREE EXPRESS DELIVERY PROMOTION' -%}
+
+{%- endif -%}
+<div class="delivery_icon_main">
+{%- if standardtext != blank -%}
+<img
+src="https://cdn.shopify.com/s/files/1/1234/2786/files/delivery.svg?v=1707756027"
+height="22"
+width="22"
+loading="lazy"
+alt="delivery"
+>
+<span>{{ standardtext }}</span>
+{% endif %}
+
+</div>
+<div class="delivery_icon_main">
+  {% comment %}
+{%- if expresstext != blank -%}
+<img
+src="https://cdn.shopify.com/s/files/1/1234/2786/files/fi_1287679.svg?v=1707756027"
+height="auto"
+width="auto"
+>
+<span>{{ expresstext }}</span>
+
+{% endif %}
+{% endcomment %}
+<img
+src="https://cdn.shopify.com/s/files/1/1234/2786/files/fi_1287679.svg?v=1707756027"
+height="22"
+width="22"
+loading="lazy"
+alt="express delivery"
+>  
+<span>Contact us for express delivery <a href="tel:01409231763">01409 231763</a></span>  
+  
+
+</div>

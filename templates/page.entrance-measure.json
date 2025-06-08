@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_fieldshelter_generalshots-24_2_1.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 360,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_KnbcXr": {
+      "type": "rich-text",
+      "settings": {
+        "title": "How To Measure: Entrance Gates",
+        "text": "<p>Take 3 measurements between the posts. Across the top, middle and bottom. Make note of the smallest measurement.</p><p>The reductions you need to make depend on the style of entrance gate you have and how you are going to mount the hinges; on the back of the posts or in-between them.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_overlay_tqhTby": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Field_Gate_4_efd87b73-b82f-4a10-bd12-bfed68913ccc.png",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 340,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "image_with_text_4r4PYm": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Entrance_2_18aab674-dbbc-420c-bb67-f1c8e182c4ae.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "",
+        "text": "<h4>Rear of the Post's...</h4><p>With this fitting, the gates will open towards the driveway, and the hinge plates will be mounted to the rear face of the post. The back edge of the gate sits flush with the back edge of the post.</p><p>Reduce 40mm from your lowest measurement.</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_XdETfb": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Entrance_2.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "",
+        "text": "<h4> Between the Post's...</h4><p>If your gate width is under 10ft (3m), then you also have this option. The hinge plates will be mounted to the inside face of the post and the gate will open towards the driveway. The front edge of the gate sits flush with the front edge of the post.</p><p>Reduce 150mm from your lowest measurement.</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "image_with_text_7UJw8X": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Entrance_2_805c5d50-cf3f-4747-a573-1d28b5b4e5f3.png",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "left",
+        "title": "",
+        "text": "<h4>Front of the Post's...</h4><p>If you mount the hinges to the outside front face of the post, the gates will open out towards the roadside. The front edge of the gate will sit flush with the front edge of the post. This is an ideal set up if you have limited driveway space.</p><p>Reduce 40mm from your lowest measurement.</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_AyNXky",
+    "main",
+    "rich_text_KnbcXr",
+    "image_with_text_overlay_tqhTby",
+    "image_with_text_4r4PYm",
+    "image_with_text_XdETfb",
+    "image_with_text_7UJw8X"
+  ]
+}

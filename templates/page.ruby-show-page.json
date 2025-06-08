@@ -1,0 +1,202 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_CpWVPJ": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Ruby Show",
+        "text": "<p>Experience the ultimate in outdoor living with our modular kitchen area, crafted from full slatted timber and polished concrete. Framed by a stunning Planed Larch pergola, with premium Iroko planters and matching bench seating, this versatile setup brings elegance, durability, and functionality to any garden or entertaining space.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/WhatsApp_Image_2025-05-01_at_15.51.56.jpg",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 660,
+        "height_mobile": 280,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "featured_collection_VNHGXQ": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Featured Products",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "ruby-show",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 3,
+        "row_count": 2,
+        "grid_mobile": "2"
+      }
+    },
+    "rich_text_n9NJeg": {
+      "type": "rich-text",
+      "name": "Rich text",
+      "settings": {
+        "title": "Other Products you might like",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_gallery_PNwrfW": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_VMUzTF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ruby-2025-pergola-update-21_33566d76-0ff3-45c6-8bca-bf88474d0648.jpg",
+            "enlarge_image": false,
+            "link": "shopify://collections/pergola",
+            "title": "Pergolas",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_wGA6h7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2f1aa22c-8b7e-4b22-a37a-eae6bf02f9c4.jpg",
+            "enlarge_image": false,
+            "link": "shopify://collections/ruby-uk-planters",
+            "title": "Planters",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_H7dcYr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/rubygroup_house_cladding-3_1_1.jpg",
+            "enlarge_image": false,
+            "link": "shopify://collections/cladding",
+            "title": "Cladding",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        },
+        "image_PEcWtB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Cottage_Lifestyle.png",
+            "enlarge_image": false,
+            "link": "shopify://collections/ruby-uk-gate-range",
+            "title": "Gates",
+            "text": "",
+            "button_label": "",
+            "overlay_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_VMUzTF",
+        "image_wGA6h7",
+        "image_H7dcYr",
+        "image_PEcWtB"
+      ],
+      "name": "Image gallery",
+      "settings": {
+        "grid": 2,
+        "image_height": 300,
+        "image_height_mobile": 300,
+        "enable_margin": true,
+        "enable_carousel": true,
+        "overlay_style": "box",
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "overlay_url_style": "button_1"
+      }
+    }
+  },
+  "order": [
+    "rich_text_CpWVPJ",
+    "image_with_text_overlay_AyNXky",
+    "main",
+    "featured_collection_VNHGXQ",
+    "rich_text_n9NJeg",
+    "image_gallery_PNwrfW"
+  ]
+}

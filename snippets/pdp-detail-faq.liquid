@@ -1,0 +1,63 @@
+<div class="text-[24px] font-semibold mb-4">FAQs</div>
+
+{% assign faqs = product.metafields.custom.tabsqa.value %}
+{% assign faqtypelist = '' %}
+{% for faq in faqs %}
+  {% assign faqsplit = faq | split: '|' %}
+  {% assign faqtype = faqsplit[0] | strip %}
+  {% unless faqtypelist contains faqtype %}
+    {% assign faqtypelist = faqtypelist | append: faqtype | append: '|' %}
+  {% endunless %}
+{% endfor %}
+
+{% assign pos = faqtypelist | size | minus: 1 %}
+{% assign last_char = faqtypelist | slice: pos, 1 %}
+{% if last_char == "|" %}
+  {% assign faqtypelist = faqtypelist | slice: 0, pos %}
+{% endif %}
+
+{% assign faqtypelist = faqtypelist | split: '|' %}
+
+{% for faqlisttype in faqtypelist %}
+  <div class="mt-8 mb-2 text-[20px] font-semibold">{{ faqlisttype }}</div>
+
+  {% for faq in faqs %}
+    {% assign faqsplit = faq | split: '|' %}
+    {% assign faqtype = faqsplit[0] | strip %}
+    
+    {% if faqtype == faqlisttype %}
+      {% assign faqquestion = faqsplit[1] | strip %}
+      {% assign faqanswer = faqsplit[2] | strip %}
+
+      <div x-data="{ open: false }" class="bg-light-grey px-5 py-4 mb-4">
+        <div @click="open=!open" class="text-[18px] font-medium flex flex-row justify-between cursor-pointer">
+          <div class="flex-1">
+            <div class="pr-4">{{faqquestion }}</div>
+          </div>
+          <div class="w-4 flex-none mt-[5px]">
+            <div class="w-4 h-4" x-show="!open">{{- 'icon-plus.svg' | inline_asset_content -}}</div>
+            <div class="w-4 h-4" x-show="open">{{- 'icon-minus.svg' | inline_asset_content -}}</div>
+          </div>
+        </div>
+        <div 
+          x-ref="answer"
+          class="overflow-hidden transition-all max-h-0 duration-300"
+          x-bind:style="open ? 'max-height: ' + $refs.answer.scrollHeight + 'px' : ''"
+        > 
+
+          {% if faqanswer contains '<strong>' %}
+            {% unless faqanswer contains '</strong>' %}
+              {% assign faqanswer = faqanswer | strip_html %}
+            {% endunless %}
+          {% endif %}
+
+          <div class="py-4">{{faqanswer }}</div>
+        </div>
+      </div>
+    {% endif %}
+
+
+  {% endfor %}
+
+
+{% endfor %}

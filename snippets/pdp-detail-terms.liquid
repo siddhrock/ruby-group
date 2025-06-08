@@ -1,0 +1,6 @@
+<div class="text-[24px] font-semibold mb-6">Terms and Conditions</div>
+
+{% unless product.metafields.custom.terms == blank %}
+  <div class="mt-6 mb-2 text-[20px] font-semibold">Terms</div>
+  <div rel='richtext'>{{ product.metafields.custom.terms | metafield_tag }}</div>
+{% endunless %}

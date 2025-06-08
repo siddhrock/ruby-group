@@ -1,0 +1,735 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_AyNXky": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/ruby-2025-pergola-update-21_0dad9432-2337-48ec-970b-6c4247c918f5.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 360,
+        "height_mobile": 320,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 72,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "Pergola Buying Guide",
+        "enlarge_title": false,
+        "overlay_title_width": 97,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ecf1f2",
+        "styled_word_color": "#2a4125",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_CpWVPJ": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>At Ruby UK, we understand that creating the perfect outdoor space is about more than just beautiful landscaping—it's about crafting a space that brings comfort, style, and functionality to your garden. A pergola can do just that, offering a versatile, architectural focal point while providing shelter, shade, and a place to relax or entertain.</p><p>Whether you're looking for a modern structure to complement a contemporary garden or a rustic wooden design to add charm and warmth, let us guide you through everything you need to know to find the perfect pergola that suits your style, budget, and outdoor living aspirations.</p><p>With years of experience supplying high-quality timber products across the country, Ruby UK is your trusted partner in transforming and maximising your outdoor space.  </p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "rgba(0,0,0,0)",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 14
+      }
+    },
+    "rich_text_n6QT4q": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Our Range of Pergola Styles",
+        "text": "<p>We've put together this handy guide to compare different designs & styles, and find the one that's right for you.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_padding": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "collection_list_z7B9r3": {
+      "type": "collection-list",
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "collection_list": [
+          "4-pitch-pergola",
+          "apex-pergola",
+          "lean-to-pergolas"
+        ],
+        "grid": 3
+      }
+    },
+    "custom_multi_column_8qzrVQ": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_rQPR3A": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>The multi-angled, pitched roof of this pergola adds height, enhancing airflow and creating an open, airy feel. It's versatile design suits both contemporary and traditional gardens, offering partial shade and shelter, and adding a stylish touch to all garden areas.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_nHqf7C": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>An apex pergola features a pitched roof that creates a spacious, open feel, ideal for garden retreats or outdoor dining areas. Choose from an overhang design for added shade and a bold look, or a no-overhang design for a compact, seamless fit in smaller spaces.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_m4pePM": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": false,
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "",
+            "text": "<p>The lean-to pergola, designed to attach to an existing wall, creates a stylish, sheltered outdoor space that seamlessly extends your home. Its simple, modern design is perfect for seating, dining, or supporting climbing plants, while the sloping roof ensures rainwater runoff and an open, airy feel. </p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_rQPR3A",
+        "text_block_nHqf7C",
+        "text_block_m4pePM"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "description": "",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_qPWh8r": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Choose a Roof Design",
+        "text": "<p>When choosing a pergola roof, consider an <strong>open design</strong> for maximum airflow, a <strong>closed roof</strong> for enhanced shade, or a <strong>flat roof</strong> for a sleek, modern aesthetic. </p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ffffff",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_overlay_zYcHCA": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Untitleddesign-2025-01-17T121900.244_9975d379-abf0-48c1-aef6-be884337e9f5.png",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "Flat Roof Pergola",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "Flat top pergolas feature a simple horizontal roof, creating a modern look, ideal for smaller gardens or patios. Easy to construct and extremely versatile, they suit a variety of outdoor spaces.",
+        "enlarge_text": false,
+        "overlay_url_text_1": "Shop here!",
+        "overlay_url_1": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=flat+roof+pergola",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "image_with_text_overlay_8EykHX": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Untitleddesign-2025-01-17T122337.553_82ff2af0-2c5b-4af0-b0b2-81c86d1d061e.png",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "Open Roof Pergola",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "This open-beam pergola creates a light, airy atmosphere with partial shade and an unobstructed sky view, perfect for gardens, patios, or decking areas.",
+        "enlarge_text": false,
+        "overlay_url_text_1": "Shop here!",
+        "overlay_url_1": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage%2Cquery&options%5Bprefix%5D=last&q=open+roof+pergola",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "image_with_text_overlay_Vghc4f": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Oak_Apex_CedarFeatheredge_Day_c5bd2ad9-fe4b-46a0-904f-0fb9da9728c1.png",
+        "image_link": "",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 70,
+        "mobile_text_below": false,
+        "overlay_title": "Closed Roof Pergola",
+        "enlarge_title": false,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "Closed roof pergolas offer year-round protection from rain, sun, and snow, creating a private and sheltered outdoor space ideal for relaxation or entertaining.",
+        "enlarge_text": false,
+        "overlay_url_text_1": "Shop here!",
+        "overlay_url_1": "https://www.ruby-group.co.uk/collections/roofed-pergola",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_qfJ9gx": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p><strong>Find out more about our pergola designs here!</strong></p>",
+        "button_label": "Pergola Style Guide",
+        "button_link": "https://www.ruby-group.co.uk/pages/rubys-range-of-pergola-styles",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_yeLqQ4": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Choosing your Material",
+        "text": "<p>When deciding between a <strong>softwood pergola</strong> and an <strong>oak pergola</strong>, consider your budget, style preference, and the level of maintenance you’re willing to undertake. </p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multi_column_iabtEp": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_X4dMJQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitleddesign-2024-10-30T165819.800_1938ce8e-d291-4deb-a838-5208dd3c9efd.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Oak",
+            "text": "",
+            "button_label": "Our Oak Pergolas",
+            "button_link": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage%2Cquery&options%5Bprefix%5D=last&q=oak+pergola",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_rbhYDV": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Untitleddesign-2025-02-21T092007.030_d9b31897-8bd5-462d-a7de-100e7d3254aa.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Softwood",
+            "text": "",
+            "button_label": "Our Softwood Pergolas",
+            "button_link": "https://www.ruby-group.co.uk/a/search?type=product%2Carticle%2Cpage&options%5Bprefix%5D=last&q=softwood+pergola",
+            "enable_link": false,
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_X4dMJQ",
+        "text_block_rbhYDV"
+      ],
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "custom_image_height": false,
+        "image_height": 270,
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "rich_text_QYGQJh": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p><strong>Check out our blog on all the materials we use here at Ruby!</strong></p>",
+        "button_label": "From Oak to Cedar: High-Quality Materials at Ruby UK",
+        "button_link": "https://www.ruby-group.co.uk/pages/from-oak-to-cedar-high-quality-materials-at-ruby-uk",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_Mmz3Pf": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Which Roofing Material is Best for You?",
+        "text": "<p>Choosing the right roofing material for your pergola is essential to achieving the perfect balance of style, functionality, and budget - ensuring your outdoor space looks great while meeting your practical needs.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "collection_list_kkrCUV": {
+      "type": "collection-list",
+      "settings": {
+        "title": "",
+        "enlarge_title": false,
+        "collection_list": [
+          "featheredge-roof-pergola",
+          "corrapol-roofed-pergola",
+          "shingle-roof-pergola",
+          "katepal-shingle-pergola",
+          "cedar-featheredge-pergola"
+        ],
+        "grid": 5
+      }
+    },
+    "rich_text_aqDBfC": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p><strong>Learn more about your roofing options on our blog!</strong></p>",
+        "button_label": "Choosing the Perfect Roof for your New Pergola",
+        "button_link": "https://www.ruby-group.co.uk/pages/choosing-the-perfect-roof-for-your-new-pergola",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#ecf1f2",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multi_column_yTMbby": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_yiQQ9d": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Ellumiere_-_SSteel_spotlight._1_900x_0385ede0-e268-44a0-9f93-54ffeaa142d7.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Lighting",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_T94DE3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/cptz44-layer-1-jpg_1_86c9cc2c-2d5e-430f-853d-73e1ca8c9758.jpg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Concealed Post Base",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        },
+        "text_block_gBrpCx": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/mg_4.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "UV Protection",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "enable_link": false,
+            "enlarge_title": true,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yiQQ9d",
+        "text_block_T94DE3",
+        "text_block_gBrpCx"
+      ],
+      "settings": {
+        "title": "Things to Consider...",
+        "enlarge_title": false,
+        "text_alignment": "center",
+        "custom_image_height": false,
+        "image_height": 270,
+        "url_style": "button_1",
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": ""
+      }
+    },
+    "faq_header_3chgL9": {
+      "type": "faq-header",
+      "settings": {
+        "title": "FAQ's",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": false,
+        "index_heading": "How can we help?"
+      }
+    },
+    "custom_collapsible_tabs_bLR7N4": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_NiR7kc": {
+          "type": "question",
+          "settings": {
+            "title": "Do you make bespoke pergolas?",
+            "answer": "<p>We absolutely do! Just like our gates and fencing, we can make completely bespoke pergolas. If you'd like a quote for your measurements, please contact our Sales team on 01409 231 763 or <a href=\"mailto:sales@ruby-group.co.uk\">sales@ruby-group.co.uk</a>.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_6idiqK": {
+          "type": "question",
+          "settings": {
+            "title": "Does the pergola arrive fully assembled?",
+            "answer": "<p>The Gazebo does not arrive fully assembled, however we have created in-depth manuals to guide you on assembly - so whether you're a keen DIY enthusiast or a professional fitter, you can construct our pergolas yourself. You can find these manuals on the specification table on each listing.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_iDfDqU": {
+          "type": "question",
+          "settings": {
+            "title": "Are fixings included?",
+            "answer": "<p>All the fixings needed for installation are included in the delivery of your pergola parts!</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_wXLRDf": {
+          "type": "question",
+          "settings": {
+            "title": "Can I paint my pergola?",
+            "answer": "<p>You can! You can only use water-based paint on our pergolas, however, and you will need to ensure the pergola is as dry as possible before painting. We do recommend applying UV protection prior to painting also.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_rKH47z": {
+          "type": "question",
+          "settings": {
+            "title": "What maintenance is required?",
+            "answer": "<p>We highly recommend treating your pergola at least every 6 months with Osmo Oil, to protect your gazebo against the elements and against decay. We also recommend checking your pergola every so often and removing any built-up dirt and grime.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_ADKrUt": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>The lead time for our pergola's is currently 3-9 working days.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_NiR7kc",
+        "question_6idiqK",
+        "question_iDfDqU",
+        "question_wXLRDf",
+        "question_rKH47z",
+        "question_ADKrUt"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_tF6ALP": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Shop our Pergola's",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "pergola",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_AyNXky",
+    "main",
+    "rich_text_CpWVPJ",
+    "rich_text_n6QT4q",
+    "collection_list_z7B9r3",
+    "custom_multi_column_8qzrVQ",
+    "rich_text_qPWh8r",
+    "image_with_text_overlay_zYcHCA",
+    "image_with_text_overlay_8EykHX",
+    "image_with_text_overlay_Vghc4f",
+    "rich_text_qfJ9gx",
+    "rich_text_yeLqQ4",
+    "multi_column_iabtEp",
+    "rich_text_QYGQJh",
+    "rich_text_Mmz3Pf",
+    "collection_list_kkrCUV",
+    "rich_text_aqDBfC",
+    "multi_column_yTMbby",
+    "faq_header_3chgL9",
+    "custom_collapsible_tabs_bLR7N4",
+    "featured_collection_tF6ALP"
+  ]
+}

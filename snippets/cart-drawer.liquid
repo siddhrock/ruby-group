@@ -1,0 +1,108 @@
+<div  class="cart__drawer right-to-left-open" data-section-id="{{ section.id }}" data-section-type="cart" data-ajax-update="true"> 
+  <div class="cart__drawer-section">
+    <div class="cart__drawer-top{% if cart.item_count == 0 %} hide_heading{% endif %}">
+      <div class="cart__drawer-heading">
+        <div class="heading-text text-center">
+          <h2 class="top-text">{{ 'cart.general.title' | t }}</h2>
+          <span class="cross">{% render 'close_icon_cart' %}</span>
+        </div>
+      </div>
+    </div>
+    <div class="cart__drawer-center">
+    
+      {% if cart.item_count >= 1 %}
+        <form action="/cart" method="post" enctype="multipart/form-data" class="cart__drawer-form">
+          <div class="cart__drawer-item">
+            {% for item in cart.items %}
+             {%- unless item.product.tags contains 'hidden' -%}
+                <div class="cart_items">
+                  <div class="cart__items item_image">
+                    <div class="item__image">
+                      <a href="{{ item.url }}">
+                        <img src="{{ item.image | img_url: '500x' }}">
+                      </a>
+                    </div>
+                  </div>
+                  
+                  <div class="cart__items item_details">
+                    <div class="cart_items-title">
+                      <a href="{{ item.url }}">
+                        <p class="item__title">
+                          {{ item.product.title }}
+                        </p>
+                      </a>
+                    </div>
+                    {% unless item.product.has_only_default_variant %}
+                      <div class="cart_items_options">
+                        {% for option_title in item.product.options %}
+                          <p class="description__variant">{{ option_title }} : {{ item.variant.options[forloop.index0] }}</p>
+                        {% endfor %}
+                      </div>
+                    {% endunless %}
+                   {% render 'line-item-properties', line_item: item %}
+                    <div class="qty_price">
+                      <div class="qtySelector">
+                        <span id="m-btn" class="qty_btn minus" value="-">-</span>
+                        <input
+                          class="item-qty"
+                          type="text"
+                          size="1"
+                          name="updates[]"
+                          value="{{ item.quantity }}"
+                          id="QuantityInput{{ forloop.index }}"
+                          data-line="{{ forloop.index }}"
+                          data-initial-value="{{ item.quantity }}"
+                          data-id="{{ item.id }}"
+                          {% if item.variant.inventory_management != blank and item.variant.inventory_policy == 'deny' %}data-max="{{ item.variant.inventory_quantity }}"{% endif %}
+                          aria-label="{{ 'cart.general.item_quantity' | t | escape }}" />
+                        <span id="p-btn" class="qty_btn plus" value="+">+</span>
+                      </div>
+                      <div class="cart__item-price">
+                        {{ item.final_line_price | money }}
+                      </div>
+                    </div>
+                    <div class="remove__item">
+                      <!-- <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="cart__remove">Remove</a> -->
+                      <a class="cart__remove" href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" data-line="{{ forloop.index }}" data-id="{{ item.variant.id }}">
+                        Remove
+                      </a>
+                    </div>
+                  </div>
+                </div>
+             {% endunless %}
+            {% endfor %}
+          </div>
+          <div class="drawer_bottom">
+            {% assign extra_cost = 0 %}
+            {% for sub_item in cart.items %}
+              {% if sub_item.product.tags contains 'hidden' %}
+                {% assign extra_cost = extra_cost | plus: sub_item.final_line_price %}
+              {% endif %}
+            {% endfor %}
+                
+            {% if extra_cost != 0  %}
+              <div class="mini-cart__recap-price-line-extra cart__drawer-bottom">
+                <span class="subtotal_text">Bespoke Price</span>
+                <span class="subtotal_price">{{ extra_cost | money }}</span>
+              </div>
+            {% endif %}
+            <div class="cart__drawer-bottom">
+              <span class="subtotal_text">{{ 'cart.general.subtotal' | t }}</span>
+              <span class="subtotal_price">{{ cart.total_price | money }}</span>
+            </div>
+            <div class="cart-drawer-checkout-button">
+              <button type="submit" name="checkout" class="btn cart-submit">{{ 'cart.general.checkout' | t }}</button>
+              <button type="submit" class="btn cart-submit goto_cart">Go to cart</button>
+            </div>
+          </div>
+        </form>
+      {% else %}
+        <div class="empty_cart">
+          <h2>Your cart is empty</h2>
+          <a class="btn" href="/collections/all">Continue shopping</a>
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+</div>

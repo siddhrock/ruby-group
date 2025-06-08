@@ -1,0 +1,409 @@
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+  .cc-accordion-item__content.rte {
+    opacity: 1;
+}
+ /*  ul.max-tabs li {
+     min-width: 20% !important;
+}*/
+  .tab-content .tab-panes {
+    display: none;
+  }
+  .accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .accordion.active, .accordion:hover {
+    background-color: #fff;
+  }
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+  .tab-content {
+    display: block !important;
+}
+     .custm_scroll{
+       margin-bottom: 26px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 7px;
+  }
+   ul#customtabs-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+  }
+ .three-tabs ul#customtabs-nav li {
+    cursor: pointer;
+    flex-shrink: 0;
+    min-width: 33%;
+  }
+  .four-tabs ul#customtabs-nav li {
+    cursor: pointer;
+    flex-shrink: 0;
+    min-width: 27%;
+  }
+  .multiple-tabs ul#customtabs-nav li {
+    cursor: pointer;
+    flex-shrink: 0;
+    min-width: 19%;
+  }
+  #customtabs-nav li a {
+    text-decoration: none;
+    background: transparent;
+    padding: 11px 20px;
+    transition: .4s ease-in-out all;
+    display: inline-block;
+    color: #092331;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: .5;
+    width: 100%;
+    text-align: center;
+}
+#customtabs-nav li a.active {
+    line-height: normal;
+    text-decoration-line: none;
+    color: #fff;
+    background: #C71D25;
+    border-radius: 10px;
+    font-size: 16px;
+    opacity: 1;
+}
+ 
+  #customtabs-nav::-webkit-scrollbar {
+    height: 2px;
+    width: 5px;
+  }
+  #customtabs-nav::-webkit-scrollbar-track {
+    background-color: #e0e0e0;
+    margin-right: 25px;
+  }
+  #customtabs-nav::-webkit-scrollbar-thumb {
+    background-color: #000;
+    border-radius: 50px;
+  }
+ 
+  ul#customtabs-nav::-webkit-scrollbar{
+     -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+    display: none;
+  }
+
+</style>
+{% if product.metafields.custom.tabsqa != blank %}
+  <!-- Define and extract unique tab names first -->
+  {% assign metafield_content = product.metafields.custom.tabsqa | split: '","' %}
+  {% assign tabs = "" %}
+  {% for entry in metafield_content %}
+    {% assign parts = entry | replace: '["', '' | replace: '"]', '' | split: ' | ' %}
+    {% if parts.size > 1 %}
+      {% assign tab_name = parts[0] | strip %}
+      {% unless tabs contains tab_name %}
+        {% assign tabs = tabs | append: tab_name | append: ',' %}
+       
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+  {% assign tabs = tabs | split: ',' | uniq %}
+
+  <div data-section-type="collapsible-tabs" data-components="accordion" data-cc-animate class="section-{{ section.id }}-padding {% if tabs.size == 1 %}single-tab{% elsif tabs.size == 2 %}two-tabs{% elsif tabs.size == 3 %}three-tabs{% elsif tabs.size == 4 %}four-tabs{% else %}multiple-tabs{% endif %}">
+    <div class="container">
+      <div class="collapsible-tabs">
+        <div class="collapsible_main" style="text-align: {{ section.settings.text_alignment }};">
+          {% if section.settings.title != blank %}
+            <h3 class="collapsible-tabs__heading collapsible-tabs__content" id="faq-{{ section.settings.title | handle }}">
+              {{ section.settings.title | escape }}
+            </h3>
+          {% endif %}
+          {% if section.settings.description != blank %}
+            <div class="collapsible-tabs__description">
+              {{ section.settings.description }}
+            </div>
+          {% endif %}
+        </div>
+
+       
+
+        <!-- Tabs Navigation -->
+        <div class="custm_scroll">
+          <ul id="customtabs-nav" class="max-tabs">
+            {% for tab in tabs %}
+              <li><a href="#{{ tab | handle }}" class="tab-link">{{ tab }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="tab-content">
+          {% capture accordion_content %}
+            {% for tab in tabs %}
+              <div id="{{ tab | handle }}" class="tab-panes">
+                {% for entry in metafield_content %}
+                  
+                  {% assign parts = entry | replace: '\"', '"' | replace: '\\', '' | replace: '["', '' | replace: '"]', '' | split: ' | ' %}
+              
+                  {% if parts.size > 1 %}
+                    {% assign tab_name = parts[0] | strip %}
+                    {% if tab_name == tab %}
+                      {% assign question = parts[1] | strip %}
+                      {% assign answer = parts[2] | strip %}
+                      <div class="collapsible-tabs__block">
+                        <div class="collapsible-tabs__tab">
+                          {% render 'accordion-item',
+                            title: question,
+                            escape_title: true,
+                            content: answer,
+                            add_content_class: 'rte', 
+                            item_open: section.settings.first_open,
+                            forloop: forloop,
+                            section: section
+                          %}
+                        </div>
+                      </div>
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endfor %}
+          {% endcapture %}
+          {% render 'accordion', allow_multi_open: false, content: accordion_content, first_item_open: section.settings.first_open %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Tab functionality
+    const tabLinks = document.querySelectorAll('.tab-link');
+    const tabPanes = document.querySelectorAll('.tab-panes');
+
+    tabLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetTab = this.getAttribute('href').substring(1);
+
+        // Remove active class from all tabs and hide all panes
+        tabLinks.forEach(function (link) {
+          link.classList.remove('active');
+        });
+        tabPanes.forEach(function (pane) {
+          pane.style.display = 'none';
+        });
+
+        // Add active class to the clicked tab and show corresponding pane
+        this.classList.add('active');
+        document.getElementById(targetTab).style.display = 'block';
+      });
+    });
+
+    // Set the first tab as active by default
+    if (tabLinks.length > 0) {
+      tabLinks[0].classList.add('active');
+      document.getElementById(tabLinks[0].getAttribute('href').substring(1)).style.display = 'block';
+    }
+
+  });
+</script>
+
+
+{% comment %}
+
+{% assign metafield_content = product.metafields.custom.tabsqa | split: '","' %}
+
+{% for entry in metafield_content %}
+  {% assign parts = entry | replace: '["', '' | replace: '"]', '' | split: ' | ' %}
+  
+  {% if parts.size > 1 %}
+    <div>
+      <p><strong>{{ parts[1] }}</strong></p>
+      <p>{{ parts[2] }}</p>
+    </div>
+  {% endif %}
+{% endfor %}
+{% endcomment %}
+{% schema %}
+{
+  "name": "FAQ collapsible tabs",
+  "class": "section-collapsible-tabs custom_collapsible_tab",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collapsible tabs"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Description</p>"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "checkbox",
+      "id": "first_open",
+      "label": "First row open",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>Answer</p>"
+        },
+        {
+          "type": "header",
+          "content": "Image with text content"
+        },
+        {
+          "type": "richtext",
+          "id": "image_text",
+          "label": "Image text"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Select image"
+        },
+        {
+          "type": "text",
+          "id": "button",
+          "label": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Button link"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Paragraph",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Label",
+          "default": "Button label"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ collapsible tabs",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "question"
+        },
+        {
+          "type": "question"
+        }
+      ]
+    }
+  ],
+  "disabled_on": {
+    "groups": [
+      "aside"
+    ]
+  }
+}
+{% endschema %}

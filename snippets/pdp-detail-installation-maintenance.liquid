@@ -1,0 +1,38 @@
+{% assign data = product.metafields.custom.installation_maintenance.value %}
+
+<div class="text-[24px] font-semibold mb-6">Installation &amp; Maintenance</div>
+{% unless data.intro == blank %}
+{{ data.intro | metafield_tag }}
+{% endunless %}
+
+<div>
+{% unless data.guide_title_1 == blank or data.guide_link_1 == blank %}
+  <div class="border-b first:border-t border-[#D9D9D9] first:mt-8">
+    <a target="_blank" class="flex py-4 flex-row justify-between items-center" href="{{ data.guide_link_1.value.url }}">
+      <span class="font-medium">{{data.guide_title_1 }}</span>
+      <span class="w-6 h-6 rotate-180 text-black">{{- 'icon-arrow-round-left.svg' | inline_asset_content -}}</span>
+    </a>
+  </div>
+{% endunless %}
+
+{% unless data.guide_title_2 == blank or data.guide_link_2 == blank %}
+  <div class="border-b first:border-t border-[#D9D9D9] first:mt-8">
+    <a target="_blank" class="flex py-4 flex-row justify-between items-center" href="{{ data.guide_link_2.value.url }}">
+      <span class="font-medium">{{data.guide_title_2 }}</span>
+      <span class="w-6 h-6 rotate-180 text-black">{{- 'icon-arrow-round-left.svg' | inline_asset_content -}}</span>
+    </a>
+  </div>
+{% endunless %}
+</div>
+
+{% unless data.maintenance == blank %}
+<div class="mt-6 mb-2 text-[20px] font-semibold">Maintenance</div>
+{{ data.maintenance | metafield_tag }}
+{% endunless %}
+
+{% unless data.recommended_products == blank %}
+<div class="mt-6 mb-2 text-[20px] font-semibold">Recommended Items</div>
+{% for rec in data.recommended_products.value %}
+  {% render 'product-upsell', quickbuy:true, product: rec, type: 'modal' %}
+{% endfor %}
+{% endunless %}

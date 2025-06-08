@@ -1,0 +1,77 @@
+<div class="bg-white">
+  {% for metaobject in product.metafields.custom.content_metaobjects.value %}
+    {%  case metaobject.system.type %}
+
+    {%  when 'pdp_video' %}
+      {%  render 'product-content-video' metaobject: metaobject %}
+
+    {%  when 'pdp_image_content' %}
+      {%  render 'product-content-image-gallery' metaobject: metaobject %}
+
+    {%  when 'pdp_image_customer_content' %}
+      {%  render 'product-content-image-customer' metaobject: metaobject %}
+
+    {%  when 'pdp_image_gallery' %}
+      {%  render 'product-image-gallery' metaobject: metaobject %}
+
+    {% endcase %}
+  {%  endfor %}
+
+  {% if product.metafields.custom.ruby_difference_block.value != blank %}
+    <div class="container mb-8 md:mb-16">
+      <h4 class="text-black font-title text-2xl md:text-3xl font-black leading-normal mb-4">The Ruby Difference</h4>
+      <div class="splide" id="ruby-carousel">
+        <div class="wrapper mode-grid splide__track">
+          <ul class="mx-auto pt-4 pb-12 grid gap-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 splide__list">
+              {% for metaobject in product.metafields.custom.ruby_difference_block.value %}
+                {%  case metaobject.system.type %}
+
+                {%  when 'pdp_ruby_difference_block' %}
+                  {%  render 'product-content-ruby-difference' metaobject: metaobject %}
+                {% endcase %}
+
+              {%  endfor %}
+            </ul>
+        </div>
+        <div class="splide__arrows absolute -top-12 right-0 hidden lg:block">
+            <button class="splide__arrow--prev !border-0">
+                <div class="w-9 h-9 rotate-180">
+                    {{- 'icon-arrow-round-left.svg' | inline_asset_content -}}
+                </div>
+            </button>
+            <button class="splide__arrow--next !border-0">
+                <div class="w-9 h-9 rotate-180">
+                    {{- 'icon-arrow-round-left.svg' | inline_asset_content -}}
+                </div>
+            </button>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener( 'DOMContentLoaded', function () {
+          new Splide('#ruby-carousel', {
+              perPage: 3,
+              gap: '1rem',
+              autoplay: false,
+              pagination: false,
+              breakpoints: {
+                  480: {
+                    perPage: 1.5,
+                  },
+                  1023: {
+                    perPage: 2.5,
+                  },
+                  1024: {
+                    perPage: 3,
+                  },
+              }
+          }).mount();
+      });
+    </script>
+  {% endif %}
+  {% comment %} <!-- TrustBox widget - Grid -->
+  <div class="trustpilot-widget container mb-8 md:mb-16 pt-8 pb-12 bg-lighter-green" data-locale="en-US" data-template-id="539adbd6dec7e10e686debee" data-businessunit-id="5e9e06809f2da40001b0fdda" data-style-height="600px" data-style-width="100%" data-stars="4,5" data-review-languages="en" data-font-family="Poppins" data-text-color="#000000">
+    <a href="https://www.trustpilot.com/review/ruby-group.co.uk" target="_blank" rel="noopener">Trustpilot</a>
+  </div>
+  <!-- End TrustBox widget --> {% endcomment %}
+</div>

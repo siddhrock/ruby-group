@@ -1,0 +1,209 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "custom_icon_with_text_phFTQj": {
+      "type": "custom_icon_with_text",
+      "blocks": {
+        "icon_texts_img_ETA8Xd": {
+          "type": "icon_texts_img",
+          "settings": {
+            "title": ""
+          }
+        },
+        "icon_texts_img_w8jw4G": {
+          "type": "icon_texts_img",
+          "settings": {
+            "icon_texts_img": "shopify://shop_images/Icon_Eyebrow_Finance.svg",
+            "title": "<p><strong>0% finance</strong> available</p>"
+          }
+        },
+        "icon_texts_img_M9wXXV": {
+          "type": "icon_texts_img",
+          "settings": {
+            "icon_texts_img": "shopify://shop_images/Icon_Eyebrow_Delivery.svg",
+            "title": "<p><strong>Nationwide Delivery & Install</strong></p>"
+          }
+        },
+        "icon_texts_img_gb93Xi": {
+          "type": "icon_texts_img",
+          "settings": {
+            "icon_texts_img": "shopify://shop_images/Icon_flag.svg",
+            "title": "<p>Manufactured in <strong>Devon</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_texts_img_ETA8Xd",
+        "icon_texts_img_w8jw4G",
+        "icon_texts_img_M9wXXV",
+        "icon_texts_img_gb93Xi"
+      ],
+      "settings": {
+        "bg_color": "#dee7d5",
+        "text_color": "#2a4125",
+        "white_icon": false,
+        "icon_text_head": "",
+        "padding_top": 10,
+        "padding_bottom": 10
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "home_only_announcement_bar": false,
+        "announcement_bar_text": "Livechat & Phone 7am - 5pm. 01409 231763",
+        "announcement_bar_col": "#ecf1f2",
+        "announcement_bar_grad": "",
+        "announcement_text_col": "#cd201a"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "custom_mega_menu_xhPBJR": {
+          "type": "custom-mega-menu",
+          "settings": {
+            "link_title": "Support",
+            "col_1_title": "SUPPORT & INFORMATION",
+            "col_1_menu": "support-menu",
+            "col_2_title": "CONTACT US",
+            "tel_title": "Telephone",
+            "tel_number": "01409 231 763",
+            "tel_schedule": "<table>\n<tbody>\n<tr>\n<td>Mon - Fri: </td>\n<td>7am - 5pm</td>\n</tr>\n<tr>\n<td>Saturdays:</td>\n<td>8am - 1pm</td>\n</tr>\n</tbody>\n</table>",
+            "wts_title": "WhatsApp",
+            "wts_number": "01409 231 763",
+            "wts_schedule": "<table>\n<tbody>\n<tr>\n<td>7 days a week</td>\n<td>7am - 10pm</td>\n</tr>\n</tbody>\n</table>",
+            "chat_title": "Web chat",
+            "chat_link": "",
+            "chat_text": "Start Chat",
+            "chat_schedule": "7 days a week: 7am - 10pm",
+            "emails_title": "Email",
+            "emails_info": "<table>\n<tbody>\n<tr>\n<td> Sales: </td>\n<td>\n<a href=\"mailto:sales@ruby-group.co.uk\">sales@ruby-group.co.uk</a>\n</td>\n</tr>\n<tr>\n<td>Customer Service:</td>\n<td>\n<a href=\"mailto:customersupport@ruby-group.co.uk\">customersupport@ruby-group.co.uk\n</a>\n</td>\n</tr>\n<tr>\n<td>Trade:</td>\n<td>\n<a href=\"mailto:trade@ruby-group.co.uk\">trade@ruby-group.co.uk</a>\n</td>\n</tr>\n</tbody>\n<tbody>\n</tbody>\n</table>"
+          }
+        },
+        "menu_promo_PkmBaT": {
+          "type": "menu_promo",
+          "settings": {
+            "dropdown_link_title": "cladding",
+            "image": "shopify://shop_images/ruby-home.jpg",
+            "text": "New Oak Pergolas",
+            "link_text": "View the range",
+            "link_url": "shopify://pages/new-oak-pergolas"
+          }
+        },
+        "menu_promo_gmKetq": {
+          "type": "menu_promo",
+          "settings": {
+            "dropdown_link_title": "agricultural & equestrian",
+            "image": "shopify://shop_images/ruby-home.jpg",
+            "text": "Agriculture",
+            "link_text": "Read More",
+            "link_url": "shopify://collections/ruby-uk-metal-gates"
+          }
+        }
+      },
+      "block_order": [
+        "custom_mega_menu_xhPBJR",
+        "menu_promo_PkmBaT",
+        "menu_promo_gmKetq"
+      ],
+      "settings": {
+        "openTime": 7,
+        "closeTime": 22,
+        "logo": "shopify://shop_images/Ruby_Logo_-_no_UK.svg",
+        "logo_width": 170,
+        "desktop_layout": "left",
+        "show_search_bar_desktop": true,
+        "show_search_bar_mobile": true,
+        "logo_position_mobile": "inline",
+        "dock_nav": true,
+        "cart_icon": "shopping-cart",
+        "tel_num": "01409 231763",
+        "main_linklist": "ruby-uk-main-menu-bar",
+        "announce_nav": "",
+        "show_country_selector": false,
+        "show_language_selector": false,
+        "show_messages": true,
+        "home_only_messages": false,
+        "slideshow_messages": false,
+        "message_1_text": "",
+        "message_1_url": "",
+        "message_2_text": "",
+        "message_2_url": "",
+        "message_3_text": "",
+        "message_3_url": "",
+        "contact_info_title": "Contact Us",
+        "contact_1_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewbox=\"0 0 20 20\" fill=\"none\">\n  <path d=\"M4.02786 8.6612C5.63385 11.8128 8.1974 14.3742 11.35 15.9779L13.7945 13.5279C14.1 13.2224 14.5391 13.1333 14.9224 13.2557C16.1669 13.6669 17.5057 13.8891 18.8891 13.8891C19.5057 13.8891 20.0003 14.3836 20.0003 15.0003V18.8891C20.0003 19.5057 19.5057 20.0003 18.8891 20.0003C8.45547 20 0 11.5445 0 1.1112C0 0.497396 0.497396 0 1.1112 0H5C5.61667 0 6.1112 0.494531 6.1112 1.1112C6.1112 2.49453 6.33333 3.83333 6.74453 5.07787C6.86667 5.4612 6.77786 5.9 6.4724 6.20573L4.02786 8.6612Z\" fill=\"#C81E25\"></path>\n</svg>",
+        "contact_1_link": "tel:01409231763",
+        "contact_1_title": "Call Us",
+        "contact_1_text": "01409 231 763",
+        "contact_1_availability_text": "Lines open until 6pm today",
+        "contact_1_unavailability_text": "Lines closed",
+        "contact_2_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"23\" height=\"20\" viewbox=\"0 0 23 20\" fill=\"none\">\n  <g clip-path=\"url(#clip0_275_392)\">\n    <path d=\"M15.5083 5.45112C14.4852 2.29068 11.4858 0 7.94307 0C3.55549 0 0 3.51043 0 7.8424C0 7.86335 0 7.88641 0 7.90737C0 7.91365 0 7.91785 0 7.92413V14.5468C0 15.1734 0.367224 15.3243 0.81511 14.88L2.32646 13.3878C3.76351 14.8067 5.75034 15.6848 7.94307 15.6848C8.02798 15.6848 8.11501 15.6806 8.19992 15.6785C7.95581 14.9261 7.82208 14.1234 7.82208 13.2914C7.82208 9.05166 11.246 5.58734 15.5083 5.45112ZM22.5641 13.2914C22.5641 9.59237 19.5287 6.59122 15.7843 6.58493C15.78 6.58493 15.7758 6.58493 15.7715 6.58493C12.0207 6.58493 8.97894 9.58818 8.97894 13.2914C8.97894 14.0857 9.11904 14.8465 9.37588 15.5549C9.73462 16.5462 10.3247 17.4285 11.0804 18.141L10.0148 19.1931C9.56693 19.6353 9.71764 19.9979 10.3523 19.9979H15.884C15.884 19.9979 15.8798 19.9979 15.8798 19.9958C19.5817 19.9392 22.5641 16.9611 22.5641 13.2914Z\" fill=\"#C81E25\"></path>\n  </g>\n  <defs>\n    <clippath id=\"clip0_275_392\">\n      <rect width=\"22.5641\" height=\"20\" fill=\"white\"></rect>\n    </clippath>\n  </defs>\n</svg>",
+        "contact_2_link": "#",
+        "contact_2_title": "Web Chat & <br> Whatsapp",
+        "contact_2_text": "",
+        "contact_2_availability_text": "Speak to a real expert",
+        "contact_2_unavailability_text": "Lines closed",
+        "contact_1_mob_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" viewbox=\"0 0 20 20\" fill=\"none\">\n  <path d=\"M4.02786 8.6612C5.63385 11.8128 8.1974 14.3742 11.35 15.9779L13.7945 13.5279C14.1 13.2224 14.5391 13.1333 14.9224 13.2557C16.1669 13.6669 17.5057 13.8891 18.8891 13.8891C19.5057 13.8891 20.0003 14.3836 20.0003 15.0003V18.8891C20.0003 19.5057 19.5057 20.0003 18.8891 20.0003C8.45547 20 0 11.5445 0 1.1112C0 0.497396 0.497396 0 1.1112 0H5C5.61667 0 6.1112 0.494531 6.1112 1.1112C6.1112 2.49453 6.33333 3.83333 6.74453 5.07787C6.86667 5.4612 6.77786 5.9 6.4724 6.20573L4.02786 8.6612Z\" fill=\"#C81E25\"></path>\n</svg>",
+        "contact_1_mob_title": "Call / Whatsapp",
+        "contact_1_mob_link": "tel:01409231763",
+        "contact_1_mob_text": "01409 231 763",
+        "contact_1_mob_availability_text": "Telephone lines open until 6pm today",
+        "contact_1_mob_unavailability_text": "Tel Available: 10am - 6pm",
+        "contact_1_mob_availability_text_2": "WhatsApp open until 10pm today",
+        "contact_1_mob_unavailability_text_2": "Whatsapp: 10am - 5pm",
+        "contact_2_mob_icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"23\" height=\"20\" viewbox=\"0 0 23 20\" fill=\"none\">\n  <g clip-path=\"url(#clip0_275_392)\">\n    <path d=\"M15.5083 5.45112C14.4852 2.29068 11.4858 0 7.94307 0C3.55549 0 0 3.51043 0 7.8424C0 7.86335 0 7.88641 0 7.90737C0 7.91365 0 7.91785 0 7.92413V14.5468C0 15.1734 0.367224 15.3243 0.81511 14.88L2.32646 13.3878C3.76351 14.8067 5.75034 15.6848 7.94307 15.6848C8.02798 15.6848 8.11501 15.6806 8.19992 15.6785C7.95581 14.9261 7.82208 14.1234 7.82208 13.2914C7.82208 9.05166 11.246 5.58734 15.5083 5.45112ZM22.5641 13.2914C22.5641 9.59237 19.5287 6.59122 15.7843 6.58493C15.78 6.58493 15.7758 6.58493 15.7715 6.58493C12.0207 6.58493 8.97894 9.58818 8.97894 13.2914C8.97894 14.0857 9.11904 14.8465 9.37588 15.5549C9.73462 16.5462 10.3247 17.4285 11.0804 18.141L10.0148 19.1931C9.56693 19.6353 9.71764 19.9979 10.3523 19.9979H15.884C15.884 19.9979 15.8798 19.9979 15.8798 19.9958C19.5817 19.9392 22.5641 16.9611 22.5641 13.2914Z\" fill=\"#C81E25\"></path>\n  </g>\n  <defs>\n    <clippath id=\"clip0_275_392\">\n      <rect width=\"22.5641\" height=\"20\" fill=\"white\"></rect>\n    </clippath>\n  </defs>\n</svg>",
+        "contact_2_mob_title": "Web chat",
+        "contact_2_mob_link": "",
+        "contact_2_mob_text": "Chat now",
+        "contact_2_mob_availability_text": "Speak to a real expert",
+        "contact_2_mob_unavailability_text": "Lines currently closed",
+        "contact_2_mob_availability_text_2": "",
+        "contact_2_mob_unavailability_text_2": "",
+        "enable_popover": true,
+        "popover_title": "We’d love to help...",
+        "popover_item_1_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"21\" viewbox=\"0 0 20 21\" fill=\"none\">\n  <g clip-path=\"url(#clip0_275_1644)\">\n    <path d=\"M4.02786 8.77033C5.63385 11.9219 8.1974 14.4833 11.35 16.087L13.7945 13.637C14.1 13.3315 14.5391 13.2425 14.9224 13.3649C16.1669 13.7761 17.5057 13.9982 18.8891 13.9982C19.5057 13.9982 20.0003 14.4927 20.0003 15.1094V18.9982C20.0003 19.6149 19.5057 20.1094 18.8891 20.1094C8.45547 20.1091 0 11.6537 0 1.22033C0 0.606527 0.497396 0.109131 1.1112 0.109131H5C5.61667 0.109131 6.1112 0.603662 6.1112 1.22033C6.1112 2.60366 6.33333 3.94246 6.74453 5.187C6.86667 5.57033 6.77786 6.00913 6.4724 6.31486L4.02786 8.77033Z\" fill=\"#C81E25\"></path>\n  </g>\n  <defs>\n    <clippath id=\"clip0_275_1644\">\n      <rect width=\"20\" height=\"20\" fill=\"white\" transform=\"translate(0 0.109131)\"></rect>\n    </clippath>\n  </defs>\n</svg>",
+        "popover_item_1_link": "tel:01409231763",
+        "popover_item_1_title": "Call us",
+        "popover_item_1_text": "01409 231 763",
+        "popover_item_1_avail_text": "Lines Open",
+        "popover_item_1_unavail_text": "Lines Closed",
+        "popover_item_1_schedule": "<table>\n<tbody>\n<tr>\n<td>Mon - Fri:</td>\n<td>7am - 6pm</td>\n</tr>\n<tr>\n<td>Saturdays:</td>\n<td>8am - 1pm</td>\n</tr>\n</tbody>\n</table>",
+        "popover_item_2_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"16\" viewbox=\"0 0 22 16\" fill=\"none\">\n  <g clip-path=\"url(#clip0_275_1648)\">\n    <path d=\"M11.9239 8.1127L20.3609 0.109131H1.82593L10.2519 8.1127C10.7029 8.54127 11.4729 8.54127 11.9349 8.1127H11.9239Z\" fill=\"#C81E25\"></path>\n    <path d=\"M11.088 10.6377C10.23 10.6377 9.372 10.3269 8.712 9.70551L0 1.43408V14.0984C0 14.6877 0.495 15.1698 1.1 15.1698H20.9C21.505 15.1698 22 14.6877 22 14.0984V1.60551L13.464 9.70551C12.804 10.3269 11.946 10.6377 11.088 10.6377Z\" fill=\"#C81E25\"></path>\n  </g>\n  <defs>\n    <clippath id=\"clip0_275_1648\">\n      <rect width=\"22\" height=\"15\" fill=\"white\" transform=\"translate(0 0.109131)\"></rect>\n    </clippath>\n  </defs>\n</svg>",
+        "popover_item_2_link": "mailto:customersupport@ruby-group.co.uk",
+        "popover_item_2_title": "Email",
+        "popover_item_2_text": "customersupport@ruby-group.co.uk",
+        "popover_item_2_schedule": "",
+        "popover_item_3_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"22\" height=\"21\" viewbox=\"0 0 22 21\" fill=\"none\">\n  <g clip-path=\"url(#clip0_275_1654)\">\n    <path d=\"M15.1206 5.56025C14.123 2.39982 11.1987 0.109131 7.7445 0.109131C3.4666 0.109131 0 3.61956 0 7.95153C0 7.97249 0 7.99554 0 8.0165C0 8.02278 0 8.02698 0 8.03326V14.6559C0 15.2826 0.358043 15.4335 0.794732 14.9891L2.2683 13.497C3.66943 14.9158 5.60658 15.7939 7.7445 15.7939C7.82728 15.7939 7.91214 15.7897 7.99492 15.7876C7.75691 15.0353 7.62653 14.2326 7.62653 13.4005C7.62653 9.16079 10.9648 5.69647 15.1206 5.56025ZM22 13.4005C22 9.7015 19.0405 6.70035 15.3897 6.69406C15.3855 6.69406 15.3814 6.69406 15.3772 6.69406C11.7202 6.69406 8.75447 9.69731 8.75447 13.4005C8.75447 14.1948 8.89106 14.9556 9.14149 15.664C9.49125 16.6553 10.0666 17.5376 10.8034 18.2502L9.76444 19.3023C9.32775 19.7445 9.47469 20.107 10.0935 20.107H15.4869C15.4869 20.107 15.4828 20.107 15.4828 20.1049C19.0922 20.0484 22 17.0703 22 13.4005Z\" fill=\"#C81E25\"></path>\n  </g>\n  <defs>\n    <clippath id=\"clip0_275_1654\">\n      <rect width=\"22\" height=\"20\" fill=\"white\" transform=\"translate(0 0.109131)\"></rect>\n    </clippath>\n  </defs>\n</svg>",
+        "popover_item_3_link": "",
+        "popover_item_3_title": "Web chat",
+        "popover_item_3_text": "Click to start",
+        "popover_item_3_schedule": "<table>\n<tbody>\n<tr>\n<td>7 days a week</td>\n</tr>\n<tr>\n<td>Speak to a real expert</td>\n</tr>\n</tbody>\n</table>",
+        "popover_item_4_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"21\" viewbox=\"0 0 20 21\" fill=\"none\">\n  <g clip-path=\"url(#clip0_275_1633)\">\n    <path d=\"M17.086 3.01536C15.2061 1.14254 12.7062 0.110478 10.0426 0.109131C4.55302 0.109131 0.0866211 4.55402 0.0839142 10.0189C0.0812073 11.7583 0.540028 13.4667 1.41301 14.973L0 20.1091L5.27847 18.7308C6.73344 19.5203 8.37112 19.9367 10.0372 19.9367H10.0413C15.5295 19.9367 19.9973 15.4904 20 10.0269C20 7.37941 18.966 4.88951 17.086 3.01536Z\" fill=\"#C81E25\"></path>\n    <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M7.51443 5.8758C7.32766 5.46351 7.13141 5.45543 6.9541 5.44734L6.47769 5.44196C6.31121 5.44196 6.04188 5.50393 5.8145 5.75184C5.58712 5.99976 4.94287 6.59933 4.94287 7.81733C4.94287 9.03533 5.8348 10.2129 5.95932 10.3786C6.08383 10.5444 7.68091 13.1245 10.2105 14.1175C12.3124 14.9421 12.7401 14.7791 13.1962 14.7373C13.6524 14.6955 14.6688 14.1377 14.8759 13.5597C15.083 12.9817 15.083 12.4859 15.0207 12.3821C14.9584 12.2784 14.7933 12.2164 14.5429 12.0925C14.2925 11.9685 13.0704 11.3689 12.843 11.2867C12.6156 11.2046 12.4491 11.1628 12.2827 11.4107C12.1162 11.6586 11.6398 12.2164 11.4949 12.3821C11.3501 12.5479 11.2053 12.5681 10.9563 12.4441C10.7072 12.3202 9.90599 12.0588 8.95586 11.2153C8.21688 10.5592 7.71745 9.74807 7.57128 9.50016C7.42511 9.25225 7.55639 9.11886 7.68091 8.99491C7.79189 8.88442 7.92994 8.70523 8.05446 8.56106C8.17898 8.41689 8.21958 8.31315 8.3035 8.14743C8.38741 7.9817 8.34546 7.83754 8.2832 7.71358C8.22094 7.58962 7.73775 6.36489 7.51579 5.87445\" fill=\"white\"></path>\n  </g>\n  <defs>\n    <clippath id=\"clip0_275_1633\">\n      <rect width=\"20\" height=\"20\" fill=\"white\" transform=\"translate(0 0.109131)\"></rect>\n    </clippath>\n  </defs>\n</svg>",
+        "popover_item_4_link": "https://wa.me/447474126687",
+        "popover_item_4_title": "WhatsApp",
+        "popover_item_4_text": "07474 126 687",
+        "popover_item_4_avail_text": "Lines Open",
+        "popover_item_4_unavail_text": "Lines Closed",
+        "popover_item_4_schedule": "<table>\n<tbody>\n<tr>\n<td>7 days a week</td>\n</tr>\n<tr>\n<td>Speak to a real expert</td>\n</tr>\n</tbody>\n</table>"
+      }
+    }
+  },
+  "order": [
+    "custom_icon_with_text_phFTQj",
+    "announcement-bar",
+    "header"
+  ]
+}

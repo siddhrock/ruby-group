@@ -1,0 +1,194 @@
+{% comment %} <div>
+<img src="{{ product.featured_media | image_url: width: 1000 }}" class="w-full h-full object-fit" width="{{ product.featured_media.width }}" height="{{ product.featured_media.height }}" alt="{{ product.featured_media.alt }}" >  
+</div>
+
+<div>
+  <div class="w-[86px] h-[86px] mt-4">
+    <img src="{{ product.featured_media | image_url: width: 172 }}" class="w-full h-full object-fit" width="{{ product.featured_media.width }}" height="{{ product.featured_media.height }}" alt="{{ product.featured_media.alt }}" >
+  </div>
+</div> {% endcomment %}
+
+{% # Desktop Main Carousel %}
+<section
+  id="main-carousel"
+  class="mainscreen-images splide relative hidden md:block"
+  aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+>
+  <div class="splide__track">
+		<ul class="splide__list">
+			{% for media in product.media %}
+        <li class="splide__slide cursor-pointer" onclick="setActive()">
+          <div class="bg-[#F9F9F9]">
+            <picture>
+              <source srcset="{{ media.src | image_url: width: 774 }}, {{ media.src | image_url: width: 1548 }} 2x" media="(min-width: 768px)">
+              <source srcset="{{ media.src | image_url: width: 576 }}, {{ media.src | image_url: width: 1152 }} 2x" media="(min-width: 421px) and (max-width: 767px)">
+              <source srcset="{{ media.src | image_url: width: 390 }}, {{ media.src | image_url: width: 680 }} 2x" media="(max-width: 420px)">
+              <img class="w-full object-contain mix-blend-multiply" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" alt="{{ media.alt | escape }}" width="{{ media.width }}" height="{{ media.height }}">
+            </picture>
+          </div>
+        </li>
+      {% endfor %}
+		</ul>
+  </div>
+  <div class="splide__arrows absolute bottom-0 right-0 p-4">
+		<button class="splide__arrow--prev">
+			<div class="w-10 h-10 rotate-180">
+        {{- 'icon-arrow-left.svg' | inline_asset_content -}}
+      </div>
+		</button>
+		<button class="splide__arrow--next">
+			<div class="w-10 h-10 rotate-180">
+        {{- 'icon-arrow-left.svg' | inline_asset_content -}}
+      </div>
+		</button>
+  </div>
+</section>
+
+{% # Mobile Main Carousel %}
+<section
+  id="mobile-main-carousel"
+  class="mainscreen-images splide relative md:hidden mb-8"
+  aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+>
+  <div class="splide__track">
+		<ul class="splide__list">
+			{% for media in product.media %}
+        <li class="splide__slide cursor-pointer" onclick="setActive()">
+          <div class="bg-[#F9F9F9]">
+            <picture>
+              <source srcset="{{ media.src | image_url: width: 774 }}, {{ media.src | image_url: width: 1548 }} 2x" media="(min-width: 768px)">
+              <source srcset="{{ media.src | image_url: width: 576 }}, {{ media.src | image_url: width: 1152 }} 2x" media="(min-width: 421px) and (max-width: 767px)">
+              <source srcset="{{ media.src | image_url: width: 390 }}, {{ media.src | image_url: width: 680 }} 2x" media="(max-width: 420px)">
+              <img class="w-full object-contain mix-blend-multiply" loading="{% if forloop.index == 1 %}eager{% else %}lazy{% endif %}" alt="{{ media.alt | escape }}" width="{{ media.width }}" height="{{ media.height }}">
+            </picture>
+          </div>
+        </li>
+      {% endfor %}
+		</ul>
+  </div>
+  <div class="absolute right-0 -bottom-8 text-black text-xs underline leading-[24px] pr-6" onclick="setActive()">
+    <p>View Gallery</p>
+  </div>
+</section>
+
+{% # Thumbnail Carousel %}
+<section
+  id="thumbnail-carousel"
+  class="thumbnail-images splide mt-4 hidden md:block"
+  aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+>
+  <div class="splide__track">
+		<ul class="splide__list">
+			{% for media in product.media %}
+        <li class="splide__slide">
+          <div>
+            <picture>
+              <source srcset="{{ media.src | image_url: width: 98 }}, {{ media.src | image_url: width: 196 }} 2x" media="(min-width: 768px)">
+              <source srcset="{{ media.src | image_url: width: 98 }}, {{ media.src | image_url: width: 196 }} 2x" media="(max-width: 767px)">
+              <img class="w-full object-contain" loading="lazy" alt="{{ media.alt | escape }}" width="{{ media.width }}" height="{{ media.height }}">
+            </picture>
+          </div>
+        </li>
+      {% endfor %}
+		</ul>
+  </div>
+</section>
+
+{% # Full View Gallery Carousel %}
+<dialog id="image-full-screen" class="w-full max-w-full max-h-full p-0 p-0 flex items-center h-full bg-[#FFFBF4] fixed inset-0 z-[9999999]">
+  <div class="w-6 h-6 cursor-pointer absolute top-4 right-4 z-[100]" onclick="resetActive()">
+    {{- 'icon-close.svg' | inline_asset_content -}}
+  </div>
+  <div class="flex flex-col align-center justify-center items-center lg:flex-row lg:justify-between lg:items-start w-full h-full p-2 gap-8 lg:p-0 lg:gap-8">
+    <div id="gallery-carousel" class="fullscreen-images splide h-full w-auto lg:w-full lg:relative lg:py-14 px-0 lg:flex lg:flex-row-reverse lg:items-start lg:justify-center" id="fullscreen-images">
+      <div class="splide__track h-full">
+        <ul class="splide__list h-full">
+          {% for media in product.media %}
+            <li class="splide__slide" data-slide-id={{forloop.index}}>
+              <div class="bg-[#FFFBF4] h-full">
+                <picture>
+                  <source srcset="{{ media.src | image_url: width: 774 }}, {{ media.src | image_url: width: 1200 }} 2x" media="(min-width: 768px)">
+                  <source srcset="{{ media.src | image_url: width: 576 }}, {{ media.src | image_url: width: 900 }} 2x" media="(min-width: 421px) and (max-width: 767px)">
+                  <source srcset="{{ media.src | image_url: width: 400 }}, {{ media.src | image_url: width: 800 }} 2x" media="(max-width: 420px)">
+                  <img class="w-full h-full mix-blend-multiply object-contain m-auto" loading="lazy" alt="{{ media.alt | escape }}" width="{{ media.width }}" height="{{ media.height }}">
+                </picture>
+              </div>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="splide__arrows absolute w-full top-[45%] py-4 md:p-4">
+        <button class="splide__arrow--prev float-left">
+          <div class="w-8 h-8 md:w-10 md:h-10 rotate-180">
+            {{- 'icon-arrow-left.svg' | inline_asset_content -}}
+          </div>
+        </button>
+        <button class="splide__arrow--next float-right">
+          <div class="w-8 h-8 md:w-10 md:h-10 rotate-180">
+            {{- 'icon-arrow-left.svg' | inline_asset_content -}}
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function () {
+    var main = new Splide( '#main-carousel', {
+      type      : 'fade',
+      rewind    : true,
+      pagination: false,
+      arrows    : true,
+    } );
+
+    var mobileMain = new Splide( '#mobile-main-carousel', {
+      perPage   : 1,
+      perMove   : 1,
+      padding: { right: 60 },
+      gap       : '1.5rem',
+      autoplay  : false,
+      pagination: true,
+      arrows    : false,
+    } );
+  
+    var thumbnails = new Splide( '#thumbnail-carousel', {
+      fixedWidth  : 100,
+      gap         : 10,
+      rewind      : true,
+      pagination  : false,
+      isNavigation: true,
+      arrows    : false,
+      breakpoints : {
+        600: {
+          fixedWidth : 60
+        },
+      },
+    } );
+
+    var gallery = new Splide( '#gallery-carousel', {
+      type      : 'fade',
+      rewind    : true,
+      pagination: false,
+      arrows    : true,
+    } );
+    
+    main.sync( thumbnails );
+    main.sync( gallery );
+    main.mount();
+    thumbnails.mount();
+    gallery.mount();
+
+    mobileMain.sync( gallery );
+    mobileMain.mount();
+
+  } );
+
+  function setActive(index) {
+    document.getElementById("image-full-screen").classList.add('active');
+  }
+
+  function resetActive() {
+    document.getElementById("image-full-screen").classList.remove('active');
+  }
+</script>

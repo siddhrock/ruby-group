@@ -1,0 +1,42 @@
+x-cloak {
+    @apply !hidden;
+}
+
+
+/* Titles & Headings
+ - Opted to use custom font-sizes as to not affect the default Tailwind provided sizes
+*/
+
+.pdp-title {
+    @apply font-title font-bold text-[32px]
+}
+
+/*
+    Body Text
+*/
+
+.body-large {
+    @apply font-body leading-body text-xl;
+}
+
+.body-medium {
+    @apply font-body leading-body text-lg;
+}
+
+.body-regular {
+    @apply font-body leading-body text-base;
+}
+
+.body-small {
+    @apply font-body leading-body text-sm;
+}
+
+.body-tiny {
+    @apply font-body leading-body text-xs;
+}
+
+[rel='richtext'] {
+    p {
+        @apply mb-4;
+    }
+}

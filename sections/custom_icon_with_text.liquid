@@ -1,0 +1,133 @@
+<style>
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.50 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.50 | round: 0 }}px;
+  }
+  {% if section.settings.white_icon %}
+    .icon_text_wr img {
+      filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(4488%) hue-rotate(40deg) brightness(117%) contrast(100%);
+    }
+  {% endif %}
+  .icon_text_wr{
+    color: {{ section.settings.text_color }};
+  }
+  @media screen and (min-width: 990px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+
+<div class="icon_text_wr section-{{ section.id }}-padding" style="background-color: {{ section.settings.bg_color }};"> 
+  <div class="container">
+    <div class="page-width">
+      <div class="icon_text_main">
+        {% if section.settings.icon_text_head != blank %}
+          <h2 class="Heading">{{ section.settings.icon_text_head }}</h2>
+        {% endif %}
+        <div class="icon_texts_main">
+          {% for block in section.blocks %}
+            {% if block.settings.icon_texts_img != blank or block.settings.title != blank %}
+              <div class="icon_texts_img">
+                {% if block.settings.icon_texts_img != blank %}
+                  <img src="{{ block.settings.icon_texts_img | img_url:'100x' }}" width="{{ block.settings.icon_texts_img.width }}" height="{{ block.settings.icon_texts_img.height }}" alt="{{ block.settings.title }}">
+                {% endif %}
+                {% if block.settings.title != blank %}
+                  <span class="icon_content">
+                    {{ block.settings.title }}
+                  </span>
+                {% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+          <div class="icon_texts_img">
+            {% comment %} <!-- TrustBox widget - Micro Button -->
+            <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b757fa0340045cd0c938" data-businessunit-id="5e9e06809f2da40001b0fdda" data-style-height="25px" data-style-width="100%" data-font-family="Poppins" data-text-color="#2A4125">
+              <a href="https://uk.trustpilot.com/review/ruby-group.co.uk" target="_blank" rel="noopener">Trustpilot</a>
+            </div>
+            <!-- End TrustBox widget --> {% endcomment %}
+
+            <!-- TrustBox widget - Micro Star -->
+            <div class="trustpilot-widget" data-locale="en-GB" data-template-id="5419b732fbfb950b10de65e5" data-businessunit-id="5e9e06809f2da40001b0fdda" data-style-height="20px" data-style-width="100%" data-font-family="Poppins" data-text-color="#2A4125">
+              <a href="https://uk.trustpilot.com/review/ruby-group.co.uk" target="_blank" rel="noopener">Trustpilot</a>
+            </div>
+            <!-- End TrustBox widget -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom Icon with text",
+  "class": "cstm_icon_text",
+  "settings": [
+    { 
+      "id": "bg_color", 
+      "type": "color", 
+      "label": "Background color" 
+    },
+    { 
+      "id": "text_color", 
+      "type": "color", 
+      "label": "Text color" 
+    },
+    { 
+      "id": "white_icon", 
+      "type": "checkbox", 
+      "label": "White icon" 
+    },
+    { 
+      "id": "icon_text_head", 
+      "type": "text", 
+      "label": "Main Heading" 
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Top Padding",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Bottom Padding",
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon_texts_img",
+      "name": "Icon",
+      "settings": [
+        {
+          "id": "icon_texts_img",
+          "type": "image_picker",
+          "label": "Select Image"
+        },
+        { 
+          "id": "title", 
+          "type": "richtext", 
+          "label": "Text" 
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Icon with text"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "title_alignment": "center"
+      }
+    },
+    "image_with_text_overlay_BKG48F": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/Frontshot_75a19233-f1bd-43d0-bc9b-3d5ecae45086.jpg",
+        "image_link": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "color_overlay_bg": "#ffffff",
+        "overlay_opacity": 80,
+        "color_overlay_text": "#333333",
+        "text_alignment": "center",
+        "overlay_position_x": 50,
+        "overlay_position_y": 80,
+        "mobile_text_below": false,
+        "overlay_title": "3/4 Split Gate Installation Guide",
+        "enlarge_title": true,
+        "overlay_title_width": 100,
+        "styled_words": "",
+        "words_style": "stencil",
+        "highlight_words_top": 10,
+        "highlight_color": "#ffffff",
+        "styled_word_color": "#b5e0fa",
+        "overlay_text": "",
+        "enlarge_text": false,
+        "overlay_url_text_1": "",
+        "overlay_url_1": "",
+        "overlay_url_text_2": "",
+        "overlay_url_2": "",
+        "overlay_url_style": "button_1",
+        "color_label_background": "#ffffff",
+        "color_label_text": "#333333",
+        "show_chevron": true,
+        "product_id_1": "",
+        "chevron_position_1": "right",
+        "label_position_x_1": 20,
+        "label_position_y_1": 30,
+        "product_id_2": "",
+        "chevron_position_2": "right",
+        "label_position_x_2": 80,
+        "label_position_y_2": 50
+      }
+    },
+    "rich_text_bPnijh": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<p>Installing a 3/4 split wooden gate is a practical and stylish way to manage both pedestrian and vehicle access to your property. </p><p>With one smaller gate for daily use and a wider gate for occasional vehicle access, this setup offers flexibility without compromising on aesthetics or security. </p><p>In this guide, we’ll walk you through the complete installation process — from measuring and setting your posts to hanging the gates, fitting the hinges, and securing latches and drop bolts — so you can achieve a reliable and professional finish. </p><p>Whether you're a seasoned DIYer or tackling your first gate project, this guide will help you get it right the first time.</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": true,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_E7DgXF": {
+      "type": "image-with-text",
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/rubygroup_workshop-34_2.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "What You Will Need...",
+        "text": "<ul><li>Tape Measure</li><li>Spirit Level</li><li>Drill & appropriate drill bits for masonry</li><li>Spanner</li><li>Screws/Bolts</li><li>Gate Posts</li><li>Hinges</li><li>Drop Bolt & Throwover Loop</li><li>Post Mix or Concrete (if posts are going into the ground)</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#dae4e6",
+        "gradient_bg": ""
+      }
+    },
+    "rich_text_97Y9PE": {
+      "type": "rich-text",
+      "settings": {
+        "title": "",
+        "text": "<h4>Step 1. Measure and Prepare the Gate Opening</h4><ul><li>Use our <a href=\"/pages/how-to-measure-for-wooden-gates\" title=\"How to Measure for Wooden Gates\">How to Measure</a> page to calculate the size of your opening and what hinges will work for you.</li></ul><h4>Step 2. Install Gate Posts</h4><ul><li>Mark post positions based on the total gate width + hinge clearance.</li><li>Dig holes at least 600mm - 750mm deep - deeper for heavier gates and if the soil is softer.</li><li>Set posts plumb and level using a sprirt level.</li><li>Fix in place with Post Mix or concrete and allow to set for 48 hours before hanging your gates, whilst bracing the posts to prevent movement. </li></ul><h4>Step 3. <strong>Positioning and Preparing the Hinges</strong></h4><ul><li>Lay each gate flat and attach adjustable hook & band hinges- two per gate minimum, three for larger/heavier gates. Typically around 100mm from the top and bottom.</li><li>Mark fixing holes on the gate and drill pilot holes.</li><li>Fix the bands to the gate using bolts or screws, ensuring they are level and aligned with the gate edge. </li></ul><h4>Step 4. <strong>Hang the Gates</strong></h4><ul><li>Begin with the larger 3/4 gate.</li><li>Lift it into position and mark where the hook plates should go on the post.</li><li> Fix the hook plates onto the gate post where the hinge pins will sit - starting with the bottom hinge will make it easier.</li><li>Repeat the process for the smaller 1/4 gate, ensuring even spacing and swing clearance. </li></ul><h4><strong>Step 5. Check Swing and Alignment</strong></h4><ul><li>Open and close the gate to ensure smooth movement and that they align in the centre when closed.</li><li>Adjust the hinge bolts if the gate sags or needs levelling.</li><li>Check gaps between the gate and posts - typically 10-20mm for swing clearance.</li></ul><h4><strong>Step 6. Fit Latch, Drop Bolt and Throwover Loop</strong></h4><ul><li>Latch - Fit to the smaller gate, with the catch mounted on the larger gate.</li><li>Drop Bolt - Install at the bottom of the larger gate to anchor it into the ground when not in use. </li><li>Throwover Loop - Fix to the top of the larger gate so it can loop over and secure the smaller gate when both are closed. </li></ul><h4><strong>Step 7. Final Checks</strong></h4><ul><li>All fixings are tight</li><li>Gates open and close smoothly</li><li>No excessive gaps or binding</li><li>Apply <a href=\"https://www.ruby-group.co.uk/products/uv-protection-oil\" title=\"https://www.ruby-group.co.uk/products/uv-protection-oil\">Osmo Oil</a></li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "slideshow_czVFiB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AeHxyL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SlattedGate_Cedar_3_4_1.png",
+            "image_link": "",
+            "color_overlay_bg": "#ffffff",
+            "overlay_opacity": 80,
+            "color_overlay_text": "#333333",
+            "text_alignment": "center",
+            "overlay_position_x": 50,
+            "overlay_position_y": 80,
+            "overlay_title": "Slideshow",
+            "enlarge_title": false,
+            "overlay_title_width": 100,
+            "styled_words": "",
+            "words_style": "stencil",
+            "highlight_words_top": 10,
+            "highlight_color": "#ffffff",
+            "styled_word_color": "#b5e0fa",
+            "overlay_text": "Use this section to welcome customers to your store, show off your images or display a promotion",
+            "enlarge_text": false,
+            "overlay_url_text_1": "",
+            "overlay_url_1": "",
+            "overlay_url_text_2": "",
+            "overlay_url_2": "",
+            "overlay_url_style": "button_1",
+            "color_label_background": "#ffffff",
+            "color_label_text": "#333333",
+            "show_chevron": true,
+            "product_id_1": "",
+            "chevron_position_1": "right",
+            "label_position_x_1": 20,
+            "label_position_y_1": 30,
+            "product_id_2": "",
+            "chevron_position_2": "right",
+            "label_position_x_2": 80,
+            "label_position_y_2": 50
+          }
+        }
+      },
+      "block_order": [
+        "image_AeHxyL"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 340,
+        "height_mobile": 240,
+        "mobile_text_below": true,
+        "slide_transition": "fade",
+        "slideshow_autoplay": true,
+        "slideshow_autoplay_speed": 6
+      }
+    },
+    "rich_text_BhNxhL": {
+      "type": "rich-text",
+      "settings": {
+        "title": "And You're Done!",
+        "text": "<h5>Always let us know if you need any help or have any questions, our team are  happy to help! We can also offer our own installation service to save yourself the hassle!</h5>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_KbebTd": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "3/4 Split Collection",
+        "enlarge_title": false,
+        "link_text": "Shop now",
+        "collection": "3-4-split-collection",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "row_count": 1,
+        "grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_BKG48F",
+    "rich_text_bPnijh",
+    "image_with_text_E7DgXF",
+    "rich_text_97Y9PE",
+    "slideshow_czVFiB",
+    "rich_text_BhNxhL",
+    "featured_collection_KbebTd"
+  ]
+}

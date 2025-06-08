@@ -1,0 +1,114 @@
+{%  liquid
+  assign new_upsell_product = selected_variant.metafields.custom.upsell_for_variants.value
+  assign first_item = blank
+
+  assign upsell_count_ironwork = 0
+  assign upsell_content_ironwork = blank
+
+  assign upsell_count_posts = 0
+  assign upsell_content_posts = blank
+
+  assign upsell_count_protection = 0
+  assign upsell_content_protection = blank
+
+  assign upsell_count_products = 0
+  assign upsell_content_products = blank
+%}
+
+{% if selected_variant.metafields.custom.upsell_for_variants != blank %}
+  <div id="product-variant-upsell-content" class="mt-4">
+
+  {% for related_product in new_upsell_product %}
+    {% if related_product.tags contains 'Gate Ironwork' or related_product.tags contains 'Ironmongery' or related_product.metafields.custom.type == 'Ironwork' %}
+      {% assign upsell_count_ironwork = upsell_count_ironwork | plus: 1 %}
+      {% capture product_to_add %}<li class="splide__slide !w-[300px] lg:!w-[400px] bg-white first:ml-4">{% render 'product-upsell', quickbuy:true, product: related_product %}</li>{% endcapture %}
+      {% assign upsell_content_ironwork = upsell_content_ironwork | append: product_to_add %}
+    
+    {% elsif related_product.tags contains 'Gate Posts' or related_product.metafields.custom.type == 'Post' %}
+      {% assign upsell_count_posts = upsell_count_posts | plus: 1 %}
+      {% capture product_to_add %}<li class="splide__slide !w-[300px] lg:!w-[400px] bg-white first:ml-4">{% render 'product-upsell', quickbuy:true, product: related_product %}</li>{% endcapture %}
+      {% assign upsell_content_posts = upsell_content_posts | append: product_to_add %}
+
+    {% elsif related_product.tags contains 'Aftercare' or related_product.metafields.custom.type == 'Protection' %}
+      {% assign upsell_count_protection = upsell_count_protection | plus: 1 %}
+      {% capture product_to_add %}<li class="splide__slide !w-[300px] lg:!w-[400px] bg-white first:ml-4">{% render 'product-upsell', quickbuy:true, product: related_product %}</li>{% endcapture %}
+      {% assign upsell_content_protection = upsell_content_protection | append: product_to_add %}
+
+    {% else %}
+      {% assign upsell_count_products = upsell_count_products | plus: 1 %}
+      {% capture product_to_add %}<li class="splide__slide !w-[300px] lg:!w-[400px] bg-white first:ml-4">{% render 'product-upsell', quickbuy:true, product: related_product %}</li>{% endcapture %}
+      {% assign upsell_content_products = upsell_content_products | append: product_to_add %}
+    
+    {% endif %}
+  {% endfor %}
+
+  {% if upsell_count_ironwork > 0 %}
+    {% if first_item == blank %}
+      {% assign first_item = 'ironwork' %}
+      {% assign first_item_display = true %}
+    {%  else %}
+      {% assign first_item_display = false %}
+    {% endif %}
+
+    {%  
+      render 'pdp-variant-upsell' 
+      product: product, selected_variant: selected_variant, 
+      type: 'ironwork',
+      upsell_content: upsell_content_ironwork,
+      first_item: first_item_display
+    %}
+  {% endif %}
+
+  {% if upsell_count_posts > 0 %}
+    {% if first_item == blank %}
+      {% assign first_item = 'posts' %}
+      {% assign first_item_display = true %}
+    {%  else %}
+      {% assign first_item_display = false %}
+    {% endif %}
+    {%  
+      render 'pdp-variant-upsell' 
+      product: product, selected_variant: selected_variant, 
+      type: 'posts',
+      upsell_content: upsell_content_posts,
+      first_item: first_item_display
+    %}
+  {% endif %}
+
+  {% if upsell_count_protection > 0 %}
+    {% if first_item == blank %}
+      {% assign first_item = 'protection' %}
+      {% assign first_item_display = true %}
+    {%  else %}
+      {% assign first_item_display = false %}
+    {% endif %}
+    {%  
+      render 'pdp-variant-upsell' 
+      product: product, selected_variant: selected_variant, 
+      type: 'protection',
+      upsell_content: upsell_content_protection,
+      first_item: first_item_display
+    %}
+  {% endif %}
+
+  {% if upsell_count_products > 0 %}
+    {% if first_item == blank %}
+      {% assign first_item = 'products' %}
+      {% assign first_item_display = true %}
+    {%  else %}
+      {% assign first_item_display = false %}
+    {% endif %}
+    {%  
+      render 'pdp-variant-upsell' 
+      product: product, selected_variant: selected_variant, 
+      type: 'products',
+      upsell_content: upsell_content_products,
+      first_item: first_item_display
+    %}
+  {% endif %}
+
+  
+
+
+  </div>
+{%  endif %}

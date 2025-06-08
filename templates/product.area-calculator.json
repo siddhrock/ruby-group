@@ -1,0 +1,500 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text_pDzQfP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.metafields.custom.product_name.value }}"
+          }
+        },
+        "title_and_price": {
+          "type": "title_and_price",
+          "settings": {
+            "show_tax_and_shipping": false
+          }
+        },
+        "custom_liquid_aL9ypi": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<script\n    type=\"text/javascript\"\n    data-src=\"https://api.feefo.com/api/javascript/ruby-group\"\n    async></script>\n\n{% case product.handle %}\n  {% when 'padstow-wooden-garden-featheredge-gate-1-2m-high', '1-5mhighfeatheredgegate', 'wooden-garden-featheredge-gate-pedestrian-ate', 'padstow-wooden-garden-featheredge-gate-2-1m-high', 'padstow-wooden-garden-featheredge-gate-2-4m-high' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"padstow-gate\" data-widget-title=\"Padstow Wooden Garden Featheredge Gate\"></div> \n  {% when 'slatted-fence-panels-horizontal', 'copy-of-slatted-fence-panels-horizontal' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"slatted-fence-panels-h-and-v\" data-widget-title=\"Sawn Timber Slatted Fence Panels\"></div>\n  {% when 'field-shelter' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"field-shelter\" data-widget-title=\"Field Shelter\"></div>\n  {% when 'stable-3-8m-deep' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"stable\" data-widget-title=\"Stable\"></div>\n  {% when 'portreath-framed-featheredge-gate-1-5m-high', 'featheredge-gate' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"portreath-framed-featheredge\" data-widget-title=\"Portreath Framed Featheredge Gate\"></div>\n  {% when 'topsham-curved-featheredge-side-gate-1-5m-high', '6ft-x-3ft-pressure-treated-featheredge-gate-curved-top' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"topsham-curved-featheredge-side-gate\" data-widget-title=\"Topsham Curved Featheredge Side Gate\"></div>\n  {% when 'falmouth-featheredge-side-gate-1-5m-high', 'side-gate-featheredge' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"falmouth-featheredge-side-gate\" data-widget-title=\"Falmouth Featheredge Side Gate\"></div>\n  {% when 'instow-curved-tongue-groove-side-gate-1-5m-high','curved-framed-tongue-groove-side-gate' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"instow-curved-tongue-groove-side-gate\" data-widget-title=\"Instow Curved Tongue & Groove Side Gate\"></div>\n  {% when 'wellington-tongue-groove-side-gate-1-5m-high','framed-tongue-groove-side-gate' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"wellington-gate\" data-widget-title=\"Wellington Tongue & Groove Side Gate\"></div>\n  {% when '2-4m-200mm-x-200mm-treated-gate-post', '3-0m-200mm-x-200mm-treated-gate-post' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"200mm-x-200mm-treated-gate-post\" data-widget-title=\"200mm x 200mm Treated Gate Post\"></div>\n  {% when '2ft-high-round-top-picket', 'copy-of-3ft-high-pointed-top-picket', '4ft-high-round-top-picket', '6ft-high-round-top-picket' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"round-top-picket\" data-widget-title=\"Round Top Picket\"></div>\n  {% when 'highampton-t-g-entrance-gate-pair', 'highampton-3-4-t-g-entrance-gate-pair', 'highampton-side-gate', 'highampton-gates-bifold-3-leaf', 'highampton-gates-bifold-4-leaf, 'highampton-gates-bifold-5-leaf' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"redwood-highampton-gate\" data-widget-title=\"Redwood Highampton Gate\"></div>\n  {% when 'iroko-highampton-mortise-tenon-single-entrance-gate', 'iroko-highampton-mortise-tenon-entrance-gates-pair', 'iroko-highampton-mortise-tenon-3-4-1-4-entrance-gates-pair' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"iroko-highhampton-gate\" data-widget-title=\"Iroko Highampton Entrance Gate\"></div>\n  {% when 'cottage-side-gate-single', 'cottage-t-g-entrance-gate-pair', 'cottage-3-4-t-g-entrance-gate-pair', 'cottage-gates-bifold-3-leaf', 'cottage-gates-bifold-4-leaf', 'cottage-gates-bifold-5-leaf' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"redwood-cottage-gate\" data-widget-title=\"Redwood Cottage Gate\"></div>\n  {% when 'iroko-cottage-mortise-tenon-single-entrance-gate', 'iroko-cottage-mortise-tenon-entrance-gates-pair', 'iroko-cottage-mortise-tenon-3-4-1-4-entrance-gates-pair' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"iroko-cottage-gate\" data-widget-title=\"Iroko Cottage Gate\"></div>\n  {% when 'clovelly-side-gate-single', 'clovelly-t-g-entrance-gate-pair', 'clovelly-3-4-t-g-entrance-gate-pair', 'clovelly-gates-bifold-3-leaf', 'clovelly-gates-bifold-4-leaf', 'clovelly-gates-bifold-5-leaf' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"redwood-clovelly-gate\" data-widget-title=\"Redwood Clovelly Gate\"></div>\n  {% when 'iroko-clovelly-mortise-tenon-single-entrance-gate', 'iroko-clovelly-mortise-tenon-entrance-gates-pair', 'iroko-clovelly-mortise-tenon-3-4-1-4-entrance-gates-pair' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"iroko-clovelly-gate\" data-widget-title=\"Iroko Clovelly Gate\"></div>\n  {% when 'iroko-salcombe-gate-single', 'iroko-salcombe-gates-pair', 'salcombe-gate-3-4-1-4', 'salcombe-gates-bifold-3-leaf', 'salcombe-gates-bifold-4-leaf', 'salcombe-gates-bifold-5-leaf' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"redwood-salcombe-gate\" data-widget-title=\"Redwood Salcombe Gate\"></div>\n  {% when 'iroko-salcombe-gate-single-1', 'iroko-salcombe-gates-pair-1', 'iroko-salcombe-gates-3-4-1-4' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"iroko-salcombe-gate\" data-widget-title=\"Irko Salcome Gate\"></div>\n  {% when 'cedar-slatted-gates-pair', 'cedar-slatted-gates-3-4-1-4', 'cedar-slatted-gate-single' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"cedar-slatted-gate' data-widget-title=\"Cedar Slatted Gate\"></div>\n  {% when 'shebbear-side-gate', 'copy-of-highampton-mortise-and-tenon-t-g-entrance-gate-pair' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"shebbear-gate\" data-widget-title=\"Shebbear Side Gate\"></div>\n  {% when 'copy-of-highampton-side-gate', 'croyde-t-g-entrance-gate-pair', 'croyde-3-4-t-g-entrance-gate-pair', 'croyde-gates-bifold-3-leaf', 'croyde-gates-bifold-4-leaf', 'croyde-gates-bifold-5-leaf' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"redwood-croyde-gate\" data-widget-title=\"Redwood Croyde Gate\"></div>\n  {% when 'iroko-croyde-mortise-tenon-single-entrance-gate', 'iroko-croyde-mortise-tenon-entrance-gates-pair', 'iroko-croyde-mortise-tenon-3-4-1-4-entrance-gates-pair' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"iroko-croyde-gate\" data-widget-title=\"Iroko Croyde Gate\"></div>\n  {% when 'premium-pergolas-katepal-brown-shingle-roof', 'premium-pergolas-katepal-green-shingle-roof', 'premium-pergolas-katepal-grey-shingle-roof', 'pergola-katepal-red-shingles-roof', 'premium-pergolas-shingle-roof' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"katepal-pergola\" data-widget-title=\"Katepal Pergola\"></div>\n  {% when '1-8m-75mm-x-75mm-treated-post', '8ft-square-treated-fence-post' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"75mm-x-75mm-post\" data-widget-title=\"75mm x 75mm Treated Post\"></div>\n  {% when 'pointed-top-picket-pales-packs-of-10', '4ft-high-pointed-top-picket', '3ft-high-pointed-top-picket' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"pointed-top-picket\" data-widget-title=\"Pointed Top Picket\"></div>\n  {% when 'copy-of-4x4-square-treated-fence-posts-various-lengths-available', '1-8m-4-x-4-treated-timber-posts', '3-0mm-4-x-4-treated-timber-posts', '3-6m-100mm-x-100mm-treated-timber-posts', '4-2m-100mm-x-100mm-treated-timber-posts' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"100mm-x-100mm-posts\" data-widget-title=\"100mm x 100mm Treated Timber Posts\"></div>\n  {% when 'gatepost', '3-0m-150mm-x-150mm-treated-gate-post', '3-6m-150mm-x-150mm-treated-gate-post' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"150mm-x-150mm-treated-gate-post\" data-widget-title=\"150mm x 150mm Treated Gate Post\"></div>\n  {% when '4ft-x-3ft-picket-gate', 'picket-side-gate-round-top', 'picket-side-gate-pointed-top-0-6m-height', 'copy-of-garden-gate', '3ft-x-3ft-picket-gate', 'picket-side-gate', 'pressure-treated-picket-side-gate-round-top-1-8m' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"picket-gate-garden\" data-widget-title=\"Pressure Treated Picket Side Gate\"></div>\n  {% when 'copy-of-featheredge-garden-gate-green-brown', '6ft-x-3ft-premium-curved-top-picket-gate', 'premium-curved-top-picket-gate-1-5m-high', 'premium-curved-top-picket-gate-1-8m-high' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"picket-gate-pedestrian\" data-widget-title=\"Pedestrian Picket Gate\"></div>\n  {% when 'large-deluxe-decking-planter', 'deluxe-decking-planter' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"deluxe-planter\" data-widget-title=\"Deluze Decking Planter\"></div>\n  {% when 'standard-a-frame-pic-nic-table-150cm-x-150cm','standard-a-frame-pic-nic-table-180cm-x-180cm' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"picnic-table\" data-widget-title=\"Picnic Table\"></div>\n  {% when 'copy-of-iro-external-timber-heat-enhanced-cladding', 'copy-of-driftwood-iro-external-timber-heat-enhanced-cladding', 'iro-external-timber-heat-enhanced-cladding' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"iro-cladding\" data-widget-title=\"IRO Cladding\"></div>\n  {% when 'iro-charcoal-decking-145mm-x-28mm', 'iro-mountain-decking-145mm-x-28mm', 'iro-driftwood-decking-145mm-x-28mm', 'iro-natural-decking-145mm-x-28mm' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"iro-decking\" data-widget-title=\"IRO Decking\"></div>\n  {% when 'treated-pse-slatted-panel-horizontal', 'treated-pse-slatted-panel-vertical' %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"treated-pse-panel\" data-widget-title=\"Treated PSE Slatted Panel\"></div>\n  {% else %}\n    <div id=\"feefologohere\" data-parent-product-sku=\"{{product.id}}\"></div> \n{% endcase %}"
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "type": {
+          "type": "type",
+          "disabled": true,
+          "settings": {}
+        },
+        "sku_zYYkTX": {
+          "type": "sku",
+          "disabled": true,
+          "settings": {}
+        },
+        "weight_Ymk7ix": {
+          "type": "weight",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "size_chart_enabled": false,
+            "size_chart_option_name": "Size",
+            "size_chart_page_id": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_area_calculator": true,
+            "enable_payment_button": true,
+            "show_gift_card_recipient": false,
+            "show_pickup_availability": true,
+            "show_backorder_text": true,
+            "show_inventory_notice": "never",
+            "show_inventory_count": "low",
+            "inventory_notice_threshold": 10
+          }
+        },
+        "variant_base_upsell_bN6pDt": {
+          "type": "variant_base_upsell",
+          "settings": {
+            "block_heading": "Also something for you:",
+            "enable_carousel": true,
+            "max_products": 10
+          }
+        },
+        "spec_tab_beTGmy": {
+          "type": "spec_tab",
+          "settings": {
+            "spec_tab_title": "Specification",
+            "spec_tab_image": "{{ product.metafields.custom.specification_image.value }}"
+          }
+        },
+        "desc_tab_TC8re7": {
+          "type": "desc_tab",
+          "settings": {
+            "desc_tab_title": "Description",
+            "video": "{{ product.metafields.custom.product_description_video.value }}",
+            "desc_content": "{{ product.metafields.custom.product_description | metafield_tag }}"
+          }
+        },
+        "delivery_tab_7whQXW": {
+          "type": "delivery_tab",
+          "settings": {
+            "delivery_tab_title": "Delivery",
+            "delivery_tab_image": "shopify://shop_images/Image_6.png"
+          }
+        },
+        "payment_tab_ekweyP": {
+          "type": "payment_tab",
+          "settings": {
+            "payment_tab_title": "Payment"
+          }
+        }
+      },
+      "block_order": [
+        "text_pDzQfP",
+        "title_and_price",
+        "custom_liquid_aL9ypi",
+        "vendor",
+        "type",
+        "sku_zYYkTX",
+        "weight_Ymk7ix",
+        "variant_picker",
+        "buy_buttons",
+        "variant_base_upsell_bN6pDt",
+        "spec_tab_beTGmy",
+        "desc_tab_TC8re7",
+        "delivery_tab_7whQXW",
+        "payment_tab_ekweyP"
+      ],
+      "settings": {
+        "enable_sticky_media": true,
+        "tool_tip_message": "Enter the area in square meters",
+        "media_size": "medium",
+        "media_layout": "thumbnails-below",
+        "enable_video_looping": false
+      }
+    },
+    "custom_about_slider_metaobject_JFxpdD": {
+      "type": "custom_about_slider_metaobject",
+      "settings": {
+        "title": "The things you should know about the RUBY",
+        "enlarge_title": false,
+        "description": "<p>We'd love to help you make sure you choose the right gate, so check out all the unique and innovative features of our products.</p>",
+        "text_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
+    },
+    "recent": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "show_recently_viewed": true,
+        "show_vendor": false
+      }
+    },
+    "a85fd2e4-b2c0-4f04-a411-f6c23485a37c": {
+      "type": "metafield-image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/IRO_Cladding_1.png",
+        "image_size": "30",
+        "image_position": "left",
+        "enlarge_title": true,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#092331",
+        "color_bg": "#f3f3f3",
+        "gradient_bg": ""
+      }
+    },
+    "new_product_img_text_metafield_zY3Jca": {
+      "type": "new_product_img_text_metafield",
+      "disabled": true,
+      "settings": {
+        "image_size": "0",
+        "image_position": "left",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "left",
+        "color_text": "#171717",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 30
+      }
+    },
+    "170307504020591000": {
+      "type": "apps",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq_NwPnie": {
+      "type": "faq",
+      "disabled": true,
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "description": "<p>Here’s what we get asked most often.</p>",
+        "text_alignment": "center",
+        "first_open": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_collapsible_tabs_yNRCRe": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_YBVUPM": {
+          "type": "question",
+          "settings": {
+            "title": "Is Shipping Free?",
+            "answer": "<p><strong>Free delivery on all orders! </strong>We offer this service to all our UK mainland customers.</p><p>Of course we can deliver to areas outside of the UK mainland, but we do required a small extra charge. Please contact us and we're be happy provide a price!</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_XHhAnk": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>All orders will be delivered to your door within 5 days!</p><p>For an exact delivery day please click <a href=\"https://www.ruby-group.co.uk/pages/delivery-schedule\" title=\"Delivery Schedule\">here</a>.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_WQ7pA3": {
+          "type": "question",
+          "settings": {
+            "title": "What shipping couriers do you use?",
+            "answer": "<p>We use our own delivery fleet and drivers to ensure the best service!</p><p></p><p>Our drivers will leave the goods where ever required! No customer is expect to every help unload the goods!</p><p></p><p>Your order will be fully trackable, a 1 hour time slot will be provided! Our tracking App will allow you to contact the driver and see his progress throughout the day.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_f6nAfL": {
+          "type": "question",
+          "settings": {
+            "title": "What happens if I'm not in for the delivery?",
+            "answer": "<p>No problem at all, our driver will always leave the goods in a safe area with a clear image of where it's been left!</p><p>Of course if there is no safe place our driver can deliver the goods to an alternative location or the delivery can be re-arrange to another date that suits you!</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_z8K6bE": {
+          "type": "question",
+          "settings": {
+            "title": "Can I return my product?",
+            "answer": "<p>Yes of course! You can either arrange delivery back to our depot or we can arrange transport at a small cost!</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_iUXmwH": {
+          "type": "question",
+          "settings": {
+            "title": "Can I get my product personalized?",
+            "answer": "<p>Yes, bespoke / personalised products are one of Ruby UK's specialities.</p><p>We offer a bespoke range in cladding, gates, fence panels, decking kits, sawn timber, beams, sheds, planters and pergolas.</p><p>Offering any width, length, depth in all of the above.</p><p>We can also source any material, meaning we can make any of our products out of your desired material also!</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_YBVUPM",
+        "question_XHhAnk",
+        "question_WQ7pA3",
+        "question_f6nAfL",
+        "question_z8K6bE",
+        "question_iUXmwH"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Frequently Asked Questions",
+        "description": "<p>Here’s what we get asked most often.</p>",
+        "text_alignment": "center",
+        "first_open": true,
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "custom_multi_column_hzdbKn": {
+      "type": "custom_multi_column",
+      "blocks": {
+        "text_block_VFjBfb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/fi_3799682.svg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Customer support",
+            "text": "<p>Any further questions, our team will be more than happy to help on <a href=\"tel:01409 231 763\" target=\"_blank\" title=\"tel:01409 231 763\">01409 231 763</a>.</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        },
+        "text_block_r7JQkH": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/fi_1621854.svg",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "title": "Delivery",
+            "text": "<p>Need any help we are available on live chat now, <a href=\"#\" title=\"#\">click here</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_block_VFjBfb",
+        "text_block_r7JQkH"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Any question?",
+        "enlarge_title": true,
+        "description": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.</p>",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": true,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 10,
+        "padding_bottom": 30
+      }
+    },
+    "sales_support_rbhYPX": {
+      "type": "sales-support",
+      "blocks": {
+        "text_block_c6wW3M": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/call_support_9120a2cd-e4cf-4372-82bd-5ba0efe8dd72.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "type": "phone",
+            "title": "Call Us",
+            "text": "<p>01409 231 763</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "openTime": 7,
+            "closeTime": 18,
+            "availability_text": "<p>Lines open until 6pm today</p>",
+            "closed_text": "<p>Lines Closed</p>"
+          }
+        },
+        "text_block_eWnEp9": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Web_Chat_8071c103-77de-4f7d-9097-b2cc6f5c2d6c.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "type": "chat",
+            "title": "Web Chat",
+            "text": "<p>Start chat</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "openTime": 0,
+            "closeTime": 24,
+            "availability_text": "<p>Lines are open</p>",
+            "closed_text": "<p>Lines Closed</p>"
+          }
+        },
+        "text_block_hRc4Kd": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/WhatsApp_cecf5434-b034-476c-b168-67f77c4ba698.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "type": "whatsapp",
+            "title": "WhatApp",
+            "text": "<p>01409 231 763</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "openTime": 0,
+            "closeTime": 24,
+            "availability_text": "<p>Lines are open</p>",
+            "closed_text": "<p>Lines Closed</p>"
+          }
+        },
+        "text_block_AbQPwF": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Email_552ecd56-e5fd-4065-86fe-d12fc840b663.png",
+            "image_width": 100,
+            "enable_icon": false,
+            "icon": "award",
+            "icon_size": 48,
+            "icon_color": "",
+            "type": "email",
+            "title": "Email",
+            "text": "<p>sales@ruby-group.co.uk</p>",
+            "button_label": "",
+            "button_link": "",
+            "enlarge_title": false,
+            "enlarge_text": false,
+            "openTime": 0,
+            "closeTime": 24,
+            "availability_text": "<p>Lines are open</p>",
+            "closed_text": "<p>Lines Closed</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_c6wW3M",
+        "text_block_eWnEp9",
+        "text_block_hRc4Kd",
+        "text_block_AbQPwF"
+      ],
+      "settings": {
+        "title": "Sales support",
+        "enlarge_title": false,
+        "description": "<p>Can’t find the information you need? Get in touch with our support team who will be pleased to help. Find our full contact details here.</p>",
+        "text_alignment": "center",
+        "url_style": "button_1",
+        "enable_custom_width": false,
+        "custom_width": 1000,
+        "enable_custom_colors": false,
+        "color_title": "",
+        "color_text": "",
+        "color_bg": "",
+        "gradient_bg": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "You may also like",
+        "description": "<p>Explore a variety of designs and materials with our range of similar products. Whether you're looking for something specific or seeking inspiration, we have options to suit your needs. Need assistance or advice? Don't hesitate to reach out to us via phone or join our live chat. Our knowledgeable team is available from 8 am to 10 pm, 7 days a week, ready to assist you every step of the way.</p>",
+        "grid": 5,
+        "show_vendor": false,
+        "padding_top": 50,
+        "padding_bottom": 12
+      }
+    },
+    "pdp_reviews_xDWnVK": {
+      "type": "pdp-reviews",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "custom_about_slider_metaobject_JFxpdD",
+    "recent",
+    "a85fd2e4-b2c0-4f04-a411-f6c23485a37c",
+    "new_product_img_text_metafield_zY3Jca",
+    "170307504020591000",
+    "faq_NwPnie",
+    "custom_collapsible_tabs_yNRCRe",
+    "custom_multi_column_hzdbKn",
+    "sales_support_rbhYPX",
+    "recommendations",
+    "pdp_reviews_xDWnVK"
+  ]
+}

@@ -1,0 +1,33 @@
+{% if product.metafields.custom.trust_icons != blank %}
+<div class="mt-4">
+  <div class="grid ml-0 grid-cols-2 gap-2">
+    
+    {% assign trust_icons = product.metafields.custom.trust_icons.value %}
+    
+    {% for trust_icon in trust_icons %}
+
+      {%- capture content -%}
+        <div class="text-[24px] font-semibold mb-6">{{ trust_icon.title }}</div>
+        <div>{{ trust_icon.copy | metafield_tag }}</div>
+        {% if trust_icon.image %}
+          <div class="mt-8">
+            <img loading="lazy" src="{{ trust_icon.image.value | image_url: width: 500 }}" alt="{{ trust_icon.title }}" width="{{  trust_icon.image.value.width }}" height="{{ trust_icon.image.value.height }}" />
+          </div>
+        {% endif %}
+      {%- endcapture -%}
+      {%  capture title %}{{ trust_icon.title }}{% endcapture %}
+      {%  capture id %}{{ trust_icon.system.id }}{% endcapture %}
+      {% render 'pdp-detail'
+        product: product,
+        title: title,
+        id: id,
+        content: content,
+        type: 'trust_icon'
+      %}
+
+    {% endfor %}
+
+    
+  </div>
+</div>
+{% endif %}

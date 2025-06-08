@@ -1,0 +1,31 @@
+<div class="container mb-8 md:mb-16">
+  <div class="w-full md:max-w-7xl mx-auto flex gap-6 md:gap-0 md:flex-row-reverse items-center p-0 {% if metaobject.image_left %} md:!flex-row {% endif %}">
+    <div class="inline-flex w-full justify-center md:w-5/12 md:justify-end {% if metaobject.image_left %} md:!justify-start {% endif %}">
+        {% if metaobject.image != blank %}
+          <img src="{{ metaobject.image | image_url: width:500 }}" loading="lazy" alt="{{ metaobject.title }}" width="{{ metaobject.image.value.width }}" height="{{ metaobject.image.value.height }}" />
+        {% endif %}
+    </div>
+    <div class="w-full text-center md:!text-left md:w-7/12 flex flex-col md:items-start md:text-left mb-8 md:mb-0 md:pr-16 {% if metaobject.image_left %} md:!pl-16 md:!pr-0 {% endif %}">
+      {% if metaobject.title != blank %}
+        <h2 class="font-title text-2xl md:text-3xl mb-4 font-black text-gray-900">{{ metaobject.title }}</h2>
+      {% endif %}
+      {% if metaobject.description != blank %}
+        
+        <div 
+          x-data="{ open: false, show: false }" class="font-body text-black text-sm md:text-base"
+          x-init="Math.ceil($refs.description.offsetHeight/parseFloat(window.getComputedStyle($refs.description, null).getPropertyValue('line-height'))) > 3 ? show = true : show = false;"
+        >
+          <div 
+            x-ref="description"
+            :class="!open ? '!line-clamp-3' : '!line-clamp-none'"
+          >
+            {{ metaobject.description | metafield_tag}}
+          </div>
+          
+          <div x-cloak x-show="!open && show" @click.prevent="open = true"  class="mt-4 inline-block cursor-pointer text-dark-green underline">Read More</div>
+          <div x-cloak x-show="open && show" @click.prevent="open = false"  class="mt-4 inline-block cursor-pointer text-dark-green underline">Read Less</div>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

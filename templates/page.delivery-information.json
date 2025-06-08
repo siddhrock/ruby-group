@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "title_alignment": "center"
+      }
+    },
+    "rich_text_D4ANdE": {
+      "type": "rich-text",
+      "settings": {
+        "title": "Delivery Information",
+        "text": "<h5><strong>Where do you deliver to?</strong></h5><p></p><p>We deliver <strong>nationwide</strong>, for a small fee of £35 on all orders.</p><p>We do not typically deliver to PO, IM, HS, KW, ZE, GY, JE, however please contact us and we can provide a quote for this!</p>",
+        "button_label": "",
+        "button_link": "",
+        "vertical_alignment": "center",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "full_width": false,
+        "color_title": "#333333",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": "",
+        "custom_padding": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_B7BCFQ": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Wayne_Delivery.jpg",
+        "image_link": "",
+        "image_size": "30",
+        "image_position": "right",
+        "title": "",
+        "text": "<h5></h5><h5></h5><h5><strong>Who delivers your products?</strong></h5><p><br/>At Ruby, your satisfaction is our priority - that's why we don't rely on third-party couriers. </p><p>Instead, our Ruby delivery team will carefully transport your products and place them at your property according to your instructions.</p><h5></h5><p></p><p></p><h5><strong>Will I get updates about my order?</strong></h5><p>Yes! Great customer service is paramount to us, so we have created an email system in which you will receive update emails at the following stages of your order:</p><p>- Order Confirmation</p><p>- Started manufacturing</p><p>- Being wrapped by our dispatch team</p><p>- Routed for delivery </p><p>- Driver Tracking. On day of your delivery you'll receieve a live tracking link to follow our driver for accurate eta</p><p>- Delivered (with POD photo)</p><p></p><p></p><h5><strong>Not in for delivery?</strong></h5><p>- Our drivers are always happy to leave the goods in a safe place and you won't have to be there. They'll take a photo which will get uploaded to you to see where they've left it.</p>",
+        "button_label": "",
+        "button_link": "",
+        "url_style": "button_1",
+        "enlarge_title": false,
+        "enlarge_text": false,
+        "text_alignment": "center",
+        "color_text": "#333333",
+        "color_bg": "#f3f5f6",
+        "gradient_bg": ""
+      }
+    },
+    "custom_collapsible_tabs_Er6PUB": {
+      "type": "custom_collapsible_tabs",
+      "blocks": {
+        "question_EXinWK": {
+          "type": "question",
+          "settings": {
+            "title": "When will my order arrive?",
+            "answer": "<p>Our delivery lead time varies from product to product and will be specified below the pricing on our product listing.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_p7HRjd": {
+          "type": "question",
+          "settings": {
+            "title": "Can I change my delivery address after placing the order?",
+            "answer": "<p>Yes! We are happy to change the delivery address after placing the order, as long as the order has not yet been routed.</p><p>If you need to change your delivery address, please contact our Customer Service team as soon as possible.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_LTtBQx": {
+          "type": "question",
+          "settings": {
+            "title": "Do you deliver on weekends?",
+            "answer": "<p>We do not typically deliver on weekends, but in some circumstances we may deliver on Saturday's or Sunday's (such as a failed delivery during the week).</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_jLzMJJ": {
+          "type": "question",
+          "settings": {
+            "title": "Do custom items take longer to deliver?",
+            "answer": "<p>No, our custom/bespoke items are on the same lead time as our standard size goods.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_X4PUgF": {
+          "type": "question",
+          "settings": {
+            "title": "What if I live in a flat or have restricted access?",
+            "answer": "<p>If you live in a flat or a property with restricted access, our delivery team will do their best to ensure a smooth delivery experience. However, there are a few important things to note:</p><ul><li><strong>Access Requirements</strong>: Please inform us at the time of purchase if your property has restricted access, such as narrow staircases, limited parking, or height restrictions for delivery vehicles. This helps us plan accordingly.</li><li><strong>Room of Choice</strong>: For furniture deliveries, we aim to deliver your items to your preferred room whenever possible. However, if access is severely restricted, the delivery team may only be able to leave the items at a suitable ground-floor location for safety reasons.</li><li><strong>Preparation</strong>: To avoid any issues, we recommend measuring doorways, staircases, and lifts in advance to ensure the items can fit. If you’re unsure, our team can provide dimensions of the furniture to help you check.</li><li><strong>Alternative Solutions</strong>: If access is particularly challenging, we may be able to offer alternative delivery solutions, such as a smaller delivery vehicle or additional delivery personnel for larger items (additional fees may apply). Please contact us to discuss your options.</li></ul><p>For any concerns about access or special delivery requirements, our team is here to help! <a href=\"/pages/contact-us-1\" title=\"Contact Us - Ruby UK\">Contact us</a> in advance so we can ensure your delivery goes as smoothly as possible.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        },
+        "question_kQGdxk": {
+          "type": "question",
+          "settings": {
+            "title": "What happens if my item is damaged during delivery?",
+            "answer": "<p>If you have received damaged, faulty or incorrect goods, please <a href=\"/pages/contact-us-1\" title=\"Contact Us - Ruby UK\">contact our Customer Service</a> team as soon as possible.</p>",
+            "image_text": "",
+            "button": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "question_EXinWK",
+        "question_p7HRjd",
+        "question_LTtBQx",
+        "question_jLzMJJ",
+        "question_X4PUgF",
+        "question_kQGdxk"
+      ],
+      "settings": {
+        "title": "Commonly Asked Questions",
+        "description": "",
+        "text_alignment": "center",
+        "first_open": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_D4ANdE",
+    "image_with_text_B7BCFQ",
+    "custom_collapsible_tabs_Er6PUB"
+  ]
+}
