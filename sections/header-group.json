@@ -23,21 +23,18 @@
         "icon_texts_img_w8jw4G": {
           "type": "icon_texts_img",
           "settings": {
-            "icon_texts_img": "shopify://shop_images/Icon_Eyebrow_Finance.svg",
             "title": "<p><strong>0% finance</strong> available</p>"
           }
         },
         "icon_texts_img_M9wXXV": {
           "type": "icon_texts_img",
           "settings": {
-            "icon_texts_img": "shopify://shop_images/Icon_Eyebrow_Delivery.svg",
             "title": "<p><strong>Nationwide Delivery & Install</strong></p>"
           }
         },
         "icon_texts_img_gb93Xi": {
           "type": "icon_texts_img",
           "settings": {
-            "icon_texts_img": "shopify://shop_images/Icon_flag.svg",
             "title": "<p>Manufactured in <strong>Devon</strong></p>"
           }
         }
@@ -76,7 +73,7 @@
           "settings": {
             "link_title": "Support",
             "col_1_title": "SUPPORT & INFORMATION",
-            "col_1_menu": "support-menu",
+            "col_1_menu": "",
             "col_2_title": "CONTACT US",
             "tel_title": "Telephone",
             "tel_number": "01409 231 763",
@@ -96,7 +93,6 @@
           "type": "menu_promo",
           "settings": {
             "dropdown_link_title": "cladding",
-            "image": "shopify://shop_images/ruby-home.jpg",
             "text": "New Oak Pergolas",
             "link_text": "View the range",
             "link_url": "shopify://pages/new-oak-pergolas"
@@ -106,7 +102,6 @@
           "type": "menu_promo",
           "settings": {
             "dropdown_link_title": "agricultural & equestrian",
-            "image": "shopify://shop_images/ruby-home.jpg",
             "text": "Agriculture",
             "link_text": "Read More",
             "link_url": "shopify://collections/ruby-uk-metal-gates"
@@ -121,7 +116,7 @@
       "settings": {
         "openTime": 7,
         "closeTime": 22,
-        "logo": "shopify://shop_images/Ruby_Logo_-_no_UK.svg",
+        "logo": "shopify://shop_images/Ruby_Logo_-_no_UK_340x_fb31a767-3770-4128-bcd2-7327ad1424cf.svg",
         "logo_width": 170,
         "desktop_layout": "left",
         "show_search_bar_desktop": true,
@@ -130,7 +125,7 @@
         "dock_nav": true,
         "cart_icon": "shopping-cart",
         "tel_num": "01409 231763",
-        "main_linklist": "ruby-uk-main-menu-bar",
+        "main_linklist": "",
         "announce_nav": "",
         "show_country_selector": false,
         "show_language_selector": false,
